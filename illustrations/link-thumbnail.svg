@@ -1,0 +1,55 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" rx="56" fill="url(#bg)"/>
+
+  <g opacity="0.7">
+    <path d="M160 315C320 150 880 150 1040 315" stroke="url(#wave)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M220 370C400 220 800 220 980 370" stroke="url(#wave)" stroke-width="2" stroke-linecap="round" stroke-dasharray="12 20"/>
+  </g>
+
+  <g opacity="0.45">
+    <circle cx="300" cy="210" r="110" stroke="url(#rings)" stroke-width="2"/>
+    <circle cx="900" cy="430" r="140" stroke="url(#rings)" stroke-width="2"/>
+    <circle cx="600" cy="315" r="220" stroke="url(#rings)" stroke-width="1.5" stroke-dasharray="14 18"/>
+  </g>
+
+  <g filter="url(#orbGlow)">
+    <circle cx="600" cy="315" r="120" fill="url(#orb)" fill-opacity="0.85"/>
+    <circle cx="600" cy="315" r="150" stroke="url(#orbRing)" stroke-width="2" stroke-opacity="0.6"/>
+  </g>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B1120"/>
+      <stop offset="40%" stop-color="#111C3A"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+
+    <linearGradient id="rings" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <radialGradient id="orb" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(540 260) rotate(35) scale(220)">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </radialGradient>
+
+    <linearGradient id="orbRing" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+
+    <filter id="orbGlow" x="380" y="95" width="440" height="440" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="28" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+</svg>
