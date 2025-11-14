@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Evolution of AI search from keywords to concepts">
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020617" />
+      <stop offset="1" stop-color="#111827" />
+    </linearGradient>
+    <radialGradient id="bgGlow" cx="0.55" cy="0.4" r="0.7">
+      <stop offset="0" stop-color="#1f2937" stop-opacity="0.65" />
+      <stop offset="1" stop-color="#020617" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="progressStroke" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8" />
+      <stop offset="0.5" stop-color="#a855f7" />
+      <stop offset="1" stop-color="#f97316" />
+    </linearGradient>
+    <radialGradient id="nodeGlow" cx="0.5" cy="0.5" r="0.6">
+      <stop offset="0" stop-color="#f8fafc" stop-opacity="0.2" />
+      <stop offset="1" stop-color="#f8fafc" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="nodeFillTf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0ea5e9" stop-opacity="0.35" />
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0.15" />
+    </linearGradient>
+    <linearGradient id="nodeFillBm" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7c3aed" stop-opacity="0.35" />
+      <stop offset="1" stop-color="#a855f7" stop-opacity="0.15" />
+    </linearGradient>
+    <linearGradient id="nodeFillAi" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f97316" stop-opacity="0.35" />
+      <stop offset="1" stop-color="#fb7185" stop-opacity="0.15" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" rx="36" fill="url(#bgGradient)" />
+  <rect width="1200" height="630" rx="36" fill="url(#bgGlow)" />
+
+  <!-- Containment grid lines -->
+  <g stroke="#1f2937" stroke-width="1" opacity="0.3">
+    <path d="M180 140 H1020" stroke-linecap="round" />
+    <path d="M180 490 H1020" stroke-linecap="round" />
+  </g>
+
+  <!-- Evolution arc (drawn behind nodes) -->
+  <path d="M260 350 Q 430 180 600 260 T 940 330" fill="none" stroke="url(#progressStroke)" stroke-width="3" stroke-linecap="round" stroke-opacity="0.4" />
+
+  <!-- Node: TF-IDF -->
+  <g transform="translate(260 350)">
+    <circle cx="0" cy="0" r="110" fill="url(#nodeGlow)" />
+    <circle cx="0" cy="0" r="72" fill="url(#nodeFillTf)" stroke="#38bdf8" stroke-opacity="0.45" stroke-width="2" />
+    <text x="0" y="-12" fill="#e2e8f0" font-family="'Inter', 'Geist', 'Segoe UI', sans-serif" font-size="20" font-weight="600" text-anchor="middle" letter-spacing="0.18em">TF-IDF</text>
+    <text x="0" y="18" fill="#94a3b8" font-family="'Inter', 'Geist', 'Segoe UI', sans-serif" font-size="13" text-anchor="middle">COUNTING KEYWORDS</text>
+    <text x="0" y="44" fill="#64748b" font-family="'Geist Mono', 'IBM Plex Mono', 'Menlo', monospace" font-size="11" letter-spacing="0.25em" text-anchor="middle">TERM × RARITY</text>
+  </g>
+
+  <!-- Node: BM25 -->
+  <g transform="translate(600 260)">
+    <circle cx="0" cy="0" r="120" fill="url(#nodeGlow)" />
+    <circle cx="0" cy="0" r="84" fill="url(#nodeFillBm)" stroke="#a855f7" stroke-opacity="0.45" stroke-width="2" />
+    <text x="0" y="-18" fill="#ede9fe" font-family="'Inter', 'Geist', 'Segoe UI', sans-serif" font-size="20" font-weight="600" text-anchor="middle" letter-spacing="0.2em">BM25</text>
+    <text x="0" y="12" fill="#c4b5fd" font-family="'Inter', 'Geist', 'Segoe UI', sans-serif" font-size="13" text-anchor="middle">SMARTER WEIGHTING</text>
+    <text x="0" y="40" fill="#8b5cf6" font-family="'Geist Mono', 'IBM Plex Mono', 'Menlo', monospace" font-size="11" letter-spacing="0.28em" text-anchor="middle">SATURATION • LENGTH</text>
+  </g>
+
+  <!-- Node: SPLADE -->
+  <g transform="translate(940 330)">
+    <circle cx="0" cy="0" r="130" fill="url(#nodeGlow)" />
+    <circle cx="0" cy="0" r="92" fill="url(#nodeFillAi)" stroke="#fb923c" stroke-opacity="0.45" stroke-width="2" />
+    <text x="0" y="-20" fill="#fee2e2" font-family="'Inter', 'Geist', 'Segoe UI', sans-serif" font-size="20" font-weight="600" text-anchor="middle" letter-spacing="0.24em">SPLADE</text>
+    <text x="0" y="12" fill="#fda4af" font-family="'Inter', 'Geist', 'Segoe UI', sans-serif" font-size="13" text-anchor="middle">AI CONCEPT EXPANSION</text>
+    <text x="0" y="40" fill="#fb7185" font-family="'Geist Mono', 'IBM Plex Mono', 'Menlo', monospace" font-size="11" letter-spacing="0.3em" text-anchor="middle">SPARSE • HYBRID READY</text>
+  </g>
+
+  <!-- Title -->
+  <g transform="translate(600 120)">
+    <text x="0" y="0" fill="#f8fafc" font-family="'Inter', 'Geist', 'Segoe UI', sans-serif" font-size="54" font-weight="700" text-anchor="middle" letter-spacing="0.16em">BEYOND KEYWORDS</text>
+    <text x="0" y="42" fill="#94a3b8" font-family="'Inter', 'Geist', 'Segoe UI', sans-serif" font-size="18" text-anchor="middle" letter-spacing="0.32em">TF-IDF → BM25 → SPLADE</text>
+  </g>
+
+  <!-- Bottom tags -->
+  <g transform="translate(600 560)" font-family="'Geist Mono', 'Menlo', monospace" font-size="12" letter-spacing="0.3em" text-anchor="middle">
+    <text x="0" y="0" fill="#64748b">SPARSE RETRIEVAL • DENSE VECTORS • HYBRID SEARCH</text>
+  </g>
+</svg>

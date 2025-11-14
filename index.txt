@@ -1,23 +1,185 @@
 1:"$Sreact.fragment"
-2:I[51458,["2201","static/chunks/2201-6f6797369dbd70e4.js","2619","static/chunks/2619-b8db57ac19da49ac.js","7750","static/chunks/7750-0a756454837a9a28.js","8507","static/chunks/8507-dfc88d98dd0cc444.js","7177","static/chunks/app/layout-cff60395f49af0a6.js"],"ThemeProvider"]
-3:I[21887,["2201","static/chunks/2201-6f6797369dbd70e4.js","2619","static/chunks/2619-b8db57ac19da49ac.js","7750","static/chunks/7750-0a756454837a9a28.js","8507","static/chunks/8507-dfc88d98dd0cc444.js","7177","static/chunks/app/layout-cff60395f49af0a6.js"],""]
-4:I[80989,["2201","static/chunks/2201-6f6797369dbd70e4.js","2619","static/chunks/2619-b8db57ac19da49ac.js","7750","static/chunks/7750-0a756454837a9a28.js","8507","static/chunks/8507-dfc88d98dd0cc444.js","7177","static/chunks/app/layout-cff60395f49af0a6.js"],"SearchSheetProvider"]
-5:I[33572,["2201","static/chunks/2201-6f6797369dbd70e4.js","2619","static/chunks/2619-b8db57ac19da49ac.js","7750","static/chunks/7750-0a756454837a9a28.js","8507","static/chunks/8507-dfc88d98dd0cc444.js","7177","static/chunks/app/layout-cff60395f49af0a6.js"],"FloatingAudioProvider"]
-6:I[87435,["2201","static/chunks/2201-6f6797369dbd70e4.js","2619","static/chunks/2619-b8db57ac19da49ac.js","7750","static/chunks/7750-0a756454837a9a28.js","8507","static/chunks/8507-dfc88d98dd0cc444.js","7177","static/chunks/app/layout-cff60395f49af0a6.js"],"FloatingNav"]
-7:I[9766,[],""]
-8:I[98924,[],""]
-a:I[24431,[],"OutletBoundary"]
-c:I[15278,[],"AsyncMetadataOutlet"]
-e:I[24431,[],"ViewportBoundary"]
-10:I[24431,[],"MetadataBoundary"]
-11:"$Sreact.suspense"
-13:I[57150,[],""]
+2:I[51458,["2201","static/chunks/2201-6f6797369dbd70e4.js","8005","static/chunks/8005-36f473f8046dae16.js","7750","static/chunks/7750-0a756454837a9a28.js","9227","static/chunks/9227-702d20ddd5580687.js","7177","static/chunks/app/layout-240a9f4ba9992fb2.js"],"ThemeProvider"]
+3:I[21887,["2201","static/chunks/2201-6f6797369dbd70e4.js","8005","static/chunks/8005-36f473f8046dae16.js","7750","static/chunks/7750-0a756454837a9a28.js","9227","static/chunks/9227-702d20ddd5580687.js","7177","static/chunks/app/layout-240a9f4ba9992fb2.js"],""]
+4:I[79081,["2201","static/chunks/2201-6f6797369dbd70e4.js","8005","static/chunks/8005-36f473f8046dae16.js","7750","static/chunks/7750-0a756454837a9a28.js","9227","static/chunks/9227-702d20ddd5580687.js","7177","static/chunks/app/layout-240a9f4ba9992fb2.js"],"GlobalAudioProvider"]
+5:I[80989,["2201","static/chunks/2201-6f6797369dbd70e4.js","8005","static/chunks/8005-36f473f8046dae16.js","7750","static/chunks/7750-0a756454837a9a28.js","9227","static/chunks/9227-702d20ddd5580687.js","7177","static/chunks/app/layout-240a9f4ba9992fb2.js"],"SearchSheetProvider"]
+6:I[33572,["2201","static/chunks/2201-6f6797369dbd70e4.js","8005","static/chunks/8005-36f473f8046dae16.js","7750","static/chunks/7750-0a756454837a9a28.js","9227","static/chunks/9227-702d20ddd5580687.js","7177","static/chunks/app/layout-240a9f4ba9992fb2.js"],"FloatingAudioProvider"]
+7:I[87435,["2201","static/chunks/2201-6f6797369dbd70e4.js","8005","static/chunks/8005-36f473f8046dae16.js","7750","static/chunks/7750-0a756454837a9a28.js","9227","static/chunks/9227-702d20ddd5580687.js","7177","static/chunks/app/layout-240a9f4ba9992fb2.js"],"FloatingNav"]
+8:I[9766,[],""]
+9:I[98924,[],""]
+b:I[24431,[],"OutletBoundary"]
+d:I[15278,[],"AsyncMetadataOutlet"]
+f:I[24431,[],"ViewportBoundary"]
+11:I[24431,[],"MetadataBoundary"]
+12:"$Sreact.suspense"
+14:I[57150,[],""]
 :HL["/_next/static/media/4cf2300e9c8272f7-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/7f0193e3ddc2805b.css","style"]
-0:{"P":null,"b":"pkRj72ucIfLaxd6BbaIs8","p":"","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/7f0193e3ddc2805b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"className":"__variable_188709 __variable_9a8899 min-h-screen bg-background font-sans text-foreground","children":["$","$L2",null,{"children":[["$","$L3",null,{"color":"hsl(var(--accent))","height":3,"showSpinner":false}],["$","$L4",null,{"children":["$","$L5",null,{"children":[["$","$L6",null,{}],["$","div",null,{"className":"flex min-h-screen flex-col","children":["$","main",null,{"className":"flex-1","children":["$","$L7",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}]}]]}]}]}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L9",null,["$","$La",null,{"children":["$Lb",["$","$Lc",null,{"promise":"$@d"}]]}]]}],{},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Le",null,{"children":"$Lf"}],["$","meta",null,{"name":"next-size-adjust","content":""}]],["$","$L10",null,{"children":["$","div",null,{"hidden":true,"children":["$","$11",null,{"fallback":null,"children":"$L12"}]}]}]]}],false]],"m":"$undefined","G":["$13",[]],"s":false,"S":true}
-14:I[48364,["2201","static/chunks/2201-6f6797369dbd70e4.js","1356","static/chunks/1356-1fb83b63ccda55b7.js","2619","static/chunks/2619-b8db57ac19da49ac.js","7750","static/chunks/7750-0a756454837a9a28.js","8974","static/chunks/app/page-94a5cb073bd7f454.js"],"PostsPageContent"]
-15:T24ec,<p>We love the idea of peer-to-peer (P2P) communication. It’s the magic behind instant, low-latency video calls in <strong>WebRTC</strong> and the decentralized promise of <strong>Web3</strong>. It's a world without middlemen, where your device talks directly to another.</p>
+:HL["/_next/static/css/c0a1341a79e22ce4.css","style"]
+0:{"P":null,"b":"4z7jholZb-qOqI2I187ux","p":"","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/c0a1341a79e22ce4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"className":"__variable_188709 __variable_9a8899 min-h-screen bg-background font-sans text-foreground","children":["$","$L2",null,{"children":[["$","$L3",null,{"color":"hsl(var(--accent))","height":3,"showSpinner":false}],["$","$L4",null,{"children":["$","$L5",null,{"children":["$","$L6",null,{"children":[["$","$L7",null,{}],["$","div",null,{"className":"flex min-h-screen flex-col","children":["$","main",null,{"className":"flex-1","children":["$","$L8",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}]}]}]]}]}]}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$La",null,["$","$Lb",null,{"children":["$Lc",["$","$Ld",null,{"promise":"$@e"}]]}]]}],{},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lf",null,{"children":"$L10"}],["$","meta",null,{"name":"next-size-adjust","content":""}]],["$","$L11",null,{"children":["$","div",null,{"hidden":true,"children":["$","$12",null,{"fallback":null,"children":"$L13"}]}]}]]}],false]],"m":"$undefined","G":["$14",[]],"s":false,"S":true}
+15:I[6227,["2201","static/chunks/2201-6f6797369dbd70e4.js","1356","static/chunks/1356-1fb83b63ccda55b7.js","8005","static/chunks/8005-36f473f8046dae16.js","7750","static/chunks/7750-0a756454837a9a28.js","8974","static/chunks/app/page-e604e911e11474e6.js"],"PostsPageContent"]
+16:T3a2a,<p>We've all screamed at our search bars, right?</p>
+<p>That feeling when you search for "soda" and get zero results, just because the file you <em>know</em> is in there says "pop." Or you search for "laptop with a good graphics card" and the search just shows you every single "laptop" and every single "graphics card" in the store, but not the <em>one</em> you want.</p>
+<p>This is the <strong>search problem</strong>. For decades, we've been trying to get computers to just... <em>get</em> us. To understand what we <em>mean</em>, not just what we <em>type</em>.</p>
+<p>This isn't a single "aha!" moment; it's an evolutionary journey. We're going to walk that path together, from a "Dumb Counter" to a "Smart Sorter" and finally to an "AI Mind Reader." This is the story of how search evolved from <strong>TF-IDF</strong> to <strong>BM25</strong> to <strong>SPLADE</strong>.</p>
+<hr>
+<h3>📚 Chapter 1: The "Dumb Counter" Librarian (TF-IDF)</h3>
+<p>In the beginning, we had <strong>TF-IDF (Term Frequency-Inverse Document Frequency)</strong>.</p>
+<p>It's a very clever, very mathematical way of finding keywords, but let's think of it as a librarian who's super fast but... not very smart. This librarian finds books for you by following two simple rules:</p>
+<ol>
+<li>
+<p><strong>Term Frequency (TF):</strong> How many times is my word in <em>this</em> book?</p>
+<ul>
+<li><strong>The logic:</strong> "You searched for 'dragon.' This book mentions 'dragon' 50 times. This other one mentions it once. You probably want the first book." Simple enough.</li>
+</ul>
+</li>
+<li>
+<p><strong>Inverse Document Frequency (IDF):</strong> How <em>special</em> is this word in the <em>whole library</em>?</p>
+<ul>
+<li><strong>The logic:</strong> This is the clever part. The word "the" is in <em>every</em> book. It's not special at all, so it gets a "specialness" score of 0. But a word like "gorgonzola" is only in a few books. It's super special! It gets a high score.</li>
+</ul>
+</li>
+</ol>
+<p>The TF-IDF score is just <strong>TF × IDF</strong>. This means a word is "important" if it's <strong>common in this one book</strong> but <strong>rare in the rest of the library</strong>.</p>
+<p>For its time, this was genius. But it had <em>huge</em>, game-breaking flaws.</p>
+<ul>
+<li><strong>The "Keyword Stuffing" Flaw:</strong> What if a spammer just wrote "CHEAP LAPTOP CHEAP LAPTOP" 1,000 times? Our "Dumb Counter" librarian would think, "WOW! This must be the <em>best document ever</em> on cheap laptops!" It's easily fooled by spam.</li>
+<li><strong>The "Length" Flaw:</strong> A 1,000-page encyclopedia that mentions "raven" 10 times would get a higher score than a 1-page poem <em>named</em> "The Raven" that mentions it 5 times. The encyclopedia has more mentions, but the poem is <em>clearly</em> more about ravens. TF-IDF just couldn't figure that out.</li>
+</ul>
+<p>We needed a librarian that wasn't just fast, but <em>smarter</em>.</p>
+<h4>📊 How TF-IDF Works</h4>
+<p>Here's a visual representation of TF-IDF's simple counting approach:</p>
+<figure class="mermaid-diagram"><img src="/diagrams/ai-search-evolution-diagram-1.svg" alt="Diagram 1"></figure>
+<p>The problem is clear: if the exact word "soda" doesn't appear, the document gets a score of zero. No understanding, just counting.</p>
+<hr>
+<h3>🏆 Chapter 2: The "Smart Sorter" Librarian (BM25)</h3>
+<p>This is the "Glow-Up" of TF-IDF. <strong>BM25 (Best Matching 25)</strong> is the algorithm that powered almost every major search engine for decades. It's the default for most databases today, and for good reason: it's a <em>phenomenally</em> smart sorter.</p>
+<p>BM25 is basically TF-IDF's kid who went to college and learned from its parent's mistakes. It fixes the two big flaws perfectly.</p>
+<ol>
+<li>
+<p><strong>The Fix for "Keyword Stuffing" (Term Saturation):</strong>
+BM25 is like a friend who gets bored easily.</p>
+<ul>
+<li>The <em>first</em> time you say "laptop," it's super interested (big score boost!).</li>
+<li>The <em>fifth</em> time, it's like, "Yeah, I get it, 'laptop'" (a much smaller boost).</li>
+<li>The <em>100th</em> time, it's just ignoring you (zero extra score).
+This scoring curve "saturates," which makes keyword stuffing totally pointless. Problem solved.</li>
+</ul>
+</li>
+<li>
+<p><strong>The Fix for "Length" (Length Normalization):</strong>
+BM25 is aware. It starts by calculating the <em>average document length</em> of the whole collection. It knows the "average" document is, say, 300 words.</p>
+<ul>
+<li>So, when it sees the 1-page poem (100 words) with 5 "raven" mentions, it thinks, "Whoa! 5 mentions in <em>such a short document</em>? This must be <em>insanely</em> relevant!"</li>
+<li>When it sees the 1,000-page encyclopedia, it thinks, "Only 10 'raven' mentions in a doc this huge? Meh."
+It "normalizes" the score, giving the short, concise poem the win.</li>
+</ul>
+</li>
+</ol>
+<p>BM25 was king for a very long time. It's fast, efficient, and gives great results.</p>
+<p>...But it <em>still</em> had that one, fundamental, dumb problem. It's just a counter. A <em>really, really smart</em> counter, but still a counter. It has no idea what words <em>mean</em>.</p>
+<p>If you search for "<strong>soda</strong>," it will <em>never</em> match "<strong>pop</strong>."
+If you search for "<strong>beverage for a party</strong>," it will <em>never</em> match "<strong>drinks for a celebration</strong>."</p>
+<p>To solve this, we had to leave the world of "counting" and enter the world of "understanding." We had to bring in AI.</p>
+<h4>📊 How BM25 Improves Upon TF-IDF</h4>
+<p>Here's how BM25's smart weighting works:</p>
+<figure class="mermaid-diagram"><img src="/diagrams/ai-search-evolution-diagram-2.svg" alt="Diagram 2"></figure>
+<p>BM25 is smarter, but it still can't connect "soda" with "pop" conceptually!</p>
+<hr>
+<h3>🤖 Chapter 3: The "AI Mind Reader" (SPLADE)</h3>
+<p>This is the new frontier of <strong>Learned Sparse Retrieval (LSR)</strong>. Its most famous and effective model: <strong>SPLADE (Sparse Lexical and Expansion Model)</strong>.</p>
+<p>This is a total game-changer. SPLADE is built on a <strong>Transformer AI model (specifically, the BERT architecture)</strong>. This AI has read basically the entire internet. It doesn't just know words; it knows <em>concepts</em>.</p>
+<p>Here's the magic, step-by-step:</p>
+<ol>
+<li><strong>Core Mechanism:</strong> SPLADE leverages the <strong>Masked Language Modeling (MLM)</strong> head of BERT. This is the part of the model that's trained to fill in the blanks, which forces it to understand the context of every single word.</li>
+<li><strong>Understand &#x26; Expand:</strong> Instead of discarding the MLM head, SPLADE uses it to predict the relevance of <em>every</em> word in its vocabulary (around 30,000 terms) based on the input document. When you give it "A guide to French cheese," the model <em>expands</em> the term list to include all related concepts it learned: 'brie', 'camembert', 'gourmet', 'wine', etc.</li>
+<li><strong>Prune &#x26; Sparsify:</strong> Here's the genius part (the "Sparse" in SPLADE): the model is trained with strong regularization to be a minimalist. It forces the scores of 99%+ of the vocabulary to be <strong>zero</strong>, leaving behind <em>only</em> the absolute most important and descriptive "tags" for this document.</li>
+</ol>
+<p>The result is a <strong>"Smart Tag Cloud."</strong></p>
+<ul>
+<li>A <strong>BM25</strong> "tag cloud" for that doc would just be: <code>[guide, french, cheese]</code></li>
+<li>A <strong>SPLADE</strong> "tag cloud" (its sparse vector) would be: <code>[guide, french, cheese, brie, camembert, gourmet, wine, dairy]</code></li>
+</ul>
+<p>Now... when your user searches for "<strong>best brie recipe</strong>," SPLADE sees a match! Your document is found, even though it <em>never</em> contained the word "brie." The vocabulary mismatch problem is finally solved.</p>
+<h4>📌 Not the Only Player: Learned Sparse Retrieval (LSR)</h4>
+<p>While SPLADE is the most widely adopted, it is part of a broader, active research field called <strong>Learned Sparse Retrieval (LSR)</strong>. Other notable models you might encounter include <strong>uniCOIL</strong> and <strong>DeepImpact</strong>. They all aim to achieve the same goal - neural-powered keyword search - but differ slightly in their training and approach (e.g., DeepImpact often expands documents <em>before</em> applying the learned scores, while SPLADE does it end-to-end).</p>
+<h4>📊 How SPLADE Expands Your Query</h4>
+<p>Let's visualize how SPLADE transforms a simple query into a rich concept map:</p>
+<figure class="mermaid-diagram"><img src="/diagrams/ai-search-evolution-diagram-3.svg" alt="Diagram 3"></figure>
+<p>Notice how SPLADE not only keeps the original terms ("french", "cheese") but intelligently adds related concepts ("brie", "camembert", "gourmet", "dairy", "wine") with appropriate weights. The higher the weight, the more important the term is to understanding the query.</p>
+<hr>
+<h3>💡 Wait... Why Not Just Use "AI Search" (Dense Vectors)?</h3>
+<p>This is the central question. You've heard "semantic search" and "dense vectors." If SPLADE uses AI, and semantic search uses AI, aren't they the same?</p>
+<p>Nope! They are two different AI strategies, good at <em>opposite</em> things.</p>
+<ul>
+<li>
+<p><strong>Dense Vectors (Semantic Search):</strong></p>
+<ul>
+<li><strong>Analogy:</strong> A "GPS Coordinate" for meaning, or a "Vibe Check."</li>
+<li><strong>How it works:</strong> It takes your <em>whole</em> document and squashes its <em>entire</em> meaning into a list of ~768 numbers, like <code>[0.1, -0.4, 0.9, ...]</code>.</li>
+<li><strong>Good at:</strong> Finding <em>holistic concepts</em>. It knows "sad songs" is close to "lyrics about a broken heart." It's great at finding the "vibe."</li>
+<li><strong>Bad at:</strong> <em>Specificity</em>. It "averages out" the meaning. If you search for a specific product ID like "<strong>SKU-ABC-123</strong>," the dense vector just sees "some product ID" and gets confused. It <em>loses</em> the specific keyword.</li>
+</ul>
+</li>
+<li>
+<p><strong>SPLADE (Learned Sparse Search):</strong></p>
+<ul>
+<li><strong>Analogy:</strong> A "Smart Tag Cloud" or an "AI-powered Index."</li>
+<li><strong>How it works:</strong> It creates a huge list (~30,000 slots) that is <em>mostly zeros</em> but has high scores on <em>very specific</em> keywords, including its smart expansions.</li>
+<li><strong>Good at:</strong> <em>Precision</em>. It <em>loves</em> specific keywords. It will see "<strong>SKU-ABC-123</strong>" and put a <em>massive</em> importance score on that <em>exact</em> term, making it impossible to miss.</li>
+<li><strong>Bad at:</strong> Vague "vibes." A search for "that feeling you get on a rainy day" would be hard for SPLADE, but easy for a dense vector.</li>
+</ul>
+</li>
+</ul>
+<p>The ultimate setup isn't one or the other. It's <strong>Hybrid Search</strong>: using <em>both</em> at the same time. You get the "vibe" search from dense vectors and the "precision" search from SPLADE.</p>
+<hr>
+<h3>📦 Putting It All Together in Your Vector DB</h3>
+<p>This is where a modern vector database like <strong>Qdrant</strong> becomes so powerful. It's <em>designed</em> for this new, hybrid world. It doesn't force you to choose.</p>
+<h4>🔄 How Hybrid Search Works</h4>
+<p>Here's how Qdrant executes a hybrid search, combining dense and sparse vectors with RRF fusion:</p>
+<figure class="mermaid-diagram"><img src="/diagrams/ai-search-evolution-diagram-4.svg" alt="Diagram 4"></figure>
+<p>The beauty of hybrid search is that it runs both searches in parallel, then intelligently combines the results. Documents that appear highly ranked in <em>both</em> searches get a significant boost, ensuring you get the most relevant results.</p>
+<hr>
+<h3>🎯 Beyond Retrieval: The Final Step is Reranking</h3>
+<p>You now have a Hybrid Search system that is both broad (high <strong>Recall</strong> from Dense) and specific (high <strong>Precision</strong> from Sparse). This is called <strong>First-Stage Retrieval</strong> - you've successfully identified a short list of, say, 50 potential documents.</p>
+<p>But for a true production-grade system (especially for Retrieval-Augmented Generation, or RAG), we need one more step: <strong>Reranking</strong>.</p>
+<p>Reranking is the quality control filter. It is done by a highly accurate but slow model called a <strong>Cross-Encoder</strong>.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th align="left">Concept</th><th align="left">The Analogy</th><th align="left">The Technical Difference</th></tr></thead><tbody><tr><td align="left"><strong>First-Stage Models</strong> (Dense/SPLADE)</td><td align="left"><strong>The Matchmaker:</strong> They look at your query and your document <strong>separately</strong>, scoring them only on vector similarity. Fast, but lacks nuance.</td><td align="left"><strong>Separate Encoding:</strong> Query and Document are encoded into vectors independently.</td></tr><tr><td align="left"><strong>The Problem</strong></td><td align="left"><strong>Query:</strong> "Why is <strong>brie</strong> the best cheese for <strong>wine</strong>?"</td><td align="left">Hybrid search might find a document that mentions <em>brie</em> highly and another that mentions <em>wine</em> highly, but misses the document that explicitly links the two.</td></tr><tr><td align="left"><strong>Reranking</strong> (Cross-Encoder)</td><td align="left"><strong>The Literary Critic:</strong> It reads your query and the document <strong>together</strong>, analyzing how every word in the query interacts with every word in the document. Slow, but highly nuanced.</td><td align="left"><strong>Joint Encoding:</strong> Query and Document are fed into the Transformer network at the same time.</td></tr><tr><td align="left"><strong>The Solution</strong></td><td align="left">The Cross-Encoder instantly sees that the document titled <em>"Pairing <strong>Brie</strong> with Chardonnay <strong>Wine</strong>"</em> is the <strong>perfect</strong> answer, even if the similarity score from the first stage wasn't the absolute highest.</td><td align="left">It correctly promotes the most contextually relevant document to the #1 spot.</td></tr></tbody></table>
+<p><strong>Hybrid Search gets the candidates; Reranking picks the winner.</strong></p>
+<hr>
+<h3>The Journey Continues</h3>
+<p>We've come a long, long way from just counting words. The "search problem" is finally being solved by combining these ideas. We started with TF-IDF (a dumb counter), got smarter with BM25 (a great sorter), and now, with AI models like SPLADE, we're teaching search to <em>understand</em> what we mean, not just what we say.</p>
+<p>The future isn't dense vs. sparse. It's <em>both</em>, with a final, highly-accurate <strong>reranker</strong> to guarantee quality.</p>17:T24ec,<p>We love the idea of peer-to-peer (P2P) communication. It’s the magic behind instant, low-latency video calls in <strong>WebRTC</strong> and the decentralized promise of <strong>Web3</strong>. It's a world without middlemen, where your device talks directly to another.</p>
 <p>Except for one massive, foundational problem.</p>
 <p>How do you "directly" connect to a device that doesn't have a public address? If your laptop's IP is <code>192.168.1.100</code>, and your friend's is <code>10.0.0.50</code>, how do you find each other across the vast, public internet?</p>
 <p>This is the P2P discovery problem. Before any "direct" connection can happen, you have to solve a complex puzzle of networking, security, and timing. This post explores that puzzle: the challenges of peer discovery and the ingenious solutions that make it work.</p>
@@ -92,7 +254,7 @@ e:I[24431,[],"ViewportBoundary"]
 <h3>Why This Matters for WebRTC and Web3</h3>
 <p>This entire stack - Signaling, STUN, Hole Punching, and TURN, is the magic that makes WebRTC work. It's a complex, orchestrated dance that tries the cheapest, fastest path (direct P2P) first and gracefully falls back to the most expensive, slowest path (TURN relay) only when necessary.</p>
 <p>For Web3, the challenge is identical. A decentralized storage network (like IPFS) or a P2P social app still needs its nodes to find each other. They face the exact same NATs, and while they may try to avoid "centralized" signaling servers by using Distributed Hash Tables (DHTs), the fundamental problem of hole-punching and Symmetric NATs remains.</p>
-<p>The next time you join a video call instantly, remember the incredible (and invisible) work happening in the background just to solve that first, hardest problem: "Hello? Are you out there?"</p>16:T12b7,<h2>Why This Matters</h2>
+<p>The next time you join a video call instantly, remember the incredible (and invisible) work happening in the background just to solve that first, hardest problem: "Hello? Are you out there?"</p>18:T12b7,<h2>Why This Matters</h2>
 <p>Most technical blogs drown in maintenance. A CMS here, a plugin there, database queries that crawl under load, hosting bills that creep upward-the machinery meant to support writing becomes a burden instead. We wanted to prove something simpler: a blog can be fast, maintainable, and genuinely user-friendly without sacrificing essentials or chasing the latest frameworks.</p>
 <p>This is how we built ours.</p>
 <h2>The Architecture</h2>
@@ -141,9 +303,9 @@ e:I[24431,[],"ViewportBoundary"]
 </ul>
 <h2>Next Steps</h2>
 <p>This setup scales. Add related posts, RSS feeds, or analytics without disturbing the core. The goal isn't to be first with features-it's to be right with the fundamentals.</p>
-<p>A technical blog doesn't need to be complex. It needs to be fast, maintainable, and pleasant to read. With modern tooling (Velite, Next.js static export, Tailwind), all three are within reach. The only variable is discipline: choose simplicity at each decision point, and everything else follows.</p>9:["$","div",null,{"className":"mx-auto w-full max-w-6xl px-6 py-16 sm:px-10 lg:py-20","children":["$","$11",null,{"fallback":["$","div",null,{"children":"Loading..."}],"children":["$","$L14",null,{"posts":[{"title":"The P2P Paradox: Why You Need a Server to go Serverless","description":"Explore the peer-to-peer discovery problem. Learn how NAT, STUN, TURN, and signaling servers work together to create the 'impossible' P2P connections required for WebRTC and Web3.","date":"2025-11-11T00:00:00.000Z","tags":["webrtc","web3","p2p","networking","nat","stun","turn","ice"],"draft":false,"coverImage":"/illustrations/p2p-paradox-cover.svg","coverImageAlt":"An abstract network diagram showing two peers behind firewalls, with a central server helping them connect.","audio":{"src":"/audio/p2p-paradox.m4a","title":"AI narration","duration":"06:47","mimeType":"audio/mp4"},"excerpt":"We love the idea of peer-to-peer (P2P) communication. It’s the magic behind instant, low-latency video calls in WebRTC and the decentralized promise of Web3. It's a world without middlemen, where your device talks directly to another.\nExcep","content":"$15","slug":"p2p-paradox","readingTime":{"text":"8 min read","minutes":8.16,"words":1632}},{"title":"Building a Markdown-First Technical Blog with Modern Tools","description":"How to assemble a lean, maintainable blog using Velite, Next.js 15, and static exports-cutting through the CMS overhead to focus on writing.","date":"2025-10-16T00:00:00.000Z","tags":["nextjs","velite","tailwind","ux","deployment"],"draft":false,"coverImage":"/illustrations/stealthbit-build-cover.svg","coverImageAlt":"Minimal neon blueprint featuring converging lines around a central signal dot.","audio":{"src":"/audio/building-stealthbit-blog.m4a","title":"AI narration","duration":"04:12","mimeType":"audio/mp4"},"excerpt":"Why This Matters\nMost technical blogs drown in maintenance. A CMS here, a plugin there, database queries that crawl under load, hosting bills that creep upward-the machinery meant to support writing becomes a burden instead. We wanted to pr","content":"$16","slug":"building-stealthbit-blog","readingTime":{"text":"3 min read","minutes":3.13,"words":626}}]}]}]}]
-f:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-b:null
-17:I[80622,[],"IconMark"]
-d:{"metadata":[["$","title","0",{"children":"Vinay's writings"}],["$","meta","1",{"name":"description","content":"Blogs about software engineering, data systems, and applied AI."}],["$","link","2",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}],["$","link","3",{"rel":"icon","href":"/icon.svg?b0cfa693b1818954","type":"image/svg+xml","sizes":"any"}],["$","$L17","4",{}]],"error":null,"digest":"$undefined"}
-12:"$d:metadata"
+<p>A technical blog doesn't need to be complex. It needs to be fast, maintainable, and pleasant to read. With modern tooling (Velite, Next.js static export, Tailwind), all three are within reach. The only variable is discipline: choose simplicity at each decision point, and everything else follows.</p>a:["$","div",null,{"className":"mx-auto w-full max-w-6xl px-6 pt-12 pb-16 sm:px-10 lg:pt-16 lg:pb-20","children":["$","$12",null,{"fallback":["$","div",null,{"children":"Loading..."}],"children":["$","$L15",null,{"posts":[{"title":"Beyond the Keyword: How AI Taught Search to Understand You","description":"We've all been there: you search for 'soda' but the app only knows 'pop'. This is the search problem. Let's go on a journey from simple keyword counting (TF-IDF) to smarter ranking (BM25) and finally to AI that gets you (SPLADE).","date":"2025-11-14T00:00:00.000Z","tags":["ai-search","splade","bm25","tf-idf","vectors","sparse-vectors","dense-vectors","qdrant","rag","nlp"],"draft":false,"coverImage":"/illustrations/ai-search-evolution.svg","coverImageAlt":"An abstract image showing a simple keyword 'pop' evolving into a complex, connected concept of 'soda' and 'beverage'.","audio":{"src":"/audio/ai-search-evolution.m4a","title":"AI narration","duration":"05:00","mimeType":"audio/mp4"},"excerpt":"We've all screamed at our search bars, right?\nThat feeling when you search for \"soda\" and get zero results, just because the file you know is in there says \"pop.\" Or you search for \"laptop with a good graphics card\" and the search just show","content":"$16","slug":"ai-search-evolution","readingTime":{"text":"11 min read","minutes":11.17,"words":2234}},{"title":"The P2P Paradox: Why You Need a Server to go Serverless","description":"Explore the peer-to-peer discovery problem. Learn how NAT, STUN, TURN, and signaling servers work together to create the 'impossible' P2P connections required for WebRTC and Web3.","date":"2025-11-11T00:00:00.000Z","tags":["webrtc","web3","p2p","networking","nat","stun","turn","ice"],"draft":false,"coverImage":"/illustrations/p2p-paradox-cover.svg","coverImageAlt":"An abstract network diagram showing two peers behind firewalls, with a central server helping them connect.","audio":{"src":"/audio/p2p-paradox.m4a","title":"AI narration","duration":"06:47","mimeType":"audio/mp4"},"excerpt":"We love the idea of peer-to-peer (P2P) communication. It’s the magic behind instant, low-latency video calls in WebRTC and the decentralized promise of Web3. It's a world without middlemen, where your device talks directly to another.\nExcep","content":"$17","slug":"p2p-paradox","readingTime":{"text":"8 min read","minutes":8.16,"words":1632}},{"title":"Building a Markdown-First Technical Blog with Modern Tools","description":"How to assemble a lean, maintainable blog using Velite, Next.js 15, and static exports-cutting through the CMS overhead to focus on writing.","date":"2025-10-16T00:00:00.000Z","tags":["nextjs","velite","tailwind","ux","deployment"],"draft":false,"coverImage":"/illustrations/stealthbit-build-cover.svg","coverImageAlt":"Minimal neon blueprint featuring converging lines around a central signal dot.","audio":{"src":"/audio/building-stealthbit-blog.m4a","title":"AI narration","duration":"04:12","mimeType":"audio/mp4"},"excerpt":"Why This Matters\nMost technical blogs drown in maintenance. A CMS here, a plugin there, database queries that crawl under load, hosting bills that creep upward-the machinery meant to support writing becomes a burden instead. We wanted to pr","content":"$18","slug":"building-stealthbit-blog","readingTime":{"text":"3 min read","minutes":3.13,"words":626}}]}]}]}]
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+c:null
+19:I[80622,[],"IconMark"]
+e:{"metadata":[["$","title","0",{"children":"Vinay's writings"}],["$","meta","1",{"name":"description","content":"Blogs about software engineering, data systems, and applied AI."}],["$","link","2",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}],["$","link","3",{"rel":"icon","href":"/icon.svg?b0cfa693b1818954","type":"image/svg+xml","sizes":"any"}],["$","$L19","4",{}]],"error":null,"digest":"$undefined"}
+13:"$e:metadata"
