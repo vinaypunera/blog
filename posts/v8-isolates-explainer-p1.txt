@@ -1,0 +1,420 @@
+1:"$Sreact.fragment"
+2:I[51458,["2201","static/chunks/2201-6f6797369dbd70e4.js","8005","static/chunks/8005-36f473f8046dae16.js","7750","static/chunks/7750-0a756454837a9a28.js","9227","static/chunks/9227-702d20ddd5580687.js","7177","static/chunks/app/layout-1292cda0e395339b.js"],"ThemeProvider"]
+3:I[21887,["2201","static/chunks/2201-6f6797369dbd70e4.js","8005","static/chunks/8005-36f473f8046dae16.js","7750","static/chunks/7750-0a756454837a9a28.js","9227","static/chunks/9227-702d20ddd5580687.js","7177","static/chunks/app/layout-1292cda0e395339b.js"],""]
+4:I[79081,["2201","static/chunks/2201-6f6797369dbd70e4.js","8005","static/chunks/8005-36f473f8046dae16.js","7750","static/chunks/7750-0a756454837a9a28.js","9227","static/chunks/9227-702d20ddd5580687.js","7177","static/chunks/app/layout-1292cda0e395339b.js"],"GlobalAudioProvider"]
+5:I[80989,["2201","static/chunks/2201-6f6797369dbd70e4.js","8005","static/chunks/8005-36f473f8046dae16.js","7750","static/chunks/7750-0a756454837a9a28.js","9227","static/chunks/9227-702d20ddd5580687.js","7177","static/chunks/app/layout-1292cda0e395339b.js"],"SearchSheetProvider"]
+6:I[33572,["2201","static/chunks/2201-6f6797369dbd70e4.js","8005","static/chunks/8005-36f473f8046dae16.js","7750","static/chunks/7750-0a756454837a9a28.js","9227","static/chunks/9227-702d20ddd5580687.js","7177","static/chunks/app/layout-1292cda0e395339b.js"],"FloatingAudioProvider"]
+7:I[87435,["2201","static/chunks/2201-6f6797369dbd70e4.js","8005","static/chunks/8005-36f473f8046dae16.js","7750","static/chunks/7750-0a756454837a9a28.js","9227","static/chunks/9227-702d20ddd5580687.js","7177","static/chunks/app/layout-1292cda0e395339b.js"],"FloatingNav"]
+8:I[9766,[],""]
+9:I[98924,[],""]
+b:I[24431,[],"OutletBoundary"]
+d:I[15278,[],"AsyncMetadataOutlet"]
+f:I[24431,[],"ViewportBoundary"]
+11:I[24431,[],"MetadataBoundary"]
+12:"$Sreact.suspense"
+14:I[57150,[],""]
+:HL["/_next/static/media/4cf2300e9c8272f7-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/de204d2dcad441e1.css","style"]
+0:{"P":null,"b":"gqZ7jiqpf8fvmPoRYqmpx","p":"","c":["","posts","v8-isolates-explainer-p1"],"i":false,"f":[[["",{"children":["posts",{"children":[["slug","v8-isolates-explainer-p1","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/de204d2dcad441e1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"className":"__variable_188709 __variable_9a8899 min-h-screen bg-background font-sans text-foreground","children":["$","$L2",null,{"children":[["$","$L3",null,{"color":"hsl(var(--accent))","height":3,"showSpinner":false}],["$","$L4",null,{"children":["$","$L5",null,{"children":["$","$L6",null,{"children":[["$","$L7",null,{}],["$","div",null,{"className":"flex min-h-screen flex-col","children":["$","main",null,{"className":"flex-1","children":["$","$L8",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}]}]}]]}]}]}]]}],{"children":["posts",["$","$1","c",{"children":[null,["$","$L8",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","v8-isolates-explainer-p1","d"],["$","$1","c",{"children":[null,["$","$L8",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$La",null,["$","$Lb",null,{"children":["$Lc",["$","$Ld",null,{"promise":"$@e"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lf",null,{"children":"$L10"}],["$","meta",null,{"name":"next-size-adjust","content":""}]],["$","$L11",null,{"children":["$","div",null,{"hidden":true,"children":["$","$12",null,{"fallback":null,"children":"$L13"}]}]}]]}],false]],"m":"$undefined","G":["$14",[]],"s":false,"S":true}
+15:I[19558,["2201","static/chunks/2201-6f6797369dbd70e4.js","1356","static/chunks/1356-1fb83b63ccda55b7.js","8005","static/chunks/8005-36f473f8046dae16.js","5858","static/chunks/app/posts/%5Bslug%5D/page-9925e7bd02be95a8.js"],"MarkPostRead"]
+16:I[7553,["2201","static/chunks/2201-6f6797369dbd70e4.js","1356","static/chunks/1356-1fb83b63ccda55b7.js","8005","static/chunks/8005-36f473f8046dae16.js","5858","static/chunks/app/posts/%5Bslug%5D/page-9925e7bd02be95a8.js"],"ReadingProgress"]
+17:I[52619,["2201","static/chunks/2201-6f6797369dbd70e4.js","1356","static/chunks/1356-1fb83b63ccda55b7.js","8005","static/chunks/8005-36f473f8046dae16.js","5858","static/chunks/app/posts/%5Bslug%5D/page-9925e7bd02be95a8.js"],""]
+18:I[66078,["2201","static/chunks/2201-6f6797369dbd70e4.js","1356","static/chunks/1356-1fb83b63ccda55b7.js","8005","static/chunks/8005-36f473f8046dae16.js","5858","static/chunks/app/posts/%5Bslug%5D/page-9925e7bd02be95a8.js"],"PostAudioPlayer"]
+19:I[24121,["2201","static/chunks/2201-6f6797369dbd70e4.js","1356","static/chunks/1356-1fb83b63ccda55b7.js","8005","static/chunks/8005-36f473f8046dae16.js","5858","static/chunks/app/posts/%5Bslug%5D/page-9925e7bd02be95a8.js"],"MermaidDiagrams"]
+1a:I[81356,["2201","static/chunks/2201-6f6797369dbd70e4.js","1356","static/chunks/1356-1fb83b63ccda55b7.js","8005","static/chunks/8005-36f473f8046dae16.js","5858","static/chunks/app/posts/%5Bslug%5D/page-9925e7bd02be95a8.js"],"Image"]
+1b:Tb613,<h1>Part 1: Deep Dive into V8 and V8 Isolates - The Engine and the Sandbox</h1>
+<p>Imagine you need to run code you don't fully trust - maybe it's user-submitted plugins, third-party extensions, or dynamically generated scripts. What's stopping that code from reading your environment variables, accessing your file system, or consuming all your server's resources?</p>
+<p>This is the central challenge of modern computing: <strong>How do you run untrusted code safely?</strong></p>
+<p>You could use Docker containers, but their 5-second "cold start" would kill your user experience. Virtual Machines are even slower. You need something that can create a <strong>perfectly secure sandbox in less than 5 milliseconds</strong>.</p>
+<p>Enter the <strong>V8 Isolate</strong> - the battle-tested technology that powers Google Chrome and makes it possible to run untrusted code at massive scale, securely. This is the same technology behind platforms like <strong>Cloudflare Workers</strong> and <strong>Deno Deploy</strong>.</p>
+<p>This guide explains what V8 Isolates are, how they work, and how you can use them to build secure, high-performance applications.</p>
+<hr>
+<h2>🏎️ What is V8? The Engine That Powers JavaScript</h2>
+<p>Before we talk about <em>isolates</em>, let's understand <strong>V8</strong> itself.</p>
+<p>V8 is Google's open-source JavaScript and WebAssembly engine, written in C++. Think of it as the high-performance engine inside cars like Google Chrome and Node.js. Its job is to take human-readable JavaScript and compile it into lightning-fast machine code for your computer's processor.</p>
+<p>Every <code>console.log("hello")</code> you write goes through V8.</p>
+<p>V8 is everywhere:</p>
+<ul>
+<li><strong>Google Chrome</strong> (browser)</li>
+<li><strong>Node.js</strong> (server)</li>
+<li><strong>Deno</strong> (modern runtime)</li>
+<li><strong>Cloudflare Workers</strong> (edge computing)</li>
+</ul>
+<figure class="mermaid-diagram"><img src="/diagrams/v8-isolates-explainer-p1-diagram-1.svg" alt="Diagram 1"></figure>
+<h3>How V8 Achieves Speed: JIT Compilation</h3>
+<p>V8's secret weapon is <strong>Just-In-Time (JIT) Compilation</strong> - a clever two-stage process:</p>
+<p><strong>Stage 1: Ignition (The Fast Starter)</strong></p>
+<ul>
+<li>When your code first runs, V8's interpreter <strong>Ignition</strong> executes it immediately</li>
+<li>This gives you instant startup - no waiting for compilation</li>
+<li>Think of it as a speed reader that gets the job done quickly</li>
+</ul>
+<p><strong>Stage 2: Turbofan (The Optimizer)</strong></p>
+<ul>
+<li>Ignition watches your code as it runs</li>
+<li>If it sees a function being called repeatedly (a "hot function"), it calls in the specialist: <strong>Turbofan</strong></li>
+<li>Turbofan is V8's optimizing compiler - it takes that hot code and recompiles it into hyper-optimized machine code</li>
+<li>The result? Lightning-fast execution for frequently-used code</li>
+</ul>
+<p>This two-stage approach gives you the best of both worlds: <strong>fast startup</strong> and <strong>maximum sustained performance</strong>.</p>
+<figure class="mermaid-diagram"><img src="/diagrams/v8-isolates-explainer-p1-diagram-2.svg" alt="Diagram 2"></figure>
+<hr>
+<h2>🚪 What is a V8 Isolate? The "Sealed Room" Analogy</h2>
+<p>Now we get to the most important concept. If the V8 Engine is the motor, the <strong>V8 Isolate</strong> is the <strong>perfectly sealed, soundproof room</strong> in which that motor runs.</p>
+<p>An <strong>Isolate</strong> is an isolated, independent instance of the V8 engine.</p>
+<p>Think of it literally as a <strong>sealed room</strong>:</p>
+<ul>
+<li>It has its own <strong>private memory</strong> (its own heap)</li>
+<li>It has its own <strong>garbage collector</strong> (its own cleaning crew)</li>
+<li>It has <strong>zero access</strong> to the outside world</li>
+<li>The walls are soundproof and airtight</li>
+</ul>
+<p>A person in one room <strong>cannot</strong> see, hear, or interact with a person in another room. If a program in one isolate crashes, it only affects that one "room" - the rest of your application keeps running perfectly.</p>
+<h3>You Use This Every Day: Chrome Tabs</h3>
+<p>You already use this technology daily. Every tab in Chrome runs in its own isolate.</p>
+<p>When you have Gmail open in one tab and your bank in another, Gmail's JavaScript <strong>cannot</strong> access your banking tab's memory. If a malicious website crashes in tab 3, it doesn't take down Gmail and your bank.</p>
+<p>This is V8 Isolates in action.</p>
+<figure class="mermaid-diagram"><img src="/diagrams/v8-isolates-explainer-p1-diagram-3.svg" alt="Diagram 3"></figure>
+<h3>What Makes Each Isolate "Sealed"?</h3>
+<p>Each isolate has its own:</p>
+<ol>
+<li>
+<p><strong>Dedicated Heap Memory</strong> ⭐ Most Important</p>
+<ul>
+<li>Each isolate has its own private memory space</li>
+<li>Code in Isolate A <strong>cannot</strong> read or write memory from Isolate B</li>
+<li>This is the foundation of security</li>
+</ul>
+</li>
+<li>
+<p><strong>Independent Garbage Collector</strong></p>
+<ul>
+<li>Each isolate cleans up its own memory</li>
+<li>Memory cleanup in one isolate doesn't slow down others</li>
+</ul>
+</li>
+<li>
+<p><strong>Separate Global Scope</strong></p>
+<ul>
+<li>Each isolate has its own <code>global</code> object</li>
+<li>Built-in objects like <code>Math</code>, <code>JSON</code> are separate instances</li>
+</ul>
+</li>
+</ol>
+<h2>⚡ Why Isolates Changed Everything: The Performance Revolution</h2>
+<p>For years, we used <strong>Virtual Machines</strong> and <strong>Docker containers</strong> to isolate code. But they're heavy:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Technology</th><th>Startup Time</th><th>Memory Overhead</th><th>Good For</th></tr></thead><tbody><tr><td><strong>Virtual Machines</strong></td><td>Seconds</td><td>Very Heavy</td><td>Full OS isolation</td></tr><tr><td><strong>Docker Containers</strong></td><td>500ms - 10s</td><td>Medium</td><td>Microservices</td></tr><tr><td><strong>V8 Isolates</strong></td><td><strong>&#x3C; 5ms</strong></td><td>Very Light</td><td>Code execution</td></tr></tbody></table>
+<p>V8 Isolates are <strong>micro-sandboxes</strong>:</p>
+<ul>
+<li>No operating system</li>
+<li>No filesystem</li>
+<li>No networking</li>
+<li>No environment variables</li>
+</ul>
+<p>Just pure JavaScript execution.</p>
+<p>This breakthrough enabled the <strong>serverless revolution</strong>. Platforms like <strong>Cloudflare Workers</strong> can run code from thousands of customers on the same machine, all completely isolated, with <strong>zero cold start</strong>. They spin up a new isolate for each request in under 5 milliseconds.</p>
+<figure class="mermaid-diagram"><img src="/diagrams/v8-isolates-explainer-p1-diagram-4.svg" alt="Diagram 4"></figure>
+<hr>
+<h2>🧪 What Happens Inside an Isolate?</h2>
+<p>Inside an isolate, you get a clean, empty JavaScript world:</p>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="javascript" data-theme="github-dark-dimmed github-light"><code data-language="javascript" data-theme="github-dark-dimmed github-light" style="display: grid;"><span data-line=""><span style="--shiki-dark:#F47067;--shiki-light:#D73A49">let</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E"> a </span><span style="--shiki-dark:#F47067;--shiki-light:#D73A49">=</span><span style="--shiki-dark:#6CB6FF;--shiki-light:#005CC5"> 10</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">;</span></span>
+<span data-line=""><span style="--shiki-dark:#F47067;--shiki-light:#D73A49">let</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E"> b </span><span style="--shiki-dark:#F47067;--shiki-light:#D73A49">=</span><span style="--shiki-dark:#6CB6FF;--shiki-light:#005CC5"> 20</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">;</span></span>
+<span data-line=""><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">a </span><span style="--shiki-dark:#F47067;--shiki-light:#D73A49">+</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E"> b; </span><span style="--shiki-dark:#768390;--shiki-light:#6A737D">// Works fine!</span></span><button type="button" title="Copy code" aria-label="Copy code" data="let a = 10;
+let b = 20;
+a + b; // Works fine!" class="rehype-pretty-copy" onclick="navigator.clipboard.writeText(this.attributes.data.value);this.classList.add(&#x27;rehype-pretty-copied&#x27;);window.setTimeout(() => this.classList.remove(&#x27;rehype-pretty-copied&#x27;), 2000);"><span class="ready"></span><span class="success"></span></button><style>:root {--copy-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath fill='%23adadad' d='M16.187 9.5H12.25a1.75 1.75 0 0 0-1.75 1.75v28.5c0 .967.784 1.75 1.75 1.75h23.5a1.75 1.75 0 0 0 1.75-1.75v-28.5a1.75 1.75 0 0 0-1.75-1.75h-3.937a4.25 4.25 0 0 1-4.063 3h-7.5a4.25 4.25 0 0 1-4.063-3M31.813 7h3.937A4.25 4.25 0 0 1 40 11.25v28.5A4.25 4.25 0 0 1 35.75 44h-23.5A4.25 4.25 0 0 1 8 39.75v-28.5A4.25 4.25 0 0 1 12.25 7h3.937a4.25 4.25 0 0 1 4.063-3h7.5a4.25 4.25 0 0 1 4.063 3M18.5 8.25c0 .966.784 1.75 1.75 1.75h7.5a1.75 1.75 0 1 0 0-3.5h-7.5a1.75 1.75 0 0 0-1.75 1.75'/%3E%3C/svg%3E");--success-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%2366ff85' d='M9 16.17L5.53 12.7a.996.996 0 1 0-1.41 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71a.996.996 0 1 0-1.41-1.41z'/%3E%3C/svg%3E");}pre:has(code) {position: relative;}pre button.rehype-pretty-copy {right: 1px;padding: 0;width: 24px;height: 24px;display: flex;margin-top: 2px;margin-right: 8px;position: absolute;border-radius: 25%;backdrop-filter: blur(3px);& span {width: 100%;aspect-ratio: 1 / 1;}& .ready {background-image: var(--copy-icon);}& .success {display: none; background-image: var(--success-icon);}}&.rehype-pretty-copied {& .success {display: block;} & .ready {display: none;}}pre button.rehype-pretty-copy.rehype-pretty-copied {opacity: 1;& .ready { display: none; }& .success { display: block; }}pre button.rehype-pretty-copy { opacity: 0; }figure[data-rehype-pretty-code-figure]:hover > pre > code button.rehype-pretty-copy {opacity: 1;}</style></code></pre></figure>
+<p>But no access to:</p>
+<ul>
+<li>❌ <code>fs</code> (file system)</li>
+<li>❌ <code>process</code> (environment variables, exit)</li>
+<li>❌ <code>require</code> (importing modules)</li>
+<li>❌ Any Node.js internals</li>
+</ul>
+<p>Unless <strong>you explicitly expose them</strong> using a secure bridge.</p>
+<h2>🛠️ Practical Guide: Building Sandboxes with <code>isolated-vm</code></h2>
+<p>While V8 is a C++ library, the <strong><code>isolated-vm</code></strong> library for Node.js gives you direct access to this power.</p>
+<p>First, install it:</p>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="bash" data-theme="github-dark-dimmed github-light"><code data-language="bash" data-theme="github-dark-dimmed github-light" style="display: grid;"><span data-line=""><span style="--shiki-dark:#F69D50;--shiki-light:#6F42C1">npm</span><span style="--shiki-dark:#96D0FF;--shiki-light:#032F62"> install</span><span style="--shiki-dark:#96D0FF;--shiki-light:#032F62"> isolated-vm</span></span><button type="button" title="Copy code" aria-label="Copy code" data="npm install isolated-vm" class="rehype-pretty-copy" onclick="navigator.clipboard.writeText(this.attributes.data.value);this.classList.add(&#x27;rehype-pretty-copied&#x27;);window.setTimeout(() => this.classList.remove(&#x27;rehype-pretty-copied&#x27;), 2000);"><span class="ready"></span><span class="success"></span></button><style>:root {--copy-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath fill='%23adadad' d='M16.187 9.5H12.25a1.75 1.75 0 0 0-1.75 1.75v28.5c0 .967.784 1.75 1.75 1.75h23.5a1.75 1.75 0 0 0 1.75-1.75v-28.5a1.75 1.75 0 0 0-1.75-1.75h-3.937a4.25 4.25 0 0 1-4.063 3h-7.5a4.25 4.25 0 0 1-4.063-3M31.813 7h3.937A4.25 4.25 0 0 1 40 11.25v28.5A4.25 4.25 0 0 1 35.75 44h-23.5A4.25 4.25 0 0 1 8 39.75v-28.5A4.25 4.25 0 0 1 12.25 7h3.937a4.25 4.25 0 0 1 4.063-3h7.5a4.25 4.25 0 0 1 4.063 3M18.5 8.25c0 .966.784 1.75 1.75 1.75h7.5a1.75 1.75 0 1 0 0-3.5h-7.5a1.75 1.75 0 0 0-1.75 1.75'/%3E%3C/svg%3E");--success-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%2366ff85' d='M9 16.17L5.53 12.7a.996.996 0 1 0-1.41 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71a.996.996 0 1 0-1.41-1.41z'/%3E%3C/svg%3E");}pre:has(code) {position: relative;}pre button.rehype-pretty-copy {right: 1px;padding: 0;width: 24px;height: 24px;display: flex;margin-top: 2px;margin-right: 8px;position: absolute;border-radius: 25%;backdrop-filter: blur(3px);& span {width: 100%;aspect-ratio: 1 / 1;}& .ready {background-image: var(--copy-icon);}& .success {display: none; background-image: var(--success-icon);}}&.rehype-pretty-copied {& .success {display: block;} & .ready {display: none;}}pre button.rehype-pretty-copy.rehype-pretty-copied {opacity: 1;& .ready { display: none; }& .success { display: block; }}pre button.rehype-pretty-copy { opacity: 0; }figure[data-rehype-pretty-code-figure]:hover > pre > code button.rehype-pretty-copy {opacity: 1;}</style></code></pre></figure>
+<p>The fundamental security rule is simple: <strong>The isolate is a jail with zero access to your host system by default.</strong></p>
+<h3>Example 1: Your First Sandbox with Time and Memory Limits</h3>
+<p>This example shows how to create a sandbox with strict resource limits. The code inside <strong>cannot</strong> run forever or consume unlimited memory.</p>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="javascript" data-theme="github-dark-dimmed github-light"><code data-language="javascript" data-theme="github-dark-dimmed github-light" style="display: grid;"><span data-line=""><span style="--shiki-dark:#F47067;--shiki-light:#D73A49">const</span><span style="--shiki-dark:#6CB6FF;--shiki-light:#005CC5"> ivm</span><span style="--shiki-dark:#F47067;--shiki-light:#D73A49"> =</span><span style="--shiki-dark:#DCBDFB;--shiki-light:#6F42C1"> require</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">(</span><span style="--shiki-dark:#96D0FF;--shiki-light:#032F62">'isolated-vm'</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">);</span></span>
+<span data-line=""> </span>
+<span data-line=""><span style="--shiki-dark:#F47067;--shiki-light:#D73A49">async</span><span style="--shiki-dark:#F47067;--shiki-light:#D73A49"> function</span><span style="--shiki-dark:#DCBDFB;--shiki-light:#6F42C1"> runUntrustedScript</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">(</span><span style="--shiki-dark:#F69D50;--shiki-light:#E36209">code</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">) {</span></span>
+<span data-line=""><span style="--shiki-dark:#768390;--shiki-light:#6A737D">    // 1. Create a new Isolate with resource limits</span></span>
+<span data-line=""><span style="--shiki-dark:#F47067;--shiki-light:#D73A49">    const</span><span style="--shiki-dark:#6CB6FF;--shiki-light:#005CC5"> isolate</span><span style="--shiki-dark:#F47067;--shiki-light:#D73A49"> =</span><span style="--shiki-dark:#F47067;--shiki-light:#D73A49"> new</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E"> ivm.</span><span style="--shiki-dark:#DCBDFB;--shiki-light:#6F42C1">Isolate</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">({ </span></span>
+<span data-line=""><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">        memoryLimit: </span><span style="--shiki-dark:#6CB6FF;--shiki-light:#005CC5">128</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">, </span><span style="--shiki-dark:#768390;--shiki-light:#6A737D">// Max RAM consumption: 128MB</span></span>
+<span data-line=""><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">    }); </span></span>
+<span data-line=""><span style="--shiki-dark:#F47067;--shiki-light:#D73A49">    const</span><span style="--shiki-dark:#6CB6FF;--shiki-light:#005CC5"> context</span><span style="--shiki-dark:#F47067;--shiki-light:#D73A49"> =</span><span style="--shiki-dark:#F47067;--shiki-light:#D73A49"> await</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E"> isolate.</span><span style="--shiki-dark:#DCBDFB;--shiki-light:#6F42C1">createContext</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">();</span></span>
+<span data-line=""> </span>
+<span data-line=""><span style="--shiki-dark:#768390;--shiki-light:#6A737D">    // 2. Compile the script (LLM-generated or user-submitted code)</span></span>
+<span data-line=""><span style="--shiki-dark:#F47067;--shiki-light:#D73A49">    const</span><span style="--shiki-dark:#6CB6FF;--shiki-light:#005CC5"> script</span><span style="--shiki-dark:#F47067;--shiki-light:#D73A49"> =</span><span style="--shiki-dark:#F47067;--shiki-light:#D73A49"> await</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E"> isolate.</span><span style="--shiki-dark:#DCBDFB;--shiki-light:#6F42C1">compileScript</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">(code);</span></span>
+<span data-line=""> </span>
+<span data-line=""><span style="--shiki-dark:#F47067;--shiki-light:#D73A49">    try</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E"> {</span></span>
+<span data-line=""><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">        console.</span><span style="--shiki-dark:#DCBDFB;--shiki-light:#6F42C1">log</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">(</span><span style="--shiki-dark:#96D0FF;--shiki-light:#032F62">'--- Running Script in Sandbox ---'</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">);</span></span>
+<span data-line=""><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">        </span></span>
+<span data-line=""><span style="--shiki-dark:#768390;--shiki-light:#6A737D">        // 3. Execute with a 1-second timeout</span></span>
+<span data-line=""><span style="--shiki-dark:#F47067;--shiki-light:#D73A49">        const</span><span style="--shiki-dark:#6CB6FF;--shiki-light:#005CC5"> result</span><span style="--shiki-dark:#F47067;--shiki-light:#D73A49"> =</span><span style="--shiki-dark:#F47067;--shiki-light:#D73A49"> await</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E"> script.</span><span style="--shiki-dark:#DCBDFB;--shiki-light:#6F42C1">run</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">(context, { timeout: </span><span style="--shiki-dark:#6CB6FF;--shiki-light:#005CC5">1000</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E"> }); </span></span>
+<span data-line=""><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">        </span></span>
+<span data-line=""><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">        console.</span><span style="--shiki-dark:#DCBDFB;--shiki-light:#6F42C1">log</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">(</span><span style="--shiki-dark:#96D0FF;--shiki-light:#032F62">'Result:'</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">, result);</span></span>
+<span data-line=""><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">    } </span><span style="--shiki-dark:#F47067;--shiki-light:#D73A49">catch</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E"> (e) {</span></span>
+<span data-line=""><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">        console.</span><span style="--shiki-dark:#DCBDFB;--shiki-light:#6F42C1">error</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">(</span><span style="--shiki-dark:#96D0FF;--shiki-light:#032F62">'Execution Failed:'</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">, e.message); </span></span>
+<span data-line=""><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">    } </span><span style="--shiki-dark:#F47067;--shiki-light:#D73A49">finally</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E"> {</span></span>
+<span data-line=""><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">        isolate.</span><span style="--shiki-dark:#DCBDFB;--shiki-light:#6F42C1">dispose</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">(); </span><span style="--shiki-dark:#768390;--shiki-light:#6A737D">// Always clean up the isolate</span></span>
+<span data-line=""><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">    }</span></span>
+<span data-line=""><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">}</span></span>
+<span data-line=""> </span>
+<span data-line=""><span style="--shiki-dark:#768390;--shiki-light:#6A737D">// Case 1: Safe code</span></span>
+<span data-line=""><span style="--shiki-dark:#F47067;--shiki-light:#D73A49">const</span><span style="--shiki-dark:#6CB6FF;--shiki-light:#005CC5"> safeCode</span><span style="--shiki-dark:#F47067;--shiki-light:#D73A49"> =</span><span style="--shiki-dark:#96D0FF;--shiki-light:#032F62"> `10 + 20;`</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">;</span></span>
+<span data-line=""> </span>
+<span data-line=""><span style="--shiki-dark:#768390;--shiki-light:#6A737D">// Case 2: Time-out code (infinite loop)</span></span>
+<span data-line=""><span style="--shiki-dark:#F47067;--shiki-light:#D73A49">const</span><span style="--shiki-dark:#6CB6FF;--shiki-light:#005CC5"> maliciousCode</span><span style="--shiki-dark:#F47067;--shiki-light:#D73A49"> =</span><span style="--shiki-dark:#96D0FF;--shiki-light:#032F62"> `while(true) {}`</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">;</span></span>
+<span data-line=""> </span>
+<span data-line=""><span style="--shiki-dark:#768390;--shiki-light:#6A737D">// Case 3: Forbidden access attempt</span></span>
+<span data-line=""><span style="--shiki-dark:#F47067;--shiki-light:#D73A49">const</span><span style="--shiki-dark:#6CB6FF;--shiki-light:#005CC5"> securityRiskCode</span><span style="--shiki-dark:#F47067;--shiki-light:#D73A49"> =</span><span style="--shiki-dark:#96D0FF;--shiki-light:#032F62"> `process.env.SECRET_API_KEY;`</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">;</span></span>
+<span data-line=""> </span>
+<span data-line=""><span style="--shiki-dark:#DCBDFB;--shiki-light:#6F42C1">runUntrustedScript</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">(safeCode); </span></span>
+<span data-line=""><span style="--shiki-dark:#768390;--shiki-light:#6A737D">// Output: Result: 30</span></span>
+<span data-line=""> </span>
+<span data-line=""><span style="--shiki-dark:#DCBDFB;--shiki-light:#6F42C1">runUntrustedScript</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">(maliciousCode); </span></span>
+<span data-line=""><span style="--shiki-dark:#768390;--shiki-light:#6A737D">// Output: Execution Failed: Error: Script execution timed out.</span></span>
+<span data-line=""> </span>
+<span data-line=""><span style="--shiki-dark:#DCBDFB;--shiki-light:#6F42C1">runUntrustedScript</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">(securityRiskCode);</span></span>
+<span data-line=""><span style="--shiki-dark:#768390;--shiki-light:#6A737D">// Output: Execution Failed: ReferenceError: process is not defined </span></span><button type="button" title="Copy code" aria-label="Copy code" data="const ivm = require(&#x27;isolated-vm&#x27;);
+
+async function runUntrustedScript(code) {
+    // 1. Create a new Isolate with resource limits
+    const isolate = new ivm.Isolate({ 
+        memoryLimit: 128, // Max RAM consumption: 128MB
+    }); 
+    const context = await isolate.createContext();
+
+    // 2. Compile the script (LLM-generated or user-submitted code)
+    const script = await isolate.compileScript(code);
+
+    try {
+        console.log(&#x27;--- Running Script in Sandbox ---&#x27;);
+        
+        // 3. Execute with a 1-second timeout
+        const result = await script.run(context, { timeout: 1000 }); 
+        
+        console.log(&#x27;Result:&#x27;, result);
+    } catch (e) {
+        console.error(&#x27;Execution Failed:&#x27;, e.message); 
+    } finally {
+        isolate.dispose(); // Always clean up the isolate
+    }
+}
+
+// Case 1: Safe code
+const safeCode = &#x60;10 + 20;&#x60;;
+
+// Case 2: Time-out code (infinite loop)
+const maliciousCode = &#x60;while(true) {}&#x60;;
+
+// Case 3: Forbidden access attempt
+const securityRiskCode = &#x60;process.env.SECRET_API_KEY;&#x60;;
+
+runUntrustedScript(safeCode); 
+// Output: Result: 30
+
+runUntrustedScript(maliciousCode); 
+// Output: Execution Failed: Error: Script execution timed out.
+
+runUntrustedScript(securityRiskCode);
+// Output: Execution Failed: ReferenceError: process is not defined " class="rehype-pretty-copy" onclick="navigator.clipboard.writeText(this.attributes.data.value);this.classList.add(&#x27;rehype-pretty-copied&#x27;);window.setTimeout(() => this.classList.remove(&#x27;rehype-pretty-copied&#x27;), 2000);"><span class="ready"></span><span class="success"></span></button><style>:root {--copy-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath fill='%23adadad' d='M16.187 9.5H12.25a1.75 1.75 0 0 0-1.75 1.75v28.5c0 .967.784 1.75 1.75 1.75h23.5a1.75 1.75 0 0 0 1.75-1.75v-28.5a1.75 1.75 0 0 0-1.75-1.75h-3.937a4.25 4.25 0 0 1-4.063 3h-7.5a4.25 4.25 0 0 1-4.063-3M31.813 7h3.937A4.25 4.25 0 0 1 40 11.25v28.5A4.25 4.25 0 0 1 35.75 44h-23.5A4.25 4.25 0 0 1 8 39.75v-28.5A4.25 4.25 0 0 1 12.25 7h3.937a4.25 4.25 0 0 1 4.063-3h7.5a4.25 4.25 0 0 1 4.063 3M18.5 8.25c0 .966.784 1.75 1.75 1.75h7.5a1.75 1.75 0 1 0 0-3.5h-7.5a1.75 1.75 0 0 0-1.75 1.75'/%3E%3C/svg%3E");--success-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%2366ff85' d='M9 16.17L5.53 12.7a.996.996 0 1 0-1.41 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71a.996.996 0 1 0-1.41-1.41z'/%3E%3C/svg%3E");}pre:has(code) {position: relative;}pre button.rehype-pretty-copy {right: 1px;padding: 0;width: 24px;height: 24px;display: flex;margin-top: 2px;margin-right: 8px;position: absolute;border-radius: 25%;backdrop-filter: blur(3px);& span {width: 100%;aspect-ratio: 1 / 1;}& .ready {background-image: var(--copy-icon);}& .success {display: none; background-image: var(--success-icon);}}&.rehype-pretty-copied {& .success {display: block;} & .ready {display: none;}}pre button.rehype-pretty-copy.rehype-pretty-copied {opacity: 1;& .ready { display: none; }& .success { display: block; }}pre button.rehype-pretty-copy { opacity: 0; }figure[data-rehype-pretty-code-figure]:hover > pre > code button.rehype-pretty-copy {opacity: 1;}</style></code></pre></figure>
+<p><strong>What just happened?</strong></p>
+<ul>
+<li>The infinite loop was killed after 1 second ✅</li>
+<li>The attempt to access <code>process.env</code> failed because <code>process</code> doesn't exist in the isolate ✅</li>
+<li>Your secrets are safe ✅</li>
+</ul>
+<h2>🔔 The Challenge: Making Isolates Useful</h2>
+<p>Okay, our isolate is perfectly secure. But it's <em>too</em> secure. It's a jail cell with nothing inside. How can the code do anything useful if it can't call a database or an API?</p>
+<h3>The Solution: The "Bank Teller Window" Pattern</h3>
+<p>Think of it like a bank:</p>
+<ul>
+<li><strong>Your Code (The Vault):</strong> Holds all your secrets - API keys, database passwords</li>
+<li><strong>The Isolate (The Lobby):</strong> Where untrusted code runs</li>
+<li><strong>The Bridge (The Teller Window):</strong> A secure pass-through that takes requests but never exposes the vault</li>
+</ul>
+<p>The untrusted code can "ring the bell" (call a function), and your secure code handles it behind the scenes, passing back only the result.</p>
+<figure class="mermaid-diagram"><img src="/diagrams/v8-isolates-explainer-p1-diagram-5.svg" alt="Diagram 5"></figure>
+<h3>Example 2: The "Bank Teller" in Action</h3>
+<p>Let's build a secure database proxy. The untrusted code can query the database, but it <strong>never</strong> sees your connection string.</p>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="javascript" data-theme="github-dark-dimmed github-light"><code data-language="javascript" data-theme="github-dark-dimmed github-light" style="display: grid;"><span data-line=""><span style="--shiki-dark:#F47067;--shiki-light:#D73A49">const</span><span style="--shiki-dark:#6CB6FF;--shiki-light:#005CC5"> ivm</span><span style="--shiki-dark:#F47067;--shiki-light:#D73A49"> =</span><span style="--shiki-dark:#DCBDFB;--shiki-light:#6F42C1"> require</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">(</span><span style="--shiki-dark:#96D0FF;--shiki-light:#032F62">'isolated-vm'</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">);</span></span>
+<span data-line=""> </span>
+<span data-line=""><span style="--shiki-dark:#768390;--shiki-light:#6A737D">// --- HOST PROCESS (SECURE) ---</span></span>
+<span data-line=""><span style="--shiki-dark:#768390;--shiki-light:#6A737D">// This function runs on the secure host - secrets are protected here</span></span>
+<span data-line=""><span style="--shiki-dark:#F47067;--shiki-light:#D73A49">function</span><span style="--shiki-dark:#DCBDFB;--shiki-light:#6F42C1"> secureDbQuery</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">(</span><span style="--shiki-dark:#F69D50;--shiki-light:#E36209">sql</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">) {</span></span>
+<span data-line=""><span style="--shiki-dark:#F47067;--shiki-light:#D73A49">    const</span><span style="--shiki-dark:#6CB6FF;--shiki-light:#005CC5"> MY_DB_PASSWORD</span><span style="--shiki-dark:#F47067;--shiki-light:#D73A49"> =</span><span style="--shiki-dark:#96D0FF;--shiki-light:#032F62"> 'super-secret-password-123'</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">;</span></span>
+<span data-line=""><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">    console.</span><span style="--shiki-dark:#DCBDFB;--shiki-light:#6F42C1">log</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">(</span><span style="--shiki-dark:#96D0FF;--shiki-light:#032F62">`[🔐 Vault] Running query with password: ${</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">sql</span><span style="--shiki-dark:#96D0FF;--shiki-light:#032F62">}`</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">);</span></span>
+<span data-line=""><span style="--shiki-dark:#768390;--shiki-light:#6A737D">    // Real database query happens here with your credentials</span></span>
+<span data-line=""><span style="--shiki-dark:#F47067;--shiki-light:#D73A49">    return</span><span style="--shiki-dark:#F47067;--shiki-light:#D73A49"> new</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E"> ivm.</span><span style="--shiki-dark:#DCBDFB;--shiki-light:#6F42C1">ExternalCopy</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">({ rows: [{ id: </span><span style="--shiki-dark:#6CB6FF;--shiki-light:#005CC5">1</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">, name: </span><span style="--shiki-dark:#96D0FF;--shiki-light:#032F62">"Alice"</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E"> }], count: </span><span style="--shiki-dark:#6CB6FF;--shiki-light:#005CC5">1</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E"> }).</span><span style="--shiki-dark:#DCBDFB;--shiki-light:#6F42C1">copyInto</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">();</span></span>
+<span data-line=""><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">}</span></span>
+<span data-line=""> </span>
+<span data-line=""><span style="--shiki-dark:#F47067;--shiki-light:#D73A49">async</span><span style="--shiki-dark:#F47067;--shiki-light:#D73A49"> function</span><span style="--shiki-dark:#DCBDFB;--shiki-light:#6F42C1"> runWithDatabaseAccess</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">() {</span></span>
+<span data-line=""><span style="--shiki-dark:#F47067;--shiki-light:#D73A49">    const</span><span style="--shiki-dark:#6CB6FF;--shiki-light:#005CC5"> isolate</span><span style="--shiki-dark:#F47067;--shiki-light:#D73A49"> =</span><span style="--shiki-dark:#F47067;--shiki-light:#D73A49"> new</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E"> ivm.</span><span style="--shiki-dark:#DCBDFB;--shiki-light:#6F42C1">Isolate</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">({ memoryLimit: </span><span style="--shiki-dark:#6CB6FF;--shiki-light:#005CC5">128</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E"> });</span></span>
+<span data-line=""><span style="--shiki-dark:#F47067;--shiki-light:#D73A49">    const</span><span style="--shiki-dark:#6CB6FF;--shiki-light:#005CC5"> context</span><span style="--shiki-dark:#F47067;--shiki-light:#D73A49"> =</span><span style="--shiki-dark:#F47067;--shiki-light:#D73A49"> await</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E"> isolate.</span><span style="--shiki-dark:#DCBDFB;--shiki-light:#6F42C1">createContext</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">();</span></span>
+<span data-line=""><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">    </span></span>
+<span data-line=""><span style="--shiki-dark:#768390;--shiki-light:#6A737D">    // 1. Inject the secure query function</span></span>
+<span data-line=""><span style="--shiki-dark:#F47067;--shiki-light:#D73A49">    const</span><span style="--shiki-dark:#6CB6FF;--shiki-light:#005CC5"> queryRef</span><span style="--shiki-dark:#F47067;--shiki-light:#D73A49"> =</span><span style="--shiki-dark:#F47067;--shiki-light:#D73A49"> new</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E"> ivm.</span><span style="--shiki-dark:#DCBDFB;--shiki-light:#6F42C1">Reference</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">(secureDbQuery);</span></span>
+<span data-line=""><span style="--shiki-dark:#F47067;--shiki-light:#D73A49">    await</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E"> context.global.</span><span style="--shiki-dark:#DCBDFB;--shiki-light:#6F42C1">set</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">(</span><span style="--shiki-dark:#96D0FF;--shiki-light:#032F62">'_queryHost'</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">, queryRef);</span></span>
+<span data-line=""><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">    </span></span>
+<span data-line=""><span style="--shiki-dark:#768390;--shiki-light:#6A737D">    // 2. Create a simple wrapper inside the isolate</span></span>
+<span data-line=""><span style="--shiki-dark:#768390;--shiki-light:#6A737D">    // This hides the complex applySync API and makes the function easy to call</span></span>
+<span data-line=""><span style="--shiki-dark:#F47067;--shiki-light:#D73A49">    await</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E"> context.</span><span style="--shiki-dark:#DCBDFB;--shiki-light:#6F42C1">eval</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">(</span><span style="--shiki-dark:#96D0FF;--shiki-light:#032F62">`</span></span>
+<span data-line=""><span style="--shiki-dark:#96D0FF;--shiki-light:#032F62">        globalThis.db = {</span></span>
+<span data-line=""><span style="--shiki-dark:#96D0FF;--shiki-light:#032F62">            query: function(sql) {</span></span>
+<span data-line=""><span style="--shiki-dark:#96D0FF;--shiki-light:#032F62">                return _queryHost.applySync(undefined, [sql], { arguments: { copy: true } });</span></span>
+<span data-line=""><span style="--shiki-dark:#96D0FF;--shiki-light:#032F62">            }</span></span>
+<span data-line=""><span style="--shiki-dark:#96D0FF;--shiki-light:#032F62">        };</span></span>
+<span data-line=""><span style="--shiki-dark:#96D0FF;--shiki-light:#032F62">    `</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">);</span></span>
+<span data-line=""><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">    </span></span>
+<span data-line=""><span style="--shiki-dark:#768390;--shiki-light:#6A737D">    // 3. Run the untrusted code</span></span>
+<span data-line=""><span style="--shiki-dark:#F47067;--shiki-light:#D73A49">    const</span><span style="--shiki-dark:#6CB6FF;--shiki-light:#005CC5"> script</span><span style="--shiki-dark:#F47067;--shiki-light:#D73A49"> =</span><span style="--shiki-dark:#F47067;--shiki-light:#D73A49"> await</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E"> isolate.</span><span style="--shiki-dark:#DCBDFB;--shiki-light:#6F42C1">compileScript</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">(</span><span style="--shiki-dark:#96D0FF;--shiki-light:#032F62">`</span></span>
+<span data-line=""><span style="--shiki-dark:#96D0FF;--shiki-light:#032F62">        // This code can call db.query, but it NEVER sees your password</span></span>
+<span data-line=""><span style="--shiki-dark:#96D0FF;--shiki-light:#032F62">        const data = db.query("SELECT * FROM users WHERE active = true");</span></span>
+<span data-line=""><span style="--shiki-dark:#96D0FF;--shiki-light:#032F62">        'Found ' + data.count + ' active users.';</span></span>
+<span data-line=""><span style="--shiki-dark:#96D0FF;--shiki-light:#032F62">    `</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">);</span></span>
+<span data-line=""><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">    </span></span>
+<span data-line=""><span style="--shiki-dark:#F47067;--shiki-light:#D73A49">    const</span><span style="--shiki-dark:#6CB6FF;--shiki-light:#005CC5"> result</span><span style="--shiki-dark:#F47067;--shiki-light:#D73A49"> =</span><span style="--shiki-dark:#F47067;--shiki-light:#D73A49"> await</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E"> script.</span><span style="--shiki-dark:#DCBDFB;--shiki-light:#6F42C1">run</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">(context, { timeout: </span><span style="--shiki-dark:#6CB6FF;--shiki-light:#005CC5">1000</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E"> });</span></span>
+<span data-line=""><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">    console.</span><span style="--shiki-dark:#DCBDFB;--shiki-light:#6F42C1">log</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">(</span><span style="--shiki-dark:#96D0FF;--shiki-light:#032F62">'📤 Result returned to caller:'</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">, result);</span></span>
+<span data-line=""><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">    </span></span>
+<span data-line=""><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">    isolate.</span><span style="--shiki-dark:#DCBDFB;--shiki-light:#6F42C1">dispose</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">();</span></span>
+<span data-line=""><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">}</span></span>
+<span data-line=""> </span>
+<span data-line=""><span style="--shiki-dark:#768390;--shiki-light:#6A737D">// Call the function</span></span>
+<span data-line=""><span style="--shiki-dark:#DCBDFB;--shiki-light:#6F42C1">runWithDatabaseAccess</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">();</span></span>
+<span data-line=""> </span>
+<span data-line=""><span style="--shiki-dark:#768390;--shiki-light:#6A737D">/*</span></span>
+<span data-line=""><span style="--shiki-dark:#768390;--shiki-light:#6A737D">Output:</span></span>
+<span data-line=""><span style="--shiki-dark:#768390;--shiki-light:#6A737D">[🔐 Vault] Running query with password: SELECT * FROM users WHERE active = true</span></span>
+<span data-line=""><span style="--shiki-dark:#768390;--shiki-light:#6A737D">📤 Result returned to caller: Found 1 active users.</span></span>
+<span data-line=""><span style="--shiki-dark:#768390;--shiki-light:#6A737D">*/</span></span><button type="button" title="Copy code" aria-label="Copy code" data="const ivm = require(&#x27;isolated-vm&#x27;);
+
+// --- HOST PROCESS (SECURE) ---
+// This function runs on the secure host - secrets are protected here
+function secureDbQuery(sql) {
+    const MY_DB_PASSWORD = &#x27;super-secret-password-123&#x27;;
+    console.log(&#x60;[🔐 Vault] Running query with password: ${sql}&#x60;);
+    // Real database query happens here with your credentials
+    return new ivm.ExternalCopy({ rows: [{ id: 1, name: &#x22;Alice&#x22; }], count: 1 }).copyInto();
+}
+
+async function runWithDatabaseAccess() {
+    const isolate = new ivm.Isolate({ memoryLimit: 128 });
+    const context = await isolate.createContext();
+    
+    // 1. Inject the secure query function
+    const queryRef = new ivm.Reference(secureDbQuery);
+    await context.global.set(&#x27;_queryHost&#x27;, queryRef);
+    
+    // 2. Create a simple wrapper inside the isolate
+    // This hides the complex applySync API and makes the function easy to call
+    await context.eval(&#x60;
+        globalThis.db = {
+            query: function(sql) {
+                return _queryHost.applySync(undefined, [sql], { arguments: { copy: true } });
+            }
+        };
+    &#x60;);
+    
+    // 3. Run the untrusted code
+    const script = await isolate.compileScript(&#x60;
+        // This code can call db.query, but it NEVER sees your password
+        const data = db.query(&#x22;SELECT * FROM users WHERE active = true&#x22;);
+        &#x27;Found &#x27; + data.count + &#x27; active users.&#x27;;
+    &#x60;);
+    
+    const result = await script.run(context, { timeout: 1000 });
+    console.log(&#x27;📤 Result returned to caller:&#x27;, result);
+    
+    isolate.dispose();
+}
+
+// Call the function
+runWithDatabaseAccess();
+
+/*
+Output:
+[🔐 Vault] Running query with password: SELECT * FROM users WHERE active = true
+📤 Result returned to caller: Found 1 active users.
+*/" class="rehype-pretty-copy" onclick="navigator.clipboard.writeText(this.attributes.data.value);this.classList.add(&#x27;rehype-pretty-copied&#x27;);window.setTimeout(() => this.classList.remove(&#x27;rehype-pretty-copied&#x27;), 2000);"><span class="ready"></span><span class="success"></span></button><style>:root {--copy-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath fill='%23adadad' d='M16.187 9.5H12.25a1.75 1.75 0 0 0-1.75 1.75v28.5c0 .967.784 1.75 1.75 1.75h23.5a1.75 1.75 0 0 0 1.75-1.75v-28.5a1.75 1.75 0 0 0-1.75-1.75h-3.937a4.25 4.25 0 0 1-4.063 3h-7.5a4.25 4.25 0 0 1-4.063-3M31.813 7h3.937A4.25 4.25 0 0 1 40 11.25v28.5A4.25 4.25 0 0 1 35.75 44h-23.5A4.25 4.25 0 0 1 8 39.75v-28.5A4.25 4.25 0 0 1 12.25 7h3.937a4.25 4.25 0 0 1 4.063-3h7.5a4.25 4.25 0 0 1 4.063 3M18.5 8.25c0 .966.784 1.75 1.75 1.75h7.5a1.75 1.75 0 1 0 0-3.5h-7.5a1.75 1.75 0 0 0-1.75 1.75'/%3E%3C/svg%3E");--success-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%2366ff85' d='M9 16.17L5.53 12.7a.996.996 0 1 0-1.41 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71a.996.996 0 1 0-1.41-1.41z'/%3E%3C/svg%3E");}pre:has(code) {position: relative;}pre button.rehype-pretty-copy {right: 1px;padding: 0;width: 24px;height: 24px;display: flex;margin-top: 2px;margin-right: 8px;position: absolute;border-radius: 25%;backdrop-filter: blur(3px);& span {width: 100%;aspect-ratio: 1 / 1;}& .ready {background-image: var(--copy-icon);}& .success {display: none; background-image: var(--success-icon);}}&.rehype-pretty-copied {& .success {display: block;} & .ready {display: none;}}pre button.rehype-pretty-copy.rehype-pretty-copied {opacity: 1;& .ready { display: none; }& .success { display: block; }}pre button.rehype-pretty-copy { opacity: 0; }figure[data-rehype-pretty-code-figure]:hover > pre > code button.rehype-pretty-copy {opacity: 1;}</style></code></pre></figure>
+<p><strong>The Magic:</strong></p>
+<ul>
+<li>The untrusted code called <code>db.query()</code> ✅</li>
+<li>Your database password was <strong>never</strong> exposed to the isolate ✅</li>
+<li>The actual query ran in your secure Node.js process ✅</li>
+<li>Only the result was passed back ✅</li>
+</ul>
+<p>This is the <strong>Authenticated Object Pattern</strong> - the foundation of secure sandboxing.</p>
+<hr>
+<h2>🛡️ Security Rules: What to NEVER Expose</h2>
+<p>The security of this model depends entirely on what you <em>don't</em> inject. Never expose:</p>
+<ul>
+<li>🚫 <code>process</code> - No access to <code>env</code> or <code>exit</code></li>
+<li>🚫 <code>fs</code> - No file system access</li>
+<li>🚫 <code>net</code>, <code>http</code> - No raw network access (always proxy it)</li>
+<li>🚫 <code>eval</code>, <code>new Function</code> - No dynamic code generation</li>
+<li>🚫 <code>require</code> - No importing arbitrary modules</li>
+</ul>
+<p>Only expose controlled, purpose-built functions through the bridge.</p>
+<h2>🎯 Summary: The Three Key Concepts</h2>
+<ol>
+<li><strong>V8 is the engine</strong> that compiles JavaScript into fast machine code</li>
+<li><strong>V8 Isolates are sealed rooms</strong> - independent instances with their own memory and zero cross-contamination</li>
+<li><strong>The Authenticated Object Pattern</strong> lets you give isolates controlled capabilities without exposing secrets</li>
+</ol>
+<p>This combination gives you:</p>
+<ul>
+<li>⚡ <strong>Speed:</strong> Sub-5ms startup (vs. 5+ seconds for containers)</li>
+<li>🔒 <strong>Security:</strong> True memory isolation</li>
+<li>🎛️ <strong>Control:</strong> You decide exactly what the code can access</li>
+</ul>
+<h2>🚀 What's Next: Real-World Applications</h2>
+<p>V8 Isolates are not just theoretical - they're the foundation of:</p>
+<ul>
+<li><strong>Cloudflare Workers</strong> (running millions of functions at the edge)</li>
+<li><strong>Deno Deploy</strong> (secure TypeScript execution)</li>
+<li><strong>Browser extensions</strong> (isolated plugin environments)</li>
+<li><strong>Serverless platforms</strong> (fast, secure function execution)</li>
+</ul>
+<p>In <strong>Part 2 of this series</strong>, we'll explore how modern platforms use this exact architecture to run untrusted code at massive scale. We'll dive into advanced patterns like the "Code Mode" approach, where systems can execute dynamically generated code inside these secure sandboxes - including how AI agents can safely run their own code without exposing your infrastructure.</p>
+<p>Now that you understand the fundamentals of V8 Isolates, you're ready to explore how they're revolutionizing everything from edge computing to AI agent architectures.</p>a:[["$","$L15",null,{"slug":"v8-isolates-explainer-p1"}],["$","$L16",null,{}],["$","article",null,{"className":"mx-auto flex w-full max-w-3xl flex-col gap-10 px-6 pt-12 pb-28","children":[["$","nav",null,{"aria-label":"Breadcrumb","children":["$","ol",null,{"className":"flex flex-wrap items-center gap-1 text-sm text-muted-foreground","children":[["$","li","/",{"className":"flex items-center gap-1","children":[["$","$L17",null,{"href":"/","className":"hover:text-accent","children":"Home"}],["$","span",null,{"aria-hidden":true,"children":"/"}]]}],["$","li","/#posts",{"className":"flex items-center gap-1","children":[["$","$L17",null,{"href":{"pathname":"/","hash":"posts"},"className":"hover:text-accent","children":"Posts"}],["$","span",null,{"aria-hidden":true,"children":"/"}]]}],["$","li","/posts/v8-isolates-explainer-p1",{"className":"flex items-center gap-1","children":[["$","$L17",null,{"href":"/posts/v8-isolates-explainer-p1","className":"hover:text-accent","children":"Deep Dive into V8 and V8 Isolates: The Engine and the Sandbox (Part 1)"}],null]}]]}]}],["$","header",null,{"className":"space-y-4","children":[["$","p",null,{"className":"text-xs uppercase tracking-[0.3em] text-accent","children":"Article"}],["$","h1",null,{"className":"text-3xl font-semibold leading-tight sm:text-4xl","children":"Deep Dive into V8 and V8 Isolates: The Engine and the Sandbox (Part 1)"}],["$","div",null,{"className":"flex flex-wrap items-center gap-3 text-sm text-muted-foreground","children":[["$","time",null,{"dateTime":"2025-11-18T00:00:00.000Z","children":"Nov 18, 2025"}],["$","span",null,{"aria-hidden":true,"children":"•"}],["$","span",null,{"children":"10 min read"}],["$","span",null,{"aria-hidden":true,"children":"•"}],["$","$L17",null,{"href":"/about","className":"font-medium text-foreground transition-colors hover:text-accent","children":"Vinay Punera"}],null]}],["$","div",null,{"className":"flex flex-wrap gap-2","children":[["$","span","v8",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"v8"}],["$","span","v8-isolate",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"v8-isolate"}],["$","span","javascript",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"javascript"}],["$","span","nodejs",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"nodejs"}],["$","span","sandboxing",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"sandboxing"}],["$","span","isolated-vm",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"isolated-vm"}],["$","span","concurrency",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"concurrency"}],["$","span","memory-isolation",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"memory-isolation"}]]}]]}],["$","$L18",null,{"postTitle":"Deep Dive into V8 and V8 Isolates: The Engine and the Sandbox (Part 1)","postSlug":"v8-isolates-explainer-p1","audio":{"src":"/audio/v8-isolates-explainer-p1.m4a","title":"V8 Isolates Explained","duration":"04:55","mimeType":"audio/mp4"}}],["$","$L19",null,{}],["$","div",null,{"className":"overflow-hidden rounded-3xl border border-border bg-muted","children":["$","$L1a",null,{"src":"/illustrations/v8-isolate-architecture.svg","alt":"An illustration of a main computing structure acting as a host, with several interior rooms that are clearly labeled as 'Isolates' and sealed off from each other, symbolizing concurrent execution with strong separation.","width":1200,"height":630,"sizes":"(max-width: 768px) 100vw, 768px","className":"h-auto w-full object-cover","priority":true,"placeholder":"$undefined","blurDataURL":"$undefined"}]}],["$","div",null,{"className":"prose prose-neutral dark:prose-invert max-w-none","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$1b"}}]}],"$L1c"]}]]
+1d:I[6023,["2201","static/chunks/2201-6f6797369dbd70e4.js","1356","static/chunks/1356-1fb83b63ccda55b7.js","8005","static/chunks/8005-36f473f8046dae16.js","5858","static/chunks/app/posts/%5Bslug%5D/page-9925e7bd02be95a8.js"],"ShareButtons"]
+1c:["$","footer",null,{"className":"flex flex-col gap-6 border-t border-border pt-6","children":[["$","$L1d",null,{"slug":"v8-isolates-explainer-p1","title":"Deep Dive into V8 and V8 Isolates: The Engine and the Sandbox (Part 1)"}],["$","p",null,{"className":"text-sm text-muted-foreground","children":"Enjoyed this read? Share it with your network, or reach out via the about page for collaboration or to just say hi."}],["$","div",null,{"className":"flex flex-col gap-4 border-t border-border pt-6","children":[["$","p",null,{"className":"text-xs uppercase tracking-[0.3em] text-muted-foreground","children":"Keep reading"}],["$","nav",null,{"className":"flex flex-col items-stretch gap-3 sm:flex-row sm:items-center sm:justify-between","children":[["$","div",null,{"className":"hidden flex-1 sm:block"}],["$","$L17",null,{"href":"/posts/ai-search-evolution","className":"group inline-flex flex-1 items-center justify-end gap-2 rounded-full border border-border px-4 py-2 text-sm transition hover:border-accent hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent sm:justify-end","children":[["$","span",null,{"className":"flex flex-col text-right","children":[["$","span",null,{"className":"text-[11px] uppercase tracking-widest text-muted-foreground","children":"Next"}],["$","span",null,{"className":"font-medium text-foreground group-hover:text-accent","children":"Beyond the Keyword: How AI Taught Search to Understand You"}]]}],["$","span",null,{"aria-hidden":true,"children":"→"}]]}]]}]]}]]}]
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+c:null
+1e:I[80622,[],"IconMark"]
+e:{"metadata":[["$","title","0",{"children":"Deep Dive into V8 and V8 Isolates: The Engine and the Sandbox (Part 1)"}],["$","meta","1",{"name":"description","content":"V8 Isolates are the lightweight, secure containers that power modern JavaScript execution in Chrome and Node.js. This first part explains the V8 engine, the concept of memory isolation, and how to build a basic secure sandbox using the isolated-vm library in Node.js."}],["$","meta","2",{"property":"og:title","content":"Deep Dive into V8 and V8 Isolates: The Engine and the Sandbox (Part 1)"}],["$","meta","3",{"property":"og:description","content":"V8 Isolates are the lightweight, secure containers that power modern JavaScript execution in Chrome and Node.js. This first part explains the V8 engine, the concept of memory isolation, and how to build a basic secure sandbox using the isolated-vm library in Node.js."}],["$","meta","4",{"property":"og:image","content":"https://vinay.stealthbit.in/illustrations/v8-isolate-architecture.svg"}],["$","meta","5",{"property":"og:image:width","content":"1200"}],["$","meta","6",{"property":"og:image:height","content":"630"}],["$","meta","7",{"property":"og:image:alt","content":"An illustration of a main computing structure acting as a host, with several interior rooms that are clearly labeled as 'Isolates' and sealed off from each other, symbolizing concurrent execution with strong separation."}],["$","meta","8",{"property":"og:type","content":"article"}],["$","meta","9",{"property":"article:published_time","content":"2025-11-18T00:00:00.000Z"}],["$","meta","10",{"property":"article:tag","content":"v8"}],["$","meta","11",{"property":"article:tag","content":"v8-isolate"}],["$","meta","12",{"property":"article:tag","content":"javascript"}],["$","meta","13",{"property":"article:tag","content":"nodejs"}],["$","meta","14",{"property":"article:tag","content":"sandboxing"}],["$","meta","15",{"property":"article:tag","content":"isolated-vm"}],["$","meta","16",{"property":"article:tag","content":"concurrency"}],["$","meta","17",{"property":"article:tag","content":"memory-isolation"}],["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","19",{"name":"twitter:title","content":"Deep Dive into V8 and V8 Isolates: The Engine and the Sandbox (Part 1)"}],["$","meta","20",{"name":"twitter:description","content":"V8 Isolates are the lightweight, secure containers that power modern JavaScript execution in Chrome and Node.js. This first part explains the V8 engine, the concept of memory isolation, and how to build a basic secure sandbox using the isolated-vm library in Node.js."}],["$","meta","21",{"name":"twitter:image","content":"https://vinay.stealthbit.in/illustrations/v8-isolate-architecture.svg"}],["$","link","22",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}],["$","link","23",{"rel":"icon","href":"/icon.svg?b0cfa693b1818954","type":"image/svg+xml","sizes":"any"}],["$","$L1e","24",{}]],"error":null,"digest":"$undefined"}
+13:"$e:metadata"
