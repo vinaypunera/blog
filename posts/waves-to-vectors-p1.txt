@@ -1,0 +1,413 @@
+1:"$Sreact.fragment"
+2:I[51458,["2201","static/chunks/2201-6f6797369dbd70e4.js","8537","static/chunks/8537-401cf79acecfff54.js","7394","static/chunks/7394-6015a1eac3455248.js","9227","static/chunks/9227-702d20ddd5580687.js","7177","static/chunks/app/layout-5abbe08916af3e92.js"],"ThemeProvider"]
+3:I[21887,["2201","static/chunks/2201-6f6797369dbd70e4.js","8537","static/chunks/8537-401cf79acecfff54.js","7394","static/chunks/7394-6015a1eac3455248.js","9227","static/chunks/9227-702d20ddd5580687.js","7177","static/chunks/app/layout-5abbe08916af3e92.js"],""]
+4:I[79081,["2201","static/chunks/2201-6f6797369dbd70e4.js","8537","static/chunks/8537-401cf79acecfff54.js","7394","static/chunks/7394-6015a1eac3455248.js","9227","static/chunks/9227-702d20ddd5580687.js","7177","static/chunks/app/layout-5abbe08916af3e92.js"],"GlobalAudioProvider"]
+5:I[80989,["2201","static/chunks/2201-6f6797369dbd70e4.js","8537","static/chunks/8537-401cf79acecfff54.js","7394","static/chunks/7394-6015a1eac3455248.js","9227","static/chunks/9227-702d20ddd5580687.js","7177","static/chunks/app/layout-5abbe08916af3e92.js"],"SearchSheetProvider"]
+6:I[33572,["2201","static/chunks/2201-6f6797369dbd70e4.js","8537","static/chunks/8537-401cf79acecfff54.js","7394","static/chunks/7394-6015a1eac3455248.js","9227","static/chunks/9227-702d20ddd5580687.js","7177","static/chunks/app/layout-5abbe08916af3e92.js"],"FloatingAudioProvider"]
+7:I[87435,["2201","static/chunks/2201-6f6797369dbd70e4.js","8537","static/chunks/8537-401cf79acecfff54.js","7394","static/chunks/7394-6015a1eac3455248.js","9227","static/chunks/9227-702d20ddd5580687.js","7177","static/chunks/app/layout-5abbe08916af3e92.js"],"FloatingNav"]
+8:I[9766,[],""]
+9:I[98924,[],""]
+b:I[24431,[],"OutletBoundary"]
+d:I[15278,[],"AsyncMetadataOutlet"]
+f:I[24431,[],"ViewportBoundary"]
+11:I[24431,[],"MetadataBoundary"]
+12:"$Sreact.suspense"
+14:I[57150,[],""]
+:HL["/_next/static/media/4cf2300e9c8272f7-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/15ff950965ac935a.css","style"]
+0:{"P":null,"b":"IkZUDQEwMnrXIQxr3RMHp","p":"","c":["","posts","waves-to-vectors-p1"],"i":false,"f":[[["",{"children":["posts",{"children":[["slug","waves-to-vectors-p1","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/15ff950965ac935a.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"className":"__variable_188709 __variable_9a8899 min-h-screen bg-background font-sans text-foreground","children":["$","$L2",null,{"children":[["$","$L3",null,{"color":"hsl(var(--accent))","height":3,"showSpinner":false}],["$","$L4",null,{"children":["$","$L5",null,{"children":["$","$L6",null,{"children":[["$","$L7",null,{}],["$","div",null,{"className":"flex min-h-screen flex-col","children":["$","main",null,{"className":"flex-1","children":["$","$L8",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}]}]}]]}]}]}]]}],{"children":["posts",["$","$1","c",{"children":[null,["$","$L8",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","waves-to-vectors-p1","d"],["$","$1","c",{"children":[null,["$","$L8",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$La",null,["$","$Lb",null,{"children":["$Lc",["$","$Ld",null,{"promise":"$@e"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lf",null,{"children":"$L10"}],["$","meta",null,{"name":"next-size-adjust","content":""}]],["$","$L11",null,{"children":["$","div",null,{"hidden":true,"children":["$","$12",null,{"fallback":null,"children":"$L13"}]}]}]]}],false]],"m":"$undefined","G":["$14",[]],"s":false,"S":true}
+15:I[19558,["2201","static/chunks/2201-6f6797369dbd70e4.js","1356","static/chunks/1356-1fb83b63ccda55b7.js","8537","static/chunks/8537-401cf79acecfff54.js","5858","static/chunks/app/posts/%5Bslug%5D/page-16bd337e30c17cd7.js"],"MarkPostRead"]
+16:I[7553,["2201","static/chunks/2201-6f6797369dbd70e4.js","1356","static/chunks/1356-1fb83b63ccda55b7.js","8537","static/chunks/8537-401cf79acecfff54.js","5858","static/chunks/app/posts/%5Bslug%5D/page-16bd337e30c17cd7.js"],"ReadingProgress"]
+17:I[52619,["2201","static/chunks/2201-6f6797369dbd70e4.js","1356","static/chunks/1356-1fb83b63ccda55b7.js","8537","static/chunks/8537-401cf79acecfff54.js","5858","static/chunks/app/posts/%5Bslug%5D/page-16bd337e30c17cd7.js"],""]
+18:I[66078,["2201","static/chunks/2201-6f6797369dbd70e4.js","1356","static/chunks/1356-1fb83b63ccda55b7.js","8537","static/chunks/8537-401cf79acecfff54.js","5858","static/chunks/app/posts/%5Bslug%5D/page-16bd337e30c17cd7.js"],"PostAudioPlayer"]
+19:I[24121,["2201","static/chunks/2201-6f6797369dbd70e4.js","1356","static/chunks/1356-1fb83b63ccda55b7.js","8537","static/chunks/8537-401cf79acecfff54.js","5858","static/chunks/app/posts/%5Bslug%5D/page-16bd337e30c17cd7.js"],"MermaidDiagrams"]
+1a:I[57990,["2201","static/chunks/2201-6f6797369dbd70e4.js","1356","static/chunks/1356-1fb83b63ccda55b7.js","8537","static/chunks/8537-401cf79acecfff54.js","5858","static/chunks/app/posts/%5Bslug%5D/page-16bd337e30c17cd7.js"],"ImageLightbox"]
+1b:I[81356,["2201","static/chunks/2201-6f6797369dbd70e4.js","1356","static/chunks/1356-1fb83b63ccda55b7.js","8537","static/chunks/8537-401cf79acecfff54.js","5858","static/chunks/app/posts/%5Bslug%5D/page-16bd337e30c17cd7.js"],"Image"]
+1c:T5a05,<h1>From Waves to Vectors: The Engineer's Guide to Audio for AI</h1>
+<p>As software engineers, we are comfortable with discrete data: strings, integers, JSON objects. We like our data deterministic and finite.</p>
+<p><strong>Audio is none of those things.</strong></p>
+<p>Audio is continuous, chaotic, and physically bound by time. Before we can feed audio into any AI model, we need to understand what sound actually <em>is</em> - how it behaves in the physical world, and how engineers have learned to capture, digitize, and transform it.</p>
+<p>In this deep dive (Part 1 of our Speech AI series), we will strip away the academic jargon of signal processing and look at audio through the lens of <strong>Data Engineering</strong>. We will trace the transformation of a spoken word from air pressure variations into the 2D "image" that AI models can consume.</p>
+<hr>
+<h2>🌊 The Physics of Sound: What Are We Actually Capturing?</h2>
+<p>Before we touch any code, let's understand the physical phenomenon we're dealing with. Sound is not magic - it's mechanical.</p>
+<h3>How Sound Travels</h3>
+<p>When you speak, your vocal cords vibrate. These vibrations push against air molecules, creating a chain reaction of compressions and rarefactions (areas of high and low pressure) that propagate outward like ripples in a pond.</p>
+<p><img src="/diagrams/audio-waveform-physical.svg" alt="Sound waves traveling from a speaker through air to the human ear">
+<em>Figure 1: Sound as a physical phenomenon - pressure waves traveling through air from source to receiver. [Source: Wikimedia Commons][1]</em></p>
+<p>This is a <strong>longitudinal wave</strong> - the air molecules don't travel from your mouth to someone's ear; they oscillate back and forth, passing energy along. Think of it like a stadium wave: people don't run across the stadium, they just stand and sit in sequence.</p>
+<h3>The Two Dimensions of Sound</h3>
+<p>Sound consists of pressure waves moving through the air. To digitize this, we measure two fundamental properties:</p>
+<p><strong>1. Amplitude (The Y-Axis): Loudness</strong></p>
+<p>Amplitude measures how much the air pressure changes from its resting state.</p>
+<ul>
+<li><em>Physical Reality:</em> Large pressure changes = molecules pushed harder = louder sound</li>
+<li><em>Measurement:</em> Typically measured in <strong>decibels (dB)</strong>, a logarithmic scale</li>
+<li><em>In Code:</em> It's the value of your float (e.g., 0.0 is silence, 1.0/-1.0 is maximum volume)</li>
+<li><em>Fun Fact:</em> A whisper is ~30 dB, conversation is ~60 dB, a rock concert is ~110 dB. Because dB is logarithmic, every 10 dB increase sounds roughly twice as loud.</li>
+</ul>
+<p><strong>2. Frequency (The X-Axis Pattern): Pitch</strong></p>
+<p>Frequency measures how fast the pressure oscillates.</p>
+<ul>
+<li><em>Physical Reality:</em> Fast vibrations = high pitch (think violin), slow vibrations = low pitch (think bass drum)</li>
+<li><em>Unit:</em> <strong>Hertz (Hz)</strong> = cycles per second</li>
+<li><em>Human Range:</em> We hear approximately 20 Hz to 20,000 Hz</li>
+<li><em>Speech Range:</em> Human voice fundamental frequencies typically fall between 85 Hz (deep male voice) and 300 Hz (high female voice), with harmonics extending higher</li>
+</ul>
+<figure class="mermaid-diagram"><img src="/diagrams/waves-to-vectors-p1-diagram-1.svg" alt="Diagram 1"></figure>
+<h3>Complex Sounds: Why Instruments Sound Different</h3>
+<p>Real sounds aren't simple waves. When you pluck a guitar string, you don't just get one frequency - you get the main note (called the <strong>fundamental</strong>) plus a bunch of quieter "echo" frequencies called <strong>harmonics</strong>.</p>
+<p>This is why a piano and a guitar playing the same note sound different. They share the same main note, but their mix of harmonics is different. This unique "fingerprint" is called <strong>timbre</strong> (pronounced "TAM-ber").</p>
+<p>Human speech is incredibly complex - each vowel sound is a unique mix of frequencies, and consonants add bursts of noise and rapid changes.</p>
+<hr>
+<h2>🎚️ Capturing the Continuous: Sampling Rate &#x26; Bit Depth</h2>
+<p>Here's the fundamental challenge: computers can only store discrete values, but sound waves are continuous. How do we bridge this gap?</p>
+<p>The answer is <strong>sampling</strong> - we take regular "snapshots" of the sound wave.</p>
+<h3>Sampling Rate: The "Frame Rate" of Audio</h3>
+<p>Just like video has Frame Rate (30 fps or 60 fps), audio has <strong>Sampling Rate</strong>. It defines how many times per second the computer measures the sound pressure.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Format</th><th>Sampling Rate</th><th>Use Case</th></tr></thead><tbody><tr><td>Telephone</td><td>8,000 Hz</td><td>Voice only, bandwidth limited</td></tr><tr><td><strong>Speech AI</strong></td><td><strong>16,000 Hz</strong></td><td>Speech recognition, optimal for voice</td></tr><tr><td>CD Quality</td><td>44,100 Hz</td><td>Music, full frequency range</td></tr><tr><td>Professional</td><td>96,000+ Hz</td><td>Studio recording, archival</td></tr></tbody></table>
+<p><strong>The Nyquist-Shannon Theorem: Why These Numbers?</strong></p>
+<p>This is one of the most important theorems in signal processing. It states:</p>
+<blockquote>
+<p>To perfectly reconstruct a continuous signal, you must sample at <strong>at least twice</strong> the highest frequency present.</p>
+</blockquote>
+<p>This minimum rate is called the <strong>Nyquist rate</strong>.</p>
+<p>Let's do the math:</p>
+<ul>
+<li>Human speech rarely goes above ~8,000 Hz</li>
+<li>So we need: 8,000 × 2 = <strong>16,000 Hz</strong></li>
+</ul>
+<p>This is why speech AI systems typically use <strong>16 kHz</strong> - it captures everything meaningful in speech without wasting storage on inaudible frequencies.</p>
+<p><strong>What Happens If You Sample Too Slowly?</strong></p>
+<p>You get <strong>aliasing</strong> - high frequencies "fold back" and appear as phantom low frequencies. It's like when helicopter blades appear to spin backwards in video. The continuous signal is misrepresented in the digital domain.</p>
+<h3>Bit Depth: The Precision of Each Sample</h3>
+<p>If Sampling Rate is <em>how often</em> we measure, <strong>Bit Depth</strong> is <em>how precisely</em> we measure each sample.</p>
+<ul>
+<li><strong>8-bit:</strong> 256 possible values (think 8-bit video game audio - grainy, lo-fi)</li>
+<li><strong>16-bit:</strong> 65,536 possible values (CD quality)</li>
+<li><strong>24-bit:</strong> 16.7 million possible values (professional audio)</li>
+<li><strong>32-bit float:</strong> Virtually unlimited dynamic range (AI/processing standard)</li>
+</ul>
+<p><strong>Why 32-bit Float for AI?</strong></p>
+<p>When processing audio, we perform many mathematical operations. Each operation can introduce tiny rounding errors. With 32-bit floating point:</p>
+<ul>
+<li>We avoid clipping during amplification</li>
+<li>We maintain precision through long processing chains</li>
+<li>We can easily normalize values between -1.0 and 1.0</li>
+</ul>
+<figure class="mermaid-diagram"><img src="/diagrams/waves-to-vectors-p1-diagram-2.svg" alt="Diagram 2"></figure>
+<h3>The Numbers Game</h3>
+<p>Let's calculate how much raw data we're dealing with:</p>
+<p><strong>1 second of 16kHz, 32-bit audio:</strong></p>
+<ul>
+<li>16,000 samples × 4 bytes = 64,000 bytes = <strong>64 KB</strong></li>
+</ul>
+<p><strong>30 seconds (typical AI processing chunk):</strong></p>
+<ul>
+<li>64 KB × 30 = <strong>~2 MB</strong></li>
+</ul>
+<p>That's nearly 2 MB of raw data for just 30 seconds of audio. And this is <em>after</em> we've reduced it from CD quality! This is why the transformations we'll discuss next are so crucial - they compress this data while preserving the important information.</p>
+<hr>
+<h2>🔬 From Time to Frequency: The Fourier Transform</h2>
+<p>Here's the fundamental problem: <strong>raw audio waveforms are terrible for pattern recognition</strong>.</p>
+<p>If you look at the raw waveform of the word "Hello," it just looks like a jagged squiggle. It's nearly impossible to visually distinguish from "Yellow" or even "Jello."</p>
+<p>Why? Because we're looking at the wrong dimension.</p>
+<h3>The Key Insight: Decomposition</h3>
+<p>Any complex wave - no matter how chaotic - can be broken down into a sum of simple sine waves at different frequencies. This isn't an approximation; it's a mathematical fact.</p>
+<p>This is like saying: any color can be broken into amounts of Red, Green, and Blue. The complex thing is just a combination of simple components.</p>
+<h3>The Fourier Transform: A Mathematical Prism</h3>
+<p>The <strong>Fourier Transform</strong> is the algorithm that performs this decomposition. Think of it as a glass prism:</p>
+<ul>
+<li><strong>Input:</strong> White light (the messy, complex audio wave)</li>
+<li><strong>Action:</strong> The prism separates the components</li>
+<li><strong>Output:</strong> A rainbow (the individual frequencies and their strengths)</li>
+</ul>
+<p>You don't need to understand the math behind it. The intuition is what matters:</p>
+<blockquote>
+<p>The Fourier Transform asks: "For each possible frequency, how much of that frequency is present in my signal?"</p>
+</blockquote>
+<p>It's like having a music equalizer that shows you exactly how much bass, mids, and treble are in a song - except way more detailed.</p>
+<h3>The Fast Fourier Transform (FFT)</h3>
+<p>The basic version of this algorithm is slow - too slow for real-time audio with millions of samples.</p>
+<p>In 1965, researchers Cooley and Tukey published a clever shortcut called the <strong>Fast Fourier Transform (FFT)</strong>. It does the same thing but <em>way</em> faster - fast enough for real-time audio processing.</p>
+<p>The FFT is one of the most important algorithms in computing. It's used everywhere: MP3 compression, medical imaging, radio communications, earthquake analysis, and of course, speech AI.</p>
+<h3>The Time-Frequency Trade-off</h3>
+<p>There's a catch: the standard FFT gives you frequencies, but loses time information. You get one "rainbow" for your entire audio clip.</p>
+<p>For a single piano note, that's fine. But speech constantly changes - a vowel now, a consonant later, silence, then another word. We need to know <em>when</em> each frequency occurs.</p>
+<p>This leads us to the next transformation...</p>
+<hr>
+<h2>⏱️ The STFT: Capturing How Sound Changes Over Time</h2>
+<p>The solution to the time-frequency trade-off is elegantly simple: instead of analyzing the whole signal at once, analyze it in small chunks.</p>
+<p>This is the <strong>Short-Time Fourier Transform (STFT)</strong>.</p>
+<h3>The Windowing Process</h3>
+<p>Here's how it works:</p>
+<ol>
+<li><strong>Define a Window:</strong> Choose a short time segment (typically 20-25 milliseconds)</li>
+<li><strong>Apply FFT:</strong> Compute the frequency content of just that window</li>
+<li><strong>Slide the Window:</strong> Move forward by a small amount (the "hop length," typically 10ms)</li>
+<li><strong>Repeat:</strong> Keep sliding and computing until you've covered the entire audio</li>
+</ol>
+<figure class="mermaid-diagram"><img src="/diagrams/waves-to-vectors-p1-diagram-3.svg" alt="Diagram 3"></figure>
+<h3>Smoothing the Edges</h3>
+<p>There's one trick we need: if you just chop audio into chunks, the sharp edges create fake noise in our analysis.</p>
+<p>The fix is simple - we "fade in" and "fade out" each chunk smoothly before analyzing it. This is called applying a <strong>window function</strong>. Different window shapes have different trade-offs, but they all solve the same problem.</p>
+<h3>Typical Settings for Speech</h3>
+<p>For speech processing, we typically use:</p>
+<ul>
+<li><strong>Window Size:</strong> 25 milliseconds (just enough to catch one "cycle" of a voice)</li>
+<li><strong>Hop Length:</strong> 10 milliseconds (windows overlap for smooth transitions)</li>
+</ul>
+<p>Why 25ms? That's roughly how long your brain needs to identify a pitch. Shorter windows blur the frequencies; longer windows blur the timing. It's a balance.</p>
+<hr>
+<h2>📊 Visualizing Sound: The Spectrogram</h2>
+<p>If we take all those frequency spectra from the STFT and arrange them side-by-side, we create one of the most powerful visualizations in audio processing: the <strong>Spectrogram</strong>.</p>
+<p><img src="/diagrams/speech-spectrogram.png" alt="Spectrogram of the spoken words &#x22;nineteenth century&#x22; showing frequency over time">
+<em>Figure 2: A spectrogram of the spoken words "nineteenth century". X-axis shows time, Y-axis shows frequency, and color intensity represents loudness. [Source: Wikipedia][2]</em></p>
+<h3>Anatomy of a Spectrogram</h3>
+<ul>
+<li><strong>X-Axis:</strong> Time (left to right)</li>
+<li><strong>Y-Axis:</strong> Frequency (low at bottom, high at top)</li>
+<li><strong>Color/Brightness:</strong> Amplitude (louder = brighter/warmer colors)</li>
+</ul>
+<h3>Reading a Spectrogram</h3>
+<p>Once you know what to look for, spectrograms become surprisingly readable:</p>
+<ul>
+<li><strong>Vowels</strong> show up as horizontal bands (like stripes)</li>
+<li><strong>Hard consonants</strong> ("p", "t", "k") show up as vertical bursts</li>
+<li><strong>Hissing sounds</strong> ("s", "sh", "f") show up as fuzzy noise patterns</li>
+<li><strong>Silence</strong> shows up as dark gaps</li>
+</ul>
+<h3>The Crucial Insight for AI</h3>
+<p>Once we have a spectrogram, speech recognition stops being an "Audio Problem" and becomes a <strong>Computer Vision Problem</strong>.</p>
+<p>The spectrogram is literally a 2D image. We can apply all the techniques that work for image recognition:</p>
+<ul>
+<li>Convolutional Neural Networks</li>
+<li>Pattern matching</li>
+<li>Feature extraction</li>
+</ul>
+<blockquote>
+<p><strong>A Note on Model Architectures:</strong> This series focuses on <strong>spectrogram-based models</strong> like OpenAI's Whisper, Google USM, and Audio Spectrogram Transformers - which treat audio as a 2D "image" of time × frequency. There's also a separate class of <strong>waveform models</strong> (like Meta's Wav2Vec 2.0 and HuBERT) that process raw audio samples directly, learning their own features rather than relying on human-designed spectrograms. Both approaches have merit, but spectrogram models are currently the dominant architecture for production speech recognition systems.</p>
+</blockquote>
+<p>For spectrogram-based models, a spoken word is effectively just a "shape" on a grid - which is why they can borrow architectures directly from computer vision.</p>
+<hr>
+<h2>🎹 The Mel Scale: Aligning with Human Perception</h2>
+<p>We have one more transformation to apply, and it's based on a fascinating fact about human hearing.</p>
+<h3>Linear Frequency is Not How We Hear</h3>
+<p>Mathematically, the jump from 100 Hz to 200 Hz is the same as the jump from 10,000 Hz to 10,100 Hz - both are a 100 Hz increase.</p>
+<p>But to human ears? The first jump (100→200 Hz) sounds like going up an entire <strong>octave</strong> (doubling in pitch). The second jump (10,000→10,100 Hz) is barely perceptible.</p>
+<p>Our hearing works on a <strong>curve</strong>, not a straight line. We're super sensitive to small changes in low frequencies (where speech lives) but can barely tell the difference in high frequencies.</p>
+<h3>The Mel Scale</h3>
+<p>In 1937, researchers Stevens, Volkmann, and Newman created the <strong>Mel scale</strong> - a perceptual scale where equal distances represent equal perceived pitch differences.</p>
+<p>There's a mathematical formula to convert Hz to Mel, but you don't need to memorize it. Just understand the effect:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Frequency (Hz)</th><th>Mel Value</th><th>Perception</th></tr></thead><tbody><tr><td>100</td><td>150</td><td>Low male voice</td></tr><tr><td>500</td><td>607</td><td>Mid speech range</td></tr><tr><td>1000</td><td>1000</td><td>Reference point</td></tr><tr><td>4000</td><td>2146</td><td>High consonants</td></tr><tr><td>8000</td><td>2840</td><td>Sibilance ("s" sounds)</td></tr></tbody></table>
+<h3>Mel Filter Banks: Doing the Warping</h3>
+<p>To apply this to our spectrogram, we use <strong>Mel filter banks</strong> - basically a set of "buckets" that group frequencies together.</p>
+<ul>
+<li><strong>Low frequencies</strong> (where speech detail matters): Lots of small, precise buckets</li>
+<li><strong>High frequencies</strong> (where we just hear "hissing"): Fewer, bigger buckets that average things out</li>
+</ul>
+<figure class="mermaid-diagram"><img src="/diagrams/waves-to-vectors-p1-diagram-4.svg" alt="Diagram 4"></figure>
+<h3>The Log-Mel Spectrogram</h3>
+<p>The final output is called a <strong>Log-Mel Spectrogram</strong>:</p>
+<ol>
+<li><strong>Mel-scaled:</strong> Frequencies warped to match human perception</li>
+<li><strong>Log-compressed:</strong> Amplitudes converted to decibels (log scale), which also matches how we perceive loudness</li>
+</ol>
+<p><img src="/diagrams/mel-spectrogram-librosa.png" alt="Mel-frequency spectrogram visualization with non-linear frequency axis">
+<em>Figure 3: A Mel-frequency spectrogram. Notice how the Y-axis (Hz) is non-linearly spaced - more resolution at lower frequencies where speech detail matters. Compare this to Figure 2's linear frequency axis. [Source: librosa documentation][3]</em></p>
+<h3>Why This Matters for AI</h3>
+<p>The Log-Mel Spectrogram achieves several goals:</p>
+<ol>
+<li><strong>Compression:</strong> We go from thousands of frequency bins to ~80 Mel bands</li>
+<li><strong>Perceptual Relevance:</strong> We keep detail where humans (and thus training data transcriptions) are sensitive</li>
+<li><strong>Normalized Range:</strong> Log scaling keeps values in a reasonable range for neural networks</li>
+<li><strong>Noise Robustness:</strong> High-frequency noise gets averaged together rather than dominating</li>
+</ol>
+<p>This is the representation that most modern speech AI systems consume.</p>
+<hr>
+<h2>🔄 The Complete Pipeline: From Air to Array</h2>
+<p>Let's trace the full journey one more time:</p>
+<figure class="mermaid-diagram"><img src="/diagrams/waves-to-vectors-p1-diagram-5.svg" alt="Diagram 5"></figure>
+<p>Each step serves a purpose:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Stage</th><th>What It Does</th><th>Why It Matters</th></tr></thead><tbody><tr><td>Sampling</td><td>Converts continuous → discrete</td><td>Computers need finite numbers</td></tr><tr><td>Windowing</td><td>Segments time</td><td>Captures how speech changes</td></tr><tr><td>FFT</td><td>Reveals frequencies</td><td>Exposes the "ingredients" of sound</td></tr><tr><td>Mel Scaling</td><td>Matches human perception</td><td>Focuses on what matters for speech</td></tr><tr><td>Log Compression</td><td>Normalizes amplitude</td><td>Better range for neural networks</td></tr></tbody></table>
+<hr>
+<h2>🎭 Two Philosophies: Spectrograms vs. Raw Waveforms</h2>
+<p>Before we move on, it's worth acknowledging that the spectrogram approach isn't the <em>only</em> way to process audio for AI. There are actually two major schools of thought:</p>
+<h3>The "Image" Approach (Spectrogram Models)</h3>
+<p><strong>Examples:</strong> OpenAI Whisper, Google USM, Audio Spectrogram Transformer (AST)</p>
+<p>These models convert audio to Log-Mel Spectrograms first, then process the 2D representation:</p>
+<ul>
+<li><strong>Analogy:</strong> "Reading sheet music" - looking for visual patterns</li>
+<li><strong>Architecture:</strong> Often uses Vision Transformers or CNNs borrowed from computer vision</li>
+<li><strong>Pros:</strong> Very efficient; the Mel scale mimics human hearing; well-understood processing pipeline</li>
+</ul>
+<h3>The "Raw" Approach (Waveform Models)</h3>
+<p><strong>Examples:</strong> Meta's Wav2Vec 2.0, HuBERT, WaveNet</p>
+<p>These models skip the spectrogram conversion entirely, ingesting the raw waveform (16,000 numbers per second):</p>
+<ul>
+<li><strong>Analogy:</strong> "Feeling the vibration" - learning directly from temporal dynamics</li>
+<li><strong>Architecture:</strong> Uses 1D convolutions and sequence models</li>
+<li><strong>Pros:</strong> Can learn features that spectrograms might blur out; end-to-end learning</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Feature</th><th>Spectrogram Models (e.g., Whisper)</th><th>Waveform Models (e.g., Wav2Vec)</th></tr></thead><tbody><tr><td><strong>Input</strong></td><td>2D matrix (Time × Frequency)</td><td>1D array (Time × Amplitude)</td></tr><tr><td><strong>Preprocessing</strong></td><td>Human-designed (Mel scale)</td><td>Learned features</td></tr><tr><td><strong>Architecture</strong></td><td>Vision Transformers / CNNs</td><td>1D Convolutions / Sequence models</td></tr></tbody></table>
+<p><strong>In this series, we focus on the spectrogram approach</strong> because:</p>
+<ol>
+<li>It powers the most widely-deployed models (Whisper, Google's speech APIs)</li>
+<li>The "audio as image" intuition is powerful and accessible</li>
+<li>Understanding the spectrogram pipeline gives you insight into <em>why</em> these models work</li>
+</ol>
+<p>But know that the field is evolving, and hybrid approaches are emerging.</p>
+<hr>
+<h2>🚀 What's Next: Enter the AI</h2>
+<p>We've traversed the gap between physical reality and digital representation. We started with air pressure variations, digitized them into samples, sliced them into time windows, decomposed them into frequencies, and warped them to match human perception.</p>
+<p>The result is a <strong>Log-Mel Spectrogram</strong> - a compact, perceptually-aligned 2D representation of speech.</p>
+<p>But we haven't touched what happens when this "audio image" enters a neural network. How does OpenAI's <strong>Whisper</strong> model - trained on 680,000 hours of multilingual audio - actually convert these colorful spectrograms into text?</p>
+<p>In <strong>Part 2</strong>, we'll crack open the Whisper model architecture and explore:</p>
+<ol>
+<li><strong>The Encoder:</strong> How convolutional layers and Transformers build a "context map" of the audio</li>
+<li><strong>The Decoder:</strong> How the auto-regressive text generation actually works</li>
+<li><strong>The Tokenizer:</strong> How the model chops words into pieces (and why that matters)</li>
+<li><strong>Multilingual Challenges:</strong> Why models sometimes get confused by mixed languages</li>
+<li><strong>Fine-Tuning:</strong> How to adapt Whisper for your specific domain</li>
+</ol>
+<p><em>Stay tuned.</em></p>
+<hr>
+<h2>📚 Image Credits &#x26; References</h2>
+<ul>
+<li><a href="https://commons.wikimedia.org/wiki/File:CPT-sound-physical-manifestation.svg">Figure 1: CPT-sound-physical-manifestation.svg – Wikimedia Commons (CC0 Public Domain)</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Spectrogram">Figure 2: Spectrogram – Wikipedia (CC BY-SA 4.0)</a></li>
+<li><a href="https://librosa.org/doc/latest/generated/librosa.display.specshow.html">Figure 3: librosa.display.specshow – librosa documentation (ISC License)</a></li>
+</ul>a:[["$","$L15",null,{"slug":"waves-to-vectors-p1"}],["$","$L16",null,{}],["$","article",null,{"className":"mx-auto flex w-full max-w-3xl flex-col gap-10 px-6 pt-12 pb-28","children":[["$","nav",null,{"aria-label":"Breadcrumb","children":["$","ol",null,{"className":"flex flex-wrap items-center gap-1 text-sm text-muted-foreground","children":[["$","li","/",{"className":"flex items-center gap-1","children":[["$","$L17",null,{"href":"/","className":"hover:text-accent","children":"Home"}],["$","span",null,{"aria-hidden":true,"children":"/"}]]}],["$","li","/#posts",{"className":"flex items-center gap-1","children":[["$","$L17",null,{"href":{"pathname":"/","hash":"posts"},"className":"hover:text-accent","children":"Posts"}],["$","span",null,{"aria-hidden":true,"children":"/"}]]}],["$","li","/posts/waves-to-vectors-p1",{"className":"flex items-center gap-1","children":[["$","$L17",null,{"href":"/posts/waves-to-vectors-p1","className":"hover:text-accent","children":"From Waves to Vectors: The Engineer's Guide to Audio for AI (Part 1)"}],null]}]]}]}],["$","header",null,{"className":"space-y-4","children":[["$","p",null,{"className":"text-xs uppercase tracking-[0.3em] text-accent","children":"Article"}],["$","h1",null,{"className":"text-3xl font-semibold leading-tight sm:text-4xl","children":"From Waves to Vectors: The Engineer's Guide to Audio for AI (Part 1)"}],["$","div",null,{"className":"flex flex-wrap items-center gap-3 text-sm text-muted-foreground","children":[["$","time",null,{"dateTime":"2025-11-28T00:00:00.000Z","children":"Nov 28, 2025"}],["$","span",null,{"aria-hidden":true,"children":"•"}],["$","span",null,{"children":"15 min read"}],["$","span",null,{"aria-hidden":true,"children":"•"}],["$","$L17",null,{"href":"/about","className":"font-medium text-foreground transition-colors hover:text-accent","children":"Vinay Punera"}],null]}],["$","div",null,{"className":"flex flex-wrap gap-2","children":[["$","span","audio-engineering",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"audio-engineering"}],["$","span","fft",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"fft"}],["$","span","spectrogram",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"spectrogram"}],["$","span","speech-ai",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"speech-ai"}],["$","span","whisper",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"whisper"}],["$","span","mel-spectrogram",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"mel-spectrogram"}],["$","span","nyquist",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"nyquist"}],["$","span","fourier-transform",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"fourier-transform"}],["$","span","machine-learning",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"machine-learning"}]]}]]}],["$","$L18",null,{"postTitle":"From Waves to Vectors: The Engineer's Guide to Audio for AI (Part 1)","postSlug":"waves-to-vectors-p1","audio":{"src":"/audio/waves-to-vectors-p1.m4a","title":"AI narration","duration":"12:47","mimeType":"audio/mp4"}}],["$","$L19",null,{}],["$","$L1a",null,{}],["$","div",null,{"className":"overflow-hidden rounded-3xl border border-border bg-muted","children":["$","$L1b",null,{"src":"/illustrations/waves-to-vectors-cover.svg","alt":"A visualization of a sound wave transforming into a digital matrix, representing the journey from analog sound to AI embeddings.","width":1200,"height":630,"sizes":"(max-width: 768px) 100vw, 768px","className":"h-auto w-full object-cover","priority":true,"placeholder":"$undefined","blurDataURL":"$undefined"}]}],["$","div",null,{"className":"prose prose-neutral dark:prose-invert max-w-none","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$1c"}}]}],"$L1d"]}]]
+1e:I[6023,["2201","static/chunks/2201-6f6797369dbd70e4.js","1356","static/chunks/1356-1fb83b63ccda55b7.js","8537","static/chunks/8537-401cf79acecfff54.js","5858","static/chunks/app/posts/%5Bslug%5D/page-16bd337e30c17cd7.js"],"ShareButtons"]
+1d:["$","footer",null,{"className":"flex flex-col gap-6 border-t border-border pt-6","children":[["$","$L1e",null,{"slug":"waves-to-vectors-p1","title":"From Waves to Vectors: The Engineer's Guide to Audio for AI (Part 1)"}],["$","p",null,{"className":"text-sm text-muted-foreground","children":"Enjoyed this read? Share it with your network, or reach out via the about page for collaboration or to just say hi."}],["$","div",null,{"className":"flex flex-col gap-4 border-t border-border pt-6","children":[["$","p",null,{"className":"text-xs uppercase tracking-[0.3em] text-muted-foreground","children":"Keep reading"}],["$","nav",null,{"className":"flex flex-col items-stretch gap-3 sm:flex-row sm:items-center sm:justify-between","children":[["$","div",null,{"className":"hidden flex-1 sm:block"}],["$","$L17",null,{"href":"/posts/v8-isolates-explainer-p1","className":"group inline-flex flex-1 items-center justify-end gap-2 rounded-full border border-border px-4 py-2 text-sm transition hover:border-accent hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent sm:justify-end","children":[["$","span",null,{"className":"flex flex-col text-right","children":[["$","span",null,{"className":"text-[11px] uppercase tracking-widest text-muted-foreground","children":"Next"}],["$","span",null,{"className":"font-medium text-foreground group-hover:text-accent","children":"Deep Dive into V8 and V8 Isolates: The Engine and the Sandbox (Part 1)"}]]}],["$","span",null,{"aria-hidden":true,"children":"→"}]]}]]}]]}]]}]
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+c:null
+1f:I[80622,[],"IconMark"]
+e:{"metadata":[["$","title","0",{"children":"From Waves to Vectors: The Engineer's Guide to Audio for AI (Part 1)"}],["$","meta","1",{"name":"description","content":"Before you can feed audio to AI, you need to understand what sound actually is. This deep dive explores the physics and engineering of audio - from pressure waves to spectrograms - building the foundation for understanding Speech AI."}],["$","meta","2",{"property":"og:title","content":"From Waves to Vectors: The Engineer's Guide to Audio for AI (Part 1)"}],["$","meta","3",{"property":"og:description","content":"Before you can feed audio to AI, you need to understand what sound actually is. This deep dive explores the physics and engineering of audio - from pressure waves to spectrograms - building the foundation for understanding Speech AI."}],["$","meta","4",{"property":"og:image","content":"https://vinay.stealthbit.in/illustrations/waves-to-vectors-cover.svg"}],["$","meta","5",{"property":"og:image:width","content":"1200"}],["$","meta","6",{"property":"og:image:height","content":"630"}],["$","meta","7",{"property":"og:image:alt","content":"A visualization of a sound wave transforming into a digital matrix, representing the journey from analog sound to AI embeddings."}],["$","meta","8",{"property":"og:type","content":"article"}],["$","meta","9",{"property":"article:published_time","content":"2025-11-28T00:00:00.000Z"}],["$","meta","10",{"property":"article:tag","content":"audio-engineering"}],["$","meta","11",{"property":"article:tag","content":"fft"}],["$","meta","12",{"property":"article:tag","content":"spectrogram"}],["$","meta","13",{"property":"article:tag","content":"speech-ai"}],["$","meta","14",{"property":"article:tag","content":"whisper"}],["$","meta","15",{"property":"article:tag","content":"mel-spectrogram"}],["$","meta","16",{"property":"article:tag","content":"nyquist"}],["$","meta","17",{"property":"article:tag","content":"fourier-transform"}],["$","meta","18",{"property":"article:tag","content":"machine-learning"}],["$","meta","19",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","20",{"name":"twitter:title","content":"From Waves to Vectors: The Engineer's Guide to Audio for AI (Part 1)"}],["$","meta","21",{"name":"twitter:description","content":"Before you can feed audio to AI, you need to understand what sound actually is. This deep dive explores the physics and engineering of audio - from pressure waves to spectrograms - building the foundation for understanding Speech AI."}],["$","meta","22",{"name":"twitter:image","content":"https://vinay.stealthbit.in/illustrations/waves-to-vectors-cover.svg"}],["$","link","23",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}],["$","link","24",{"rel":"icon","href":"/icon.svg?b0cfa693b1818954","type":"image/svg+xml","sizes":"any"}],["$","$L1f","25",{}]],"error":null,"digest":"$undefined"}
+13:"$e:metadata"

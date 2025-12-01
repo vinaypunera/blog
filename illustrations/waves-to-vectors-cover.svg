@@ -1,0 +1,132 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg_gradient)" />
+  
+  <!-- Subtle grid pattern -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="white" stroke-opacity="0.03" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grid)" />
+  
+  <!-- Main visualization container -->
+  <g transform="translate(0, 40)">
+    
+    <!-- Sound Wave Section -->
+    <g transform="translate(100, 200)">
+      <!-- Clean sine wave -->
+      <path d="M0 80 Q40 0 80 80 Q120 160 160 80 Q200 0 240 80 Q280 160 320 80" 
+            stroke="url(#cyan_gradient)" stroke-width="3" fill="none" stroke-linecap="round">
+        <animate attributeName="d" 
+          values="M0 80 Q40 0 80 80 Q120 160 160 80 Q200 0 240 80 Q280 160 320 80;
+                  M0 80 Q40 20 80 80 Q120 140 160 80 Q200 20 240 80 Q280 140 320 80;
+                  M0 80 Q40 0 80 80 Q120 160 160 80 Q200 0 240 80 Q280 160 320 80"
+          dur="4s" repeatCount="indefinite" />
+      </path>
+      <text x="160" y="200" text-anchor="middle" fill="white" fill-opacity="0.4" font-family="system-ui, sans-serif" font-size="12" letter-spacing="0.15em">SOUND WAVE</text>
+    </g>
+    
+    <!-- Arrow 1 -->
+    <g transform="translate(450, 275)">
+      <line x1="0" y1="0" x2="60" y2="0" stroke="white" stroke-opacity="0.3" stroke-width="2" stroke-dasharray="4 4"/>
+      <polygon points="70,0 58,-6 58,6" fill="white" fill-opacity="0.3"/>
+    </g>
+    
+    <!-- Spectrogram Section -->
+    <g transform="translate(550, 180)">
+      <!-- Spectrogram bars -->
+      <g opacity="0.9">
+        <rect x="0" y="130" width="16" height="30" rx="2" fill="url(#bar_gradient)" opacity="0.6"/>
+        <rect x="22" y="100" width="16" height="60" rx="2" fill="url(#bar_gradient)" opacity="0.75"/>
+        <rect x="44" y="60" width="16" height="100" rx="2" fill="url(#bar_gradient)" opacity="0.9"/>
+        <rect x="66" y="30" width="16" height="130" rx="2" fill="url(#bar_gradient)"/>
+        <rect x="88" y="50" width="16" height="110" rx="2" fill="url(#bar_gradient)" opacity="0.85"/>
+        <rect x="110" y="90" width="16" height="70" rx="2" fill="url(#bar_gradient)" opacity="0.7"/>
+        <rect x="132" y="120" width="16" height="40" rx="2" fill="url(#bar_gradient)" opacity="0.5"/>
+      </g>
+      <text x="75" y="200" text-anchor="middle" fill="white" fill-opacity="0.4" font-family="system-ui, sans-serif" font-size="12" letter-spacing="0.15em">SPECTROGRAM</text>
+    </g>
+    
+    <!-- Arrow 2 -->
+    <g transform="translate(720, 275)">
+      <line x1="0" y1="0" x2="60" y2="0" stroke="white" stroke-opacity="0.3" stroke-width="2" stroke-dasharray="4 4"/>
+      <polygon points="70,0 58,-6 58,6" fill="white" fill-opacity="0.3"/>
+    </g>
+    
+    <!-- Vector/Embedding Section -->
+    <g transform="translate(820, 190)">
+      <!-- Matrix bracket left -->
+      <path d="M0 10 L0 0 L10 0 M0 130 L0 140 L10 140" stroke="url(#pink_gradient)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+      <!-- Matrix bracket right -->
+      <path d="M180 10 L180 0 L170 0 M180 130 L180 140 L170 140" stroke="url(#pink_gradient)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+      
+      <!-- Vector values - clean monospace -->
+      <g fill="white" fill-opacity="0.7" font-family="'SF Mono', 'Fira Code', monospace" font-size="15">
+        <text x="30" y="40">0.82</text>
+        <text x="90" y="40">0.15</text>
+        <text x="140" y="40">0.67</text>
+        
+        <text x="30" y="75">0.31</text>
+        <text x="90" y="75">0.94</text>
+        <text x="140" y="75">0.28</text>
+        
+        <text x="30" y="110">0.56</text>
+        <text x="90" y="110">0.41</text>
+        <text x="140" y="110">0.73</text>
+      </g>
+      
+      <text x="90" y="180" text-anchor="middle" fill="white" fill-opacity="0.4" font-family="system-ui, sans-serif" font-size="12" letter-spacing="0.15em">EMBEDDINGS</text>
+    </g>
+    
+  </g>
+  
+  <!-- Title Section -->
+  <text x="600" y="80" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="42" font-weight="600" letter-spacing="0.02em">From Waves to Vectors</text>
+  <text x="600" y="115" text-anchor="middle" fill="white" fill-opacity="0.5" font-family="system-ui, sans-serif" font-size="18" letter-spacing="0.1em">THE ENGINEER'S GUIDE TO AUDIO FOR AI</text>
+  
+  <!-- Bottom tech tags -->
+  <g transform="translate(600, 560)">
+    <g font-family="system-ui, sans-serif" font-size="11" letter-spacing="0.1em" text-anchor="middle">
+      <text x="-200" y="0" fill="#4AD8E5" fill-opacity="0.6">FFT</text>
+      <text x="-100" y="0" fill="#7C6BFF" fill-opacity="0.6">STFT</text>
+      <text x="0" y="0" fill="#9B6BFF" fill-opacity="0.6">MEL SCALE</text>
+      <text x="100" y="0" fill="#C06BFF" fill-opacity="0.6">SPECTROGRAM</text>
+      <text x="220" y="0" fill="#FF7AC3" fill-opacity="0.6">WHISPER</text>
+    </g>
+  </g>
+  
+  <!-- Part 1 badge -->
+  <g transform="translate(1090, 45)">
+    <rect x="0" y="0" width="60" height="24" rx="12" fill="white" fill-opacity="0.1" stroke="white" stroke-opacity="0.2" stroke-width="1"/>
+    <text x="30" y="16" text-anchor="middle" fill="white" fill-opacity="0.7" font-family="system-ui, sans-serif" font-size="11" font-weight="500">Part 1</text>
+  </g>
+  
+  <!-- Decorative elements -->
+  <circle cx="50" cy="50" r="80" fill="url(#cyan_gradient)" opacity="0.05" />
+  <circle cx="1150" cy="580" r="100" fill="url(#pink_gradient)" opacity="0.05" />
+  
+  <defs>
+    <linearGradient id="bg_gradient" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0a0a12" />
+      <stop offset="0.5" stop-color="#0d1020" />
+      <stop offset="1" stop-color="#0a0a14" />
+    </linearGradient>
+    
+    <linearGradient id="cyan_gradient" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop stop-color="#4AD8E5" />
+      <stop offset="1" stop-color="#6BC5FF" />
+    </linearGradient>
+    
+    <linearGradient id="bar_gradient" x1="0" y1="1" x2="0" y2="0" gradientUnits="objectBoundingBox">
+      <stop stop-color="#4AD8E5" />
+      <stop offset="0.5" stop-color="#9B6BFF" />
+      <stop offset="1" stop-color="#C06BFF" />
+    </linearGradient>
+    
+    <linearGradient id="pink_gradient" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#9B6BFF" />
+      <stop offset="1" stop-color="#FF7AC3" />
+    </linearGradient>
+  </defs>
+</svg>

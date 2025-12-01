@@ -1,10 +1,10 @@
 1:"$Sreact.fragment"
-2:I[51458,["2201","static/chunks/2201-6f6797369dbd70e4.js","8005","static/chunks/8005-36f473f8046dae16.js","7750","static/chunks/7750-0a756454837a9a28.js","9227","static/chunks/9227-702d20ddd5580687.js","7177","static/chunks/app/layout-1292cda0e395339b.js"],"ThemeProvider"]
-3:I[21887,["2201","static/chunks/2201-6f6797369dbd70e4.js","8005","static/chunks/8005-36f473f8046dae16.js","7750","static/chunks/7750-0a756454837a9a28.js","9227","static/chunks/9227-702d20ddd5580687.js","7177","static/chunks/app/layout-1292cda0e395339b.js"],""]
-4:I[79081,["2201","static/chunks/2201-6f6797369dbd70e4.js","8005","static/chunks/8005-36f473f8046dae16.js","7750","static/chunks/7750-0a756454837a9a28.js","9227","static/chunks/9227-702d20ddd5580687.js","7177","static/chunks/app/layout-1292cda0e395339b.js"],"GlobalAudioProvider"]
-5:I[80989,["2201","static/chunks/2201-6f6797369dbd70e4.js","8005","static/chunks/8005-36f473f8046dae16.js","7750","static/chunks/7750-0a756454837a9a28.js","9227","static/chunks/9227-702d20ddd5580687.js","7177","static/chunks/app/layout-1292cda0e395339b.js"],"SearchSheetProvider"]
-6:I[33572,["2201","static/chunks/2201-6f6797369dbd70e4.js","8005","static/chunks/8005-36f473f8046dae16.js","7750","static/chunks/7750-0a756454837a9a28.js","9227","static/chunks/9227-702d20ddd5580687.js","7177","static/chunks/app/layout-1292cda0e395339b.js"],"FloatingAudioProvider"]
-7:I[87435,["2201","static/chunks/2201-6f6797369dbd70e4.js","8005","static/chunks/8005-36f473f8046dae16.js","7750","static/chunks/7750-0a756454837a9a28.js","9227","static/chunks/9227-702d20ddd5580687.js","7177","static/chunks/app/layout-1292cda0e395339b.js"],"FloatingNav"]
+2:I[51458,["2201","static/chunks/2201-6f6797369dbd70e4.js","8537","static/chunks/8537-401cf79acecfff54.js","7394","static/chunks/7394-6015a1eac3455248.js","9227","static/chunks/9227-702d20ddd5580687.js","7177","static/chunks/app/layout-5abbe08916af3e92.js"],"ThemeProvider"]
+3:I[21887,["2201","static/chunks/2201-6f6797369dbd70e4.js","8537","static/chunks/8537-401cf79acecfff54.js","7394","static/chunks/7394-6015a1eac3455248.js","9227","static/chunks/9227-702d20ddd5580687.js","7177","static/chunks/app/layout-5abbe08916af3e92.js"],""]
+4:I[79081,["2201","static/chunks/2201-6f6797369dbd70e4.js","8537","static/chunks/8537-401cf79acecfff54.js","7394","static/chunks/7394-6015a1eac3455248.js","9227","static/chunks/9227-702d20ddd5580687.js","7177","static/chunks/app/layout-5abbe08916af3e92.js"],"GlobalAudioProvider"]
+5:I[80989,["2201","static/chunks/2201-6f6797369dbd70e4.js","8537","static/chunks/8537-401cf79acecfff54.js","7394","static/chunks/7394-6015a1eac3455248.js","9227","static/chunks/9227-702d20ddd5580687.js","7177","static/chunks/app/layout-5abbe08916af3e92.js"],"SearchSheetProvider"]
+6:I[33572,["2201","static/chunks/2201-6f6797369dbd70e4.js","8537","static/chunks/8537-401cf79acecfff54.js","7394","static/chunks/7394-6015a1eac3455248.js","9227","static/chunks/9227-702d20ddd5580687.js","7177","static/chunks/app/layout-5abbe08916af3e92.js"],"FloatingAudioProvider"]
+7:I[87435,["2201","static/chunks/2201-6f6797369dbd70e4.js","8537","static/chunks/8537-401cf79acecfff54.js","7394","static/chunks/7394-6015a1eac3455248.js","9227","static/chunks/9227-702d20ddd5580687.js","7177","static/chunks/app/layout-5abbe08916af3e92.js"],"FloatingNav"]
 8:I[9766,[],""]
 9:I[98924,[],""]
 b:I[24431,[],"OutletBoundary"]
@@ -15,10 +15,389 @@ f:I[24431,[],"ViewportBoundary"]
 14:I[57150,[],""]
 :HL["/_next/static/media/4cf2300e9c8272f7-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/de204d2dcad441e1.css","style"]
-0:{"P":null,"b":"DuvHEs4gnOv7PO8MywZ7O","p":"","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/de204d2dcad441e1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"className":"__variable_188709 __variable_9a8899 min-h-screen bg-background font-sans text-foreground","children":["$","$L2",null,{"children":[["$","$L3",null,{"color":"hsl(var(--accent))","height":3,"showSpinner":false}],["$","$L4",null,{"children":["$","$L5",null,{"children":["$","$L6",null,{"children":[["$","$L7",null,{}],["$","div",null,{"className":"flex min-h-screen flex-col","children":["$","main",null,{"className":"flex-1","children":["$","$L8",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}]}]}]]}]}]}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$La",null,["$","$Lb",null,{"children":["$Lc",["$","$Ld",null,{"promise":"$@e"}]]}]]}],{},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lf",null,{"children":"$L10"}],["$","meta",null,{"name":"next-size-adjust","content":""}]],["$","$L11",null,{"children":["$","div",null,{"hidden":true,"children":["$","$12",null,{"fallback":null,"children":"$L13"}]}]}]]}],false]],"m":"$undefined","G":["$14",[]],"s":false,"S":true}
-15:I[6227,["2201","static/chunks/2201-6f6797369dbd70e4.js","1356","static/chunks/1356-1fb83b63ccda55b7.js","8005","static/chunks/8005-36f473f8046dae16.js","7750","static/chunks/7750-0a756454837a9a28.js","8974","static/chunks/app/page-e19e13d237ac3545.js"],"PostsPageContent"]
-16:Tb613,<h1>Part 1: Deep Dive into V8 and V8 Isolates - The Engine and the Sandbox</h1>
+:HL["/_next/static/css/15ff950965ac935a.css","style"]
+0:{"P":null,"b":"IkZUDQEwMnrXIQxr3RMHp","p":"","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/15ff950965ac935a.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"className":"__variable_188709 __variable_9a8899 min-h-screen bg-background font-sans text-foreground","children":["$","$L2",null,{"children":[["$","$L3",null,{"color":"hsl(var(--accent))","height":3,"showSpinner":false}],["$","$L4",null,{"children":["$","$L5",null,{"children":["$","$L6",null,{"children":[["$","$L7",null,{}],["$","div",null,{"className":"flex min-h-screen flex-col","children":["$","main",null,{"className":"flex-1","children":["$","$L8",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}]}]}]]}]}]}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$La",null,["$","$Lb",null,{"children":["$Lc",["$","$Ld",null,{"promise":"$@e"}]]}]]}],{},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lf",null,{"children":"$L10"}],["$","meta",null,{"name":"next-size-adjust","content":""}]],["$","$L11",null,{"children":["$","div",null,{"hidden":true,"children":["$","$12",null,{"fallback":null,"children":"$L13"}]}]}]]}],false]],"m":"$undefined","G":["$14",[]],"s":false,"S":true}
+15:I[95710,["2201","static/chunks/2201-6f6797369dbd70e4.js","1356","static/chunks/1356-1fb83b63ccda55b7.js","8537","static/chunks/8537-401cf79acecfff54.js","7394","static/chunks/7394-6015a1eac3455248.js","8974","static/chunks/app/page-6765b4e4586d4537.js"],"PostsPageContent"]
+16:T5a05,<h1>From Waves to Vectors: The Engineer's Guide to Audio for AI</h1>
+<p>As software engineers, we are comfortable with discrete data: strings, integers, JSON objects. We like our data deterministic and finite.</p>
+<p><strong>Audio is none of those things.</strong></p>
+<p>Audio is continuous, chaotic, and physically bound by time. Before we can feed audio into any AI model, we need to understand what sound actually <em>is</em> - how it behaves in the physical world, and how engineers have learned to capture, digitize, and transform it.</p>
+<p>In this deep dive (Part 1 of our Speech AI series), we will strip away the academic jargon of signal processing and look at audio through the lens of <strong>Data Engineering</strong>. We will trace the transformation of a spoken word from air pressure variations into the 2D "image" that AI models can consume.</p>
+<hr>
+<h2>🌊 The Physics of Sound: What Are We Actually Capturing?</h2>
+<p>Before we touch any code, let's understand the physical phenomenon we're dealing with. Sound is not magic - it's mechanical.</p>
+<h3>How Sound Travels</h3>
+<p>When you speak, your vocal cords vibrate. These vibrations push against air molecules, creating a chain reaction of compressions and rarefactions (areas of high and low pressure) that propagate outward like ripples in a pond.</p>
+<p><img src="/diagrams/audio-waveform-physical.svg" alt="Sound waves traveling from a speaker through air to the human ear">
+<em>Figure 1: Sound as a physical phenomenon - pressure waves traveling through air from source to receiver. [Source: Wikimedia Commons][1]</em></p>
+<p>This is a <strong>longitudinal wave</strong> - the air molecules don't travel from your mouth to someone's ear; they oscillate back and forth, passing energy along. Think of it like a stadium wave: people don't run across the stadium, they just stand and sit in sequence.</p>
+<h3>The Two Dimensions of Sound</h3>
+<p>Sound consists of pressure waves moving through the air. To digitize this, we measure two fundamental properties:</p>
+<p><strong>1. Amplitude (The Y-Axis): Loudness</strong></p>
+<p>Amplitude measures how much the air pressure changes from its resting state.</p>
+<ul>
+<li><em>Physical Reality:</em> Large pressure changes = molecules pushed harder = louder sound</li>
+<li><em>Measurement:</em> Typically measured in <strong>decibels (dB)</strong>, a logarithmic scale</li>
+<li><em>In Code:</em> It's the value of your float (e.g., 0.0 is silence, 1.0/-1.0 is maximum volume)</li>
+<li><em>Fun Fact:</em> A whisper is ~30 dB, conversation is ~60 dB, a rock concert is ~110 dB. Because dB is logarithmic, every 10 dB increase sounds roughly twice as loud.</li>
+</ul>
+<p><strong>2. Frequency (The X-Axis Pattern): Pitch</strong></p>
+<p>Frequency measures how fast the pressure oscillates.</p>
+<ul>
+<li><em>Physical Reality:</em> Fast vibrations = high pitch (think violin), slow vibrations = low pitch (think bass drum)</li>
+<li><em>Unit:</em> <strong>Hertz (Hz)</strong> = cycles per second</li>
+<li><em>Human Range:</em> We hear approximately 20 Hz to 20,000 Hz</li>
+<li><em>Speech Range:</em> Human voice fundamental frequencies typically fall between 85 Hz (deep male voice) and 300 Hz (high female voice), with harmonics extending higher</li>
+</ul>
+<figure class="mermaid-diagram"><img src="/diagrams/waves-to-vectors-p1-diagram-1.svg" alt="Diagram 1"></figure>
+<h3>Complex Sounds: Why Instruments Sound Different</h3>
+<p>Real sounds aren't simple waves. When you pluck a guitar string, you don't just get one frequency - you get the main note (called the <strong>fundamental</strong>) plus a bunch of quieter "echo" frequencies called <strong>harmonics</strong>.</p>
+<p>This is why a piano and a guitar playing the same note sound different. They share the same main note, but their mix of harmonics is different. This unique "fingerprint" is called <strong>timbre</strong> (pronounced "TAM-ber").</p>
+<p>Human speech is incredibly complex - each vowel sound is a unique mix of frequencies, and consonants add bursts of noise and rapid changes.</p>
+<hr>
+<h2>🎚️ Capturing the Continuous: Sampling Rate &#x26; Bit Depth</h2>
+<p>Here's the fundamental challenge: computers can only store discrete values, but sound waves are continuous. How do we bridge this gap?</p>
+<p>The answer is <strong>sampling</strong> - we take regular "snapshots" of the sound wave.</p>
+<h3>Sampling Rate: The "Frame Rate" of Audio</h3>
+<p>Just like video has Frame Rate (30 fps or 60 fps), audio has <strong>Sampling Rate</strong>. It defines how many times per second the computer measures the sound pressure.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Format</th><th>Sampling Rate</th><th>Use Case</th></tr></thead><tbody><tr><td>Telephone</td><td>8,000 Hz</td><td>Voice only, bandwidth limited</td></tr><tr><td><strong>Speech AI</strong></td><td><strong>16,000 Hz</strong></td><td>Speech recognition, optimal for voice</td></tr><tr><td>CD Quality</td><td>44,100 Hz</td><td>Music, full frequency range</td></tr><tr><td>Professional</td><td>96,000+ Hz</td><td>Studio recording, archival</td></tr></tbody></table>
+<p><strong>The Nyquist-Shannon Theorem: Why These Numbers?</strong></p>
+<p>This is one of the most important theorems in signal processing. It states:</p>
+<blockquote>
+<p>To perfectly reconstruct a continuous signal, you must sample at <strong>at least twice</strong> the highest frequency present.</p>
+</blockquote>
+<p>This minimum rate is called the <strong>Nyquist rate</strong>.</p>
+<p>Let's do the math:</p>
+<ul>
+<li>Human speech rarely goes above ~8,000 Hz</li>
+<li>So we need: 8,000 × 2 = <strong>16,000 Hz</strong></li>
+</ul>
+<p>This is why speech AI systems typically use <strong>16 kHz</strong> - it captures everything meaningful in speech without wasting storage on inaudible frequencies.</p>
+<p><strong>What Happens If You Sample Too Slowly?</strong></p>
+<p>You get <strong>aliasing</strong> - high frequencies "fold back" and appear as phantom low frequencies. It's like when helicopter blades appear to spin backwards in video. The continuous signal is misrepresented in the digital domain.</p>
+<h3>Bit Depth: The Precision of Each Sample</h3>
+<p>If Sampling Rate is <em>how often</em> we measure, <strong>Bit Depth</strong> is <em>how precisely</em> we measure each sample.</p>
+<ul>
+<li><strong>8-bit:</strong> 256 possible values (think 8-bit video game audio - grainy, lo-fi)</li>
+<li><strong>16-bit:</strong> 65,536 possible values (CD quality)</li>
+<li><strong>24-bit:</strong> 16.7 million possible values (professional audio)</li>
+<li><strong>32-bit float:</strong> Virtually unlimited dynamic range (AI/processing standard)</li>
+</ul>
+<p><strong>Why 32-bit Float for AI?</strong></p>
+<p>When processing audio, we perform many mathematical operations. Each operation can introduce tiny rounding errors. With 32-bit floating point:</p>
+<ul>
+<li>We avoid clipping during amplification</li>
+<li>We maintain precision through long processing chains</li>
+<li>We can easily normalize values between -1.0 and 1.0</li>
+</ul>
+<figure class="mermaid-diagram"><img src="/diagrams/waves-to-vectors-p1-diagram-2.svg" alt="Diagram 2"></figure>
+<h3>The Numbers Game</h3>
+<p>Let's calculate how much raw data we're dealing with:</p>
+<p><strong>1 second of 16kHz, 32-bit audio:</strong></p>
+<ul>
+<li>16,000 samples × 4 bytes = 64,000 bytes = <strong>64 KB</strong></li>
+</ul>
+<p><strong>30 seconds (typical AI processing chunk):</strong></p>
+<ul>
+<li>64 KB × 30 = <strong>~2 MB</strong></li>
+</ul>
+<p>That's nearly 2 MB of raw data for just 30 seconds of audio. And this is <em>after</em> we've reduced it from CD quality! This is why the transformations we'll discuss next are so crucial - they compress this data while preserving the important information.</p>
+<hr>
+<h2>🔬 From Time to Frequency: The Fourier Transform</h2>
+<p>Here's the fundamental problem: <strong>raw audio waveforms are terrible for pattern recognition</strong>.</p>
+<p>If you look at the raw waveform of the word "Hello," it just looks like a jagged squiggle. It's nearly impossible to visually distinguish from "Yellow" or even "Jello."</p>
+<p>Why? Because we're looking at the wrong dimension.</p>
+<h3>The Key Insight: Decomposition</h3>
+<p>Any complex wave - no matter how chaotic - can be broken down into a sum of simple sine waves at different frequencies. This isn't an approximation; it's a mathematical fact.</p>
+<p>This is like saying: any color can be broken into amounts of Red, Green, and Blue. The complex thing is just a combination of simple components.</p>
+<h3>The Fourier Transform: A Mathematical Prism</h3>
+<p>The <strong>Fourier Transform</strong> is the algorithm that performs this decomposition. Think of it as a glass prism:</p>
+<ul>
+<li><strong>Input:</strong> White light (the messy, complex audio wave)</li>
+<li><strong>Action:</strong> The prism separates the components</li>
+<li><strong>Output:</strong> A rainbow (the individual frequencies and their strengths)</li>
+</ul>
+<p>You don't need to understand the math behind it. The intuition is what matters:</p>
+<blockquote>
+<p>The Fourier Transform asks: "For each possible frequency, how much of that frequency is present in my signal?"</p>
+</blockquote>
+<p>It's like having a music equalizer that shows you exactly how much bass, mids, and treble are in a song - except way more detailed.</p>
+<h3>The Fast Fourier Transform (FFT)</h3>
+<p>The basic version of this algorithm is slow - too slow for real-time audio with millions of samples.</p>
+<p>In 1965, researchers Cooley and Tukey published a clever shortcut called the <strong>Fast Fourier Transform (FFT)</strong>. It does the same thing but <em>way</em> faster - fast enough for real-time audio processing.</p>
+<p>The FFT is one of the most important algorithms in computing. It's used everywhere: MP3 compression, medical imaging, radio communications, earthquake analysis, and of course, speech AI.</p>
+<h3>The Time-Frequency Trade-off</h3>
+<p>There's a catch: the standard FFT gives you frequencies, but loses time information. You get one "rainbow" for your entire audio clip.</p>
+<p>For a single piano note, that's fine. But speech constantly changes - a vowel now, a consonant later, silence, then another word. We need to know <em>when</em> each frequency occurs.</p>
+<p>This leads us to the next transformation...</p>
+<hr>
+<h2>⏱️ The STFT: Capturing How Sound Changes Over Time</h2>
+<p>The solution to the time-frequency trade-off is elegantly simple: instead of analyzing the whole signal at once, analyze it in small chunks.</p>
+<p>This is the <strong>Short-Time Fourier Transform (STFT)</strong>.</p>
+<h3>The Windowing Process</h3>
+<p>Here's how it works:</p>
+<ol>
+<li><strong>Define a Window:</strong> Choose a short time segment (typically 20-25 milliseconds)</li>
+<li><strong>Apply FFT:</strong> Compute the frequency content of just that window</li>
+<li><strong>Slide the Window:</strong> Move forward by a small amount (the "hop length," typically 10ms)</li>
+<li><strong>Repeat:</strong> Keep sliding and computing until you've covered the entire audio</li>
+</ol>
+<figure class="mermaid-diagram"><img src="/diagrams/waves-to-vectors-p1-diagram-3.svg" alt="Diagram 3"></figure>
+<h3>Smoothing the Edges</h3>
+<p>There's one trick we need: if you just chop audio into chunks, the sharp edges create fake noise in our analysis.</p>
+<p>The fix is simple - we "fade in" and "fade out" each chunk smoothly before analyzing it. This is called applying a <strong>window function</strong>. Different window shapes have different trade-offs, but they all solve the same problem.</p>
+<h3>Typical Settings for Speech</h3>
+<p>For speech processing, we typically use:</p>
+<ul>
+<li><strong>Window Size:</strong> 25 milliseconds (just enough to catch one "cycle" of a voice)</li>
+<li><strong>Hop Length:</strong> 10 milliseconds (windows overlap for smooth transitions)</li>
+</ul>
+<p>Why 25ms? That's roughly how long your brain needs to identify a pitch. Shorter windows blur the frequencies; longer windows blur the timing. It's a balance.</p>
+<hr>
+<h2>📊 Visualizing Sound: The Spectrogram</h2>
+<p>If we take all those frequency spectra from the STFT and arrange them side-by-side, we create one of the most powerful visualizations in audio processing: the <strong>Spectrogram</strong>.</p>
+<p><img src="/diagrams/speech-spectrogram.png" alt="Spectrogram of the spoken words &#x22;nineteenth century&#x22; showing frequency over time">
+<em>Figure 2: A spectrogram of the spoken words "nineteenth century". X-axis shows time, Y-axis shows frequency, and color intensity represents loudness. [Source: Wikipedia][2]</em></p>
+<h3>Anatomy of a Spectrogram</h3>
+<ul>
+<li><strong>X-Axis:</strong> Time (left to right)</li>
+<li><strong>Y-Axis:</strong> Frequency (low at bottom, high at top)</li>
+<li><strong>Color/Brightness:</strong> Amplitude (louder = brighter/warmer colors)</li>
+</ul>
+<h3>Reading a Spectrogram</h3>
+<p>Once you know what to look for, spectrograms become surprisingly readable:</p>
+<ul>
+<li><strong>Vowels</strong> show up as horizontal bands (like stripes)</li>
+<li><strong>Hard consonants</strong> ("p", "t", "k") show up as vertical bursts</li>
+<li><strong>Hissing sounds</strong> ("s", "sh", "f") show up as fuzzy noise patterns</li>
+<li><strong>Silence</strong> shows up as dark gaps</li>
+</ul>
+<h3>The Crucial Insight for AI</h3>
+<p>Once we have a spectrogram, speech recognition stops being an "Audio Problem" and becomes a <strong>Computer Vision Problem</strong>.</p>
+<p>The spectrogram is literally a 2D image. We can apply all the techniques that work for image recognition:</p>
+<ul>
+<li>Convolutional Neural Networks</li>
+<li>Pattern matching</li>
+<li>Feature extraction</li>
+</ul>
+<blockquote>
+<p><strong>A Note on Model Architectures:</strong> This series focuses on <strong>spectrogram-based models</strong> like OpenAI's Whisper, Google USM, and Audio Spectrogram Transformers - which treat audio as a 2D "image" of time × frequency. There's also a separate class of <strong>waveform models</strong> (like Meta's Wav2Vec 2.0 and HuBERT) that process raw audio samples directly, learning their own features rather than relying on human-designed spectrograms. Both approaches have merit, but spectrogram models are currently the dominant architecture for production speech recognition systems.</p>
+</blockquote>
+<p>For spectrogram-based models, a spoken word is effectively just a "shape" on a grid - which is why they can borrow architectures directly from computer vision.</p>
+<hr>
+<h2>🎹 The Mel Scale: Aligning with Human Perception</h2>
+<p>We have one more transformation to apply, and it's based on a fascinating fact about human hearing.</p>
+<h3>Linear Frequency is Not How We Hear</h3>
+<p>Mathematically, the jump from 100 Hz to 200 Hz is the same as the jump from 10,000 Hz to 10,100 Hz - both are a 100 Hz increase.</p>
+<p>But to human ears? The first jump (100→200 Hz) sounds like going up an entire <strong>octave</strong> (doubling in pitch). The second jump (10,000→10,100 Hz) is barely perceptible.</p>
+<p>Our hearing works on a <strong>curve</strong>, not a straight line. We're super sensitive to small changes in low frequencies (where speech lives) but can barely tell the difference in high frequencies.</p>
+<h3>The Mel Scale</h3>
+<p>In 1937, researchers Stevens, Volkmann, and Newman created the <strong>Mel scale</strong> - a perceptual scale where equal distances represent equal perceived pitch differences.</p>
+<p>There's a mathematical formula to convert Hz to Mel, but you don't need to memorize it. Just understand the effect:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Frequency (Hz)</th><th>Mel Value</th><th>Perception</th></tr></thead><tbody><tr><td>100</td><td>150</td><td>Low male voice</td></tr><tr><td>500</td><td>607</td><td>Mid speech range</td></tr><tr><td>1000</td><td>1000</td><td>Reference point</td></tr><tr><td>4000</td><td>2146</td><td>High consonants</td></tr><tr><td>8000</td><td>2840</td><td>Sibilance ("s" sounds)</td></tr></tbody></table>
+<h3>Mel Filter Banks: Doing the Warping</h3>
+<p>To apply this to our spectrogram, we use <strong>Mel filter banks</strong> - basically a set of "buckets" that group frequencies together.</p>
+<ul>
+<li><strong>Low frequencies</strong> (where speech detail matters): Lots of small, precise buckets</li>
+<li><strong>High frequencies</strong> (where we just hear "hissing"): Fewer, bigger buckets that average things out</li>
+</ul>
+<figure class="mermaid-diagram"><img src="/diagrams/waves-to-vectors-p1-diagram-4.svg" alt="Diagram 4"></figure>
+<h3>The Log-Mel Spectrogram</h3>
+<p>The final output is called a <strong>Log-Mel Spectrogram</strong>:</p>
+<ol>
+<li><strong>Mel-scaled:</strong> Frequencies warped to match human perception</li>
+<li><strong>Log-compressed:</strong> Amplitudes converted to decibels (log scale), which also matches how we perceive loudness</li>
+</ol>
+<p><img src="/diagrams/mel-spectrogram-librosa.png" alt="Mel-frequency spectrogram visualization with non-linear frequency axis">
+<em>Figure 3: A Mel-frequency spectrogram. Notice how the Y-axis (Hz) is non-linearly spaced - more resolution at lower frequencies where speech detail matters. Compare this to Figure 2's linear frequency axis. [Source: librosa documentation][3]</em></p>
+<h3>Why This Matters for AI</h3>
+<p>The Log-Mel Spectrogram achieves several goals:</p>
+<ol>
+<li><strong>Compression:</strong> We go from thousands of frequency bins to ~80 Mel bands</li>
+<li><strong>Perceptual Relevance:</strong> We keep detail where humans (and thus training data transcriptions) are sensitive</li>
+<li><strong>Normalized Range:</strong> Log scaling keeps values in a reasonable range for neural networks</li>
+<li><strong>Noise Robustness:</strong> High-frequency noise gets averaged together rather than dominating</li>
+</ol>
+<p>This is the representation that most modern speech AI systems consume.</p>
+<hr>
+<h2>🔄 The Complete Pipeline: From Air to Array</h2>
+<p>Let's trace the full journey one more time:</p>
+<figure class="mermaid-diagram"><img src="/diagrams/waves-to-vectors-p1-diagram-5.svg" alt="Diagram 5"></figure>
+<p>Each step serves a purpose:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Stage</th><th>What It Does</th><th>Why It Matters</th></tr></thead><tbody><tr><td>Sampling</td><td>Converts continuous → discrete</td><td>Computers need finite numbers</td></tr><tr><td>Windowing</td><td>Segments time</td><td>Captures how speech changes</td></tr><tr><td>FFT</td><td>Reveals frequencies</td><td>Exposes the "ingredients" of sound</td></tr><tr><td>Mel Scaling</td><td>Matches human perception</td><td>Focuses on what matters for speech</td></tr><tr><td>Log Compression</td><td>Normalizes amplitude</td><td>Better range for neural networks</td></tr></tbody></table>
+<hr>
+<h2>🎭 Two Philosophies: Spectrograms vs. Raw Waveforms</h2>
+<p>Before we move on, it's worth acknowledging that the spectrogram approach isn't the <em>only</em> way to process audio for AI. There are actually two major schools of thought:</p>
+<h3>The "Image" Approach (Spectrogram Models)</h3>
+<p><strong>Examples:</strong> OpenAI Whisper, Google USM, Audio Spectrogram Transformer (AST)</p>
+<p>These models convert audio to Log-Mel Spectrograms first, then process the 2D representation:</p>
+<ul>
+<li><strong>Analogy:</strong> "Reading sheet music" - looking for visual patterns</li>
+<li><strong>Architecture:</strong> Often uses Vision Transformers or CNNs borrowed from computer vision</li>
+<li><strong>Pros:</strong> Very efficient; the Mel scale mimics human hearing; well-understood processing pipeline</li>
+</ul>
+<h3>The "Raw" Approach (Waveform Models)</h3>
+<p><strong>Examples:</strong> Meta's Wav2Vec 2.0, HuBERT, WaveNet</p>
+<p>These models skip the spectrogram conversion entirely, ingesting the raw waveform (16,000 numbers per second):</p>
+<ul>
+<li><strong>Analogy:</strong> "Feeling the vibration" - learning directly from temporal dynamics</li>
+<li><strong>Architecture:</strong> Uses 1D convolutions and sequence models</li>
+<li><strong>Pros:</strong> Can learn features that spectrograms might blur out; end-to-end learning</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Feature</th><th>Spectrogram Models (e.g., Whisper)</th><th>Waveform Models (e.g., Wav2Vec)</th></tr></thead><tbody><tr><td><strong>Input</strong></td><td>2D matrix (Time × Frequency)</td><td>1D array (Time × Amplitude)</td></tr><tr><td><strong>Preprocessing</strong></td><td>Human-designed (Mel scale)</td><td>Learned features</td></tr><tr><td><strong>Architecture</strong></td><td>Vision Transformers / CNNs</td><td>1D Convolutions / Sequence models</td></tr></tbody></table>
+<p><strong>In this series, we focus on the spectrogram approach</strong> because:</p>
+<ol>
+<li>It powers the most widely-deployed models (Whisper, Google's speech APIs)</li>
+<li>The "audio as image" intuition is powerful and accessible</li>
+<li>Understanding the spectrogram pipeline gives you insight into <em>why</em> these models work</li>
+</ol>
+<p>But know that the field is evolving, and hybrid approaches are emerging.</p>
+<hr>
+<h2>🚀 What's Next: Enter the AI</h2>
+<p>We've traversed the gap between physical reality and digital representation. We started with air pressure variations, digitized them into samples, sliced them into time windows, decomposed them into frequencies, and warped them to match human perception.</p>
+<p>The result is a <strong>Log-Mel Spectrogram</strong> - a compact, perceptually-aligned 2D representation of speech.</p>
+<p>But we haven't touched what happens when this "audio image" enters a neural network. How does OpenAI's <strong>Whisper</strong> model - trained on 680,000 hours of multilingual audio - actually convert these colorful spectrograms into text?</p>
+<p>In <strong>Part 2</strong>, we'll crack open the Whisper model architecture and explore:</p>
+<ol>
+<li><strong>The Encoder:</strong> How convolutional layers and Transformers build a "context map" of the audio</li>
+<li><strong>The Decoder:</strong> How the auto-regressive text generation actually works</li>
+<li><strong>The Tokenizer:</strong> How the model chops words into pieces (and why that matters)</li>
+<li><strong>Multilingual Challenges:</strong> Why models sometimes get confused by mixed languages</li>
+<li><strong>Fine-Tuning:</strong> How to adapt Whisper for your specific domain</li>
+</ol>
+<p><em>Stay tuned.</em></p>
+<hr>
+<h2>📚 Image Credits &#x26; References</h2>
+<ul>
+<li><a href="https://commons.wikimedia.org/wiki/File:CPT-sound-physical-manifestation.svg">Figure 1: CPT-sound-physical-manifestation.svg – Wikimedia Commons (CC0 Public Domain)</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Spectrogram">Figure 2: Spectrogram – Wikipedia (CC BY-SA 4.0)</a></li>
+<li><a href="https://librosa.org/doc/latest/generated/librosa.display.specshow.html">Figure 3: librosa.display.specshow – librosa documentation (ISC License)</a></li>
+</ul>17:Tb613,<h1>Part 1: Deep Dive into V8 and V8 Isolates - The Engine and the Sandbox</h1>
 <p>Imagine you need to run code you don't fully trust - maybe it's user-submitted plugins, third-party extensions, or dynamically generated scripts. What's stopping that code from reading your environment variables, accessing your file system, or consuming all your server's resources?</p>
 <p>This is the central challenge of modern computing: <strong>How do you run untrusted code safely?</strong></p>
 <p>You could use Docker containers, but their 5-second "cold start" would kill your user experience. Virtual Machines are even slower. You need something that can create a <strong>perfectly secure sandbox in less than 5 milliseconds</strong>.</p>
@@ -405,7 +784,7 @@ Output:
 <li><strong>Serverless platforms</strong> (fast, secure function execution)</li>
 </ul>
 <p>In <strong>Part 2 of this series</strong>, we'll explore how modern platforms use this exact architecture to run untrusted code at massive scale. We'll dive into advanced patterns like the "Code Mode" approach, where systems can execute dynamically generated code inside these secure sandboxes - including how AI agents can safely run their own code without exposing your infrastructure.</p>
-<p>Now that you understand the fundamentals of V8 Isolates, you're ready to explore how they're revolutionizing everything from edge computing to AI agent architectures.</p>17:T3a2a,<p>We've all screamed at our search bars, right?</p>
+<p>Now that you understand the fundamentals of V8 Isolates, you're ready to explore how they're revolutionizing everything from edge computing to AI agent architectures.</p>18:T3a2a,<p>We've all screamed at our search bars, right?</p>
 <p>That feeling when you search for "soda" and get zero results, just because the file you <em>know</em> is in there says "pop." Or you search for "laptop with a good graphics card" and the search just shows you every single "laptop" and every single "graphics card" in the store, but not the <em>one</em> you want.</p>
 <p>This is the <strong>search problem</strong>. For decades, we've been trying to get computers to just... <em>get</em> us. To understand what we <em>mean</em>, not just what we <em>type</em>.</p>
 <p>This isn't a single "aha!" moment; it's an evolutionary journey. We're going to walk that path together, from a "Dumb Counter" to a "Smart Sorter" and finally to an "AI Mind Reader." This is the story of how search evolved from <strong>TF-IDF</strong> to <strong>BM25</strong> to <strong>SPLADE</strong>.</p>
@@ -566,7 +945,7 @@ If you search for "<strong>beverage for a party</strong>," it will <em>never</em
 <hr>
 <h3>The Journey Continues</h3>
 <p>We've come a long, long way from just counting words. The "search problem" is finally being solved by combining these ideas. We started with TF-IDF (a dumb counter), got smarter with BM25 (a great sorter), and now, with AI models like SPLADE, we're teaching search to <em>understand</em> what we mean, not just what we say.</p>
-<p>The future isn't dense vs. sparse. It's <em>both</em>, with a final, highly-accurate <strong>reranker</strong> to guarantee quality.</p>18:T24ec,<p>We love the idea of peer-to-peer (P2P) communication. It’s the magic behind instant, low-latency video calls in <strong>WebRTC</strong> and the decentralized promise of <strong>Web3</strong>. It's a world without middlemen, where your device talks directly to another.</p>
+<p>The future isn't dense vs. sparse. It's <em>both</em>, with a final, highly-accurate <strong>reranker</strong> to guarantee quality.</p>19:T24ec,<p>We love the idea of peer-to-peer (P2P) communication. It’s the magic behind instant, low-latency video calls in <strong>WebRTC</strong> and the decentralized promise of <strong>Web3</strong>. It's a world without middlemen, where your device talks directly to another.</p>
 <p>Except for one massive, foundational problem.</p>
 <p>How do you "directly" connect to a device that doesn't have a public address? If your laptop's IP is <code>192.168.1.100</code>, and your friend's is <code>10.0.0.50</code>, how do you find each other across the vast, public internet?</p>
 <p>This is the P2P discovery problem. Before any "direct" connection can happen, you have to solve a complex puzzle of networking, security, and timing. This post explores that puzzle: the challenges of peer discovery and the ingenious solutions that make it work.</p>
@@ -641,7 +1020,7 @@ If you search for "<strong>beverage for a party</strong>," it will <em>never</em
 <h3>Why This Matters for WebRTC and Web3</h3>
 <p>This entire stack - Signaling, STUN, Hole Punching, and TURN, is the magic that makes WebRTC work. It's a complex, orchestrated dance that tries the cheapest, fastest path (direct P2P) first and gracefully falls back to the most expensive, slowest path (TURN relay) only when necessary.</p>
 <p>For Web3, the challenge is identical. A decentralized storage network (like IPFS) or a P2P social app still needs its nodes to find each other. They face the exact same NATs, and while they may try to avoid "centralized" signaling servers by using Distributed Hash Tables (DHTs), the fundamental problem of hole-punching and Symmetric NATs remains.</p>
-<p>The next time you join a video call instantly, remember the incredible (and invisible) work happening in the background just to solve that first, hardest problem: "Hello? Are you out there?"</p>19:T12b7,<h2>Why This Matters</h2>
+<p>The next time you join a video call instantly, remember the incredible (and invisible) work happening in the background just to solve that first, hardest problem: "Hello? Are you out there?"</p>1a:T12b7,<h2>Why This Matters</h2>
 <p>Most technical blogs drown in maintenance. A CMS here, a plugin there, database queries that crawl under load, hosting bills that creep upward-the machinery meant to support writing becomes a burden instead. We wanted to prove something simpler: a blog can be fast, maintainable, and genuinely user-friendly without sacrificing essentials or chasing the latest frameworks.</p>
 <p>This is how we built ours.</p>
 <h2>The Architecture</h2>
@@ -690,9 +1069,9 @@ If you search for "<strong>beverage for a party</strong>," it will <em>never</em
 </ul>
 <h2>Next Steps</h2>
 <p>This setup scales. Add related posts, RSS feeds, or analytics without disturbing the core. The goal isn't to be first with features-it's to be right with the fundamentals.</p>
-<p>A technical blog doesn't need to be complex. It needs to be fast, maintainable, and pleasant to read. With modern tooling (Velite, Next.js static export, Tailwind), all three are within reach. The only variable is discipline: choose simplicity at each decision point, and everything else follows.</p>a:["$","div",null,{"className":"mx-auto w-full max-w-6xl px-6 pt-12 pb-16 sm:px-10 lg:pt-16 lg:pb-20","children":["$","$12",null,{"fallback":["$","div",null,{"children":"Loading..."}],"children":["$","$L15",null,{"posts":[{"title":"Deep Dive into V8 and V8 Isolates: The Engine and the Sandbox (Part 1)","description":"V8 Isolates are the lightweight, secure containers that power modern JavaScript execution in Chrome and Node.js. This first part explains the V8 engine, the concept of memory isolation, and how to build a basic secure sandbox using the isolated-vm library in Node.js.","date":"2025-11-18T00:00:00.000Z","tags":["v8","v8-isolate","javascript","nodejs","sandboxing","isolated-vm","concurrency","memory-isolation"],"draft":false,"coverImage":"/illustrations/v8-isolate-architecture.svg","coverImageAlt":"An illustration of a main computing structure acting as a host, with several interior rooms that are clearly labeled as 'Isolates' and sealed off from each other, symbolizing concurrent execution with strong separation.","audio":{"src":"/audio/v8-isolates-explainer-p1.m4a","title":"AI narration","duration":"04:55","mimeType":"audio/mp4"},"excerpt":"Part 1: Deep Dive into V8 and V8 Isolates - The Engine and the Sandbox\nImagine you need to run code you don't fully trust - maybe it's user-submitted plugins, third-party extensions, or dynamically generated scripts. What's stopping that co","content":"$16","slug":"v8-isolates-explainer-p1","readingTime":{"text":"10 min read","minutes":10.36,"words":2072}},{"title":"Beyond the Keyword: How AI Taught Search to Understand You","description":"We've all been there: you search for 'soda' but the app only knows 'pop'. This is the search problem. Let's go on a journey from simple keyword counting (TF-IDF) to smarter ranking (BM25) and finally to AI that gets you (SPLADE).","date":"2025-11-14T00:00:00.000Z","tags":["ai-search","splade","bm25","tf-idf","vectors","sparse-vectors","dense-vectors","qdrant","rag","nlp"],"draft":false,"coverImage":"/illustrations/ai-search-evolution.svg","coverImageAlt":"An abstract image showing a simple keyword 'pop' evolving into a complex, connected concept of 'soda' and 'beverage'.","audio":{"src":"/audio/ai-search-evolution.m4a","title":"AI narration","duration":"05:00","mimeType":"audio/mp4"},"excerpt":"We've all screamed at our search bars, right?\nThat feeling when you search for \"soda\" and get zero results, just because the file you know is in there says \"pop.\" Or you search for \"laptop with a good graphics card\" and the search just show","content":"$17","slug":"ai-search-evolution","readingTime":{"text":"11 min read","minutes":11.17,"words":2234}},{"title":"The P2P Paradox: Why You Need a Server to go Serverless","description":"Explore the peer-to-peer discovery problem. Learn how NAT, STUN, TURN, and signaling servers work together to create the 'impossible' P2P connections required for WebRTC and Web3.","date":"2025-11-11T00:00:00.000Z","tags":["webrtc","web3","p2p","networking","nat","stun","turn","ice"],"draft":false,"coverImage":"/illustrations/p2p-paradox-cover.svg","coverImageAlt":"An abstract network diagram showing two peers behind firewalls, with a central server helping them connect.","audio":{"src":"/audio/p2p-paradox.m4a","title":"AI narration","duration":"06:47","mimeType":"audio/mp4"},"excerpt":"We love the idea of peer-to-peer (P2P) communication. It’s the magic behind instant, low-latency video calls in WebRTC and the decentralized promise of Web3. It's a world without middlemen, where your device talks directly to another.\nExcep","content":"$18","slug":"p2p-paradox","readingTime":{"text":"8 min read","minutes":8.16,"words":1632}},{"title":"Building a Markdown-First Technical Blog with Modern Tools","description":"How to assemble a lean, maintainable blog using Velite, Next.js 15, and static exports-cutting through the CMS overhead to focus on writing.","date":"2025-10-16T00:00:00.000Z","tags":["nextjs","velite","tailwind","ux","deployment"],"draft":false,"coverImage":"/illustrations/stealthbit-build-cover.svg","coverImageAlt":"Minimal neon blueprint featuring converging lines around a central signal dot.","audio":{"src":"/audio/building-stealthbit-blog.m4a","title":"AI narration","duration":"04:12","mimeType":"audio/mp4"},"excerpt":"Why This Matters\nMost technical blogs drown in maintenance. A CMS here, a plugin there, database queries that crawl under load, hosting bills that creep upward-the machinery meant to support writing becomes a burden instead. We wanted to pr","content":"$19","slug":"building-stealthbit-blog","readingTime":{"text":"3 min read","minutes":3.13,"words":626}}]}]}]}]
+<p>A technical blog doesn't need to be complex. It needs to be fast, maintainable, and pleasant to read. With modern tooling (Velite, Next.js static export, Tailwind), all three are within reach. The only variable is discipline: choose simplicity at each decision point, and everything else follows.</p>a:["$","div",null,{"className":"mx-auto w-full max-w-6xl px-6 pt-12 pb-16 sm:px-10 lg:pt-16 lg:pb-20","children":["$","$12",null,{"fallback":["$","div",null,{"children":"Loading..."}],"children":["$","$L15",null,{"posts":[{"title":"From Waves to Vectors: The Engineer's Guide to Audio for AI (Part 1)","description":"Before you can feed audio to AI, you need to understand what sound actually is. This deep dive explores the physics and engineering of audio - from pressure waves to spectrograms - building the foundation for understanding Speech AI.","date":"2025-11-28T00:00:00.000Z","tags":["audio-engineering","fft","spectrogram","speech-ai","whisper","mel-spectrogram","nyquist","fourier-transform","machine-learning"],"draft":false,"coverImage":"/illustrations/waves-to-vectors-cover.svg","coverImageAlt":"A visualization of a sound wave transforming into a digital matrix, representing the journey from analog sound to AI embeddings.","audio":{"src":"/audio/waves-to-vectors-p1.m4a","title":"AI narration","duration":"12:47","mimeType":"audio/mp4"},"excerpt":"From Waves to Vectors: The Engineer's Guide to Audio for AI\nAs software engineers, we are comfortable with discrete data: strings, integers, JSON objects. We like our data deterministic and finite.\nAudio is none of those things.\nAudio is co","content":"$16","slug":"waves-to-vectors-p1","readingTime":{"text":"15 min read","minutes":15.23,"words":3046}},{"title":"Deep Dive into V8 and V8 Isolates: The Engine and the Sandbox (Part 1)","description":"V8 Isolates are the lightweight, secure containers that power modern JavaScript execution in Chrome and Node.js. This first part explains the V8 engine, the concept of memory isolation, and how to build a basic secure sandbox using the isolated-vm library in Node.js.","date":"2025-11-18T00:00:00.000Z","tags":["v8","v8-isolate","javascript","nodejs","sandboxing","isolated-vm","concurrency","memory-isolation"],"draft":false,"coverImage":"/illustrations/v8-isolate-architecture.svg","coverImageAlt":"An illustration of a main computing structure acting as a host, with several interior rooms that are clearly labeled as 'Isolates' and sealed off from each other, symbolizing concurrent execution with strong separation.","audio":{"src":"/audio/v8-isolates-explainer-p1.m4a","title":"AI narration","duration":"04:55","mimeType":"audio/mp4"},"excerpt":"Part 1: Deep Dive into V8 and V8 Isolates - The Engine and the Sandbox\nImagine you need to run code you don't fully trust - maybe it's user-submitted plugins, third-party extensions, or dynamically generated scripts. What's stopping that co","content":"$17","slug":"v8-isolates-explainer-p1","readingTime":{"text":"10 min read","minutes":10.36,"words":2072}},{"title":"Beyond the Keyword: How AI Taught Search to Understand You","description":"We've all been there: you search for 'soda' but the app only knows 'pop'. This is the search problem. Let's go on a journey from simple keyword counting (TF-IDF) to smarter ranking (BM25) and finally to AI that gets you (SPLADE).","date":"2025-11-14T00:00:00.000Z","tags":["ai-search","splade","bm25","tf-idf","vectors","sparse-vectors","dense-vectors","qdrant","rag","nlp"],"draft":false,"coverImage":"/illustrations/ai-search-evolution.svg","coverImageAlt":"An abstract image showing a simple keyword 'pop' evolving into a complex, connected concept of 'soda' and 'beverage'.","audio":{"src":"/audio/ai-search-evolution.m4a","title":"AI narration","duration":"05:00","mimeType":"audio/mp4"},"excerpt":"We've all screamed at our search bars, right?\nThat feeling when you search for \"soda\" and get zero results, just because the file you know is in there says \"pop.\" Or you search for \"laptop with a good graphics card\" and the search just show","content":"$18","slug":"ai-search-evolution","readingTime":{"text":"11 min read","minutes":11.17,"words":2234}},{"title":"The P2P Paradox: Why You Need a Server to go Serverless","description":"Explore the peer-to-peer discovery problem. Learn how NAT, STUN, TURN, and signaling servers work together to create the 'impossible' P2P connections required for WebRTC and Web3.","date":"2025-11-11T00:00:00.000Z","tags":["webrtc","web3","p2p","networking","nat","stun","turn","ice"],"draft":false,"coverImage":"/illustrations/p2p-paradox-cover.svg","coverImageAlt":"An abstract network diagram showing two peers behind firewalls, with a central server helping them connect.","audio":{"src":"/audio/p2p-paradox.m4a","title":"AI narration","duration":"06:47","mimeType":"audio/mp4"},"excerpt":"We love the idea of peer-to-peer (P2P) communication. It’s the magic behind instant, low-latency video calls in WebRTC and the decentralized promise of Web3. It's a world without middlemen, where your device talks directly to another.\nExcep","content":"$19","slug":"p2p-paradox","readingTime":{"text":"8 min read","minutes":8.16,"words":1632}},{"title":"Building a Markdown-First Technical Blog with Modern Tools","description":"How to assemble a lean, maintainable blog using Velite, Next.js 15, and static exports-cutting through the CMS overhead to focus on writing.","date":"2025-10-16T00:00:00.000Z","tags":["nextjs","velite","tailwind","ux","deployment"],"draft":false,"coverImage":"/illustrations/stealthbit-build-cover.svg","coverImageAlt":"Minimal neon blueprint featuring converging lines around a central signal dot.","audio":{"src":"/audio/building-stealthbit-blog.m4a","title":"AI narration","duration":"04:12","mimeType":"audio/mp4"},"excerpt":"Why This Matters\nMost technical blogs drown in maintenance. A CMS here, a plugin there, database queries that crawl under load, hosting bills that creep upward-the machinery meant to support writing becomes a burden instead. We wanted to pr","content":"$1a","slug":"building-stealthbit-blog","readingTime":{"text":"3 min read","minutes":3.13,"words":626}}]}]}]}]
 10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 c:null
-1a:I[80622,[],"IconMark"]
-e:{"metadata":[["$","title","0",{"children":"Vinay's writings"}],["$","meta","1",{"name":"description","content":"Blogs about software engineering, data systems, and applied AI."}],["$","link","2",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}],["$","link","3",{"rel":"icon","href":"/icon.svg?b0cfa693b1818954","type":"image/svg+xml","sizes":"any"}],["$","$L1a","4",{}]],"error":null,"digest":"$undefined"}
+1b:I[80622,[],"IconMark"]
+e:{"metadata":[["$","title","0",{"children":"Vinay's writings"}],["$","meta","1",{"name":"description","content":"Blogs about software engineering, data systems, and applied AI."}],["$","link","2",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}],["$","link","3",{"rel":"icon","href":"/icon.svg?b0cfa693b1818954","type":"image/svg+xml","sizes":"any"}],["$","$L1b","4",{}]],"error":null,"digest":"$undefined"}
 13:"$e:metadata"
