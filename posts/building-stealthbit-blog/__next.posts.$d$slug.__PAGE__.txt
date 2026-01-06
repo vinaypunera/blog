@@ -1,0 +1,65 @@
+1:"$Sreact.fragment"
+2:I[63258,["/_next/static/chunks/1ec5052ad9e92a43.js","/_next/static/chunks/92c57b9a8af13209.js","/_next/static/chunks/1e4c3f6d1047152e.js","/_next/static/chunks/44e552948a9e3161.js"],"MarkPostRead"]
+3:I[64569,["/_next/static/chunks/1ec5052ad9e92a43.js","/_next/static/chunks/92c57b9a8af13209.js","/_next/static/chunks/1e4c3f6d1047152e.js","/_next/static/chunks/44e552948a9e3161.js"],"ReadingProgress"]
+4:I[22016,["/_next/static/chunks/1ec5052ad9e92a43.js","/_next/static/chunks/92c57b9a8af13209.js","/_next/static/chunks/1e4c3f6d1047152e.js","/_next/static/chunks/44e552948a9e3161.js"],""]
+5:I[87192,["/_next/static/chunks/1ec5052ad9e92a43.js","/_next/static/chunks/92c57b9a8af13209.js","/_next/static/chunks/1e4c3f6d1047152e.js","/_next/static/chunks/44e552948a9e3161.js"],"PostAudioPlayer"]
+6:I[75836,["/_next/static/chunks/1ec5052ad9e92a43.js","/_next/static/chunks/92c57b9a8af13209.js","/_next/static/chunks/1e4c3f6d1047152e.js","/_next/static/chunks/44e552948a9e3161.js"],"MermaidDiagrams"]
+7:I[59078,["/_next/static/chunks/1ec5052ad9e92a43.js","/_next/static/chunks/92c57b9a8af13209.js","/_next/static/chunks/1e4c3f6d1047152e.js","/_next/static/chunks/44e552948a9e3161.js"],"ImageLightbox"]
+8:I[85437,["/_next/static/chunks/1ec5052ad9e92a43.js","/_next/static/chunks/92c57b9a8af13209.js","/_next/static/chunks/1e4c3f6d1047152e.js","/_next/static/chunks/44e552948a9e3161.js"],"Image"]
+d:I[61765,["/_next/static/chunks/1ec5052ad9e92a43.js","/_next/static/chunks/92c57b9a8af13209.js","/_next/static/chunks/1e4c3f6d1047152e.js","/_next/static/chunks/44e552948a9e3161.js"],"ShareButtons"]
+e:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/6153d1a363729c2c.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
+9:T12b7,<h2>Why This Matters</h2>
+<p>Most technical blogs drown in maintenance. A CMS here, a plugin there, database queries that crawl under load, hosting bills that creep upward-the machinery meant to support writing becomes a burden instead. We wanted to prove something simpler: a blog can be fast, maintainable, and genuinely user-friendly without sacrificing essentials or chasing the latest frameworks.</p>
+<p>This is how we built ours.</p>
+<h2>The Architecture</h2>
+<p>There's no mystery here. The stack is straightforward and each piece solves a real problem:</p>
+<h3>Content Processing: Velite</h3>
+<p><strong>Velite</strong> handles markdown at build time. Drop a <code>.md</code> file into <code>content/posts</code> with frontmatter (title, date, tags, optional cover image), and Velite validates the schema, calculates reading time, and passes typed content to the Next.js App Router. No manual entry. No API overhead. Files become data at build time-exactly when you need it.</p>
+<h3>Hosting: Static Export</h3>
+<p><strong>Next.js with <code>output: "export"</code></strong> pre-renders every page to pure HTML and CSS. No server, no database, no dynamic rendering. Everything is precomputed at build time and outputs as a static bundle ready for GitHub Pages, a CDN, or any static host. The result:</p>
+<ul>
+<li>Pages load in milliseconds, even on slow networks.</li>
+<li>Zero database attack surface.</li>
+<li>Hosting costs pennies.</li>
+<li>Uptime is boring-which is what you want.</li>
+</ul>
+<h3>UI Foundation: Tailwind + shadcn/ui</h3>
+<p>Clean, responsive layout without unnecessary weight. System fonts, a focused color palette, no custom imports or heavy libraries. Just accessible primitives and utility-first CSS that compounds into readable, maintainable pages.</p>
+<h2>Reader Experience: Mobile-First</h2>
+<p>We didn't optimize desktop first and shoehorn mobile in-we started with phones.</p>
+<p>A <strong>floating navigation hub</strong> sits at the bottom-right, where thumbs naturally rest. It unfolds to reveal:</p>
+<ul>
+<li><strong>Search</strong>: a slide-down sheet that pulls from the top, ensuring the keyboard never covers the input. Filter by title, description, or tags. Active filters show inline; tap "Clear" and they reset.</li>
+<li><strong>Share buttons</strong> that adapt: native share sheet on phones, direct LinkedIn/copy-to-clipboard on desktop.</li>
+<li><strong>Theme toggle</strong> for dark/light mode, persisted via <code>next-themes</code>.</li>
+<li><strong>Navigation</strong> to home or the author page without hunting for a sidebar.</li>
+</ul>
+<p>On desktop, hover over the button to unfurl the menu. Same interactions, adapted to input method. No mobile-only UI bloat.</p>
+<p>Additional polish:</p>
+<ul>
+<li><strong>Reading progress bar</strong> fills as you scroll-visual feedback without getting in the way.</li>
+<li><strong>Code syntax highlighting</strong> (Shiki) compiles to static HTML at build time. Zero runtime JavaScript.</li>
+<li><strong>Post metadata</strong> (reading time, date, tags) auto-generates.</li>
+<li><strong>Theme and search state persist</strong> across page reloads.</li>
+</ul>
+<h2>The Win: Simplicity at Every Layer</h2>
+<p><strong>For writers:</strong> Markdown files are the source of truth. Add a post, commit it, and the build handles the rest. No dashboard to learn. No CMS dialogs. No waiting for approval workflows. Write, save, done.</p>
+<p><strong>For readers:</strong> Pages load fast. Responsive layout adapts from phones to desktops without awkward breakpoints. Theme preference persists. Search is instant. Navigation is always at thumb's reach. No clutter.</p>
+<p><strong>For operators:</strong> Static files don't crash under traffic. No database to patch. Hosting is cheap. Uptime requires no monitoring. Deploy by pushing a folder to GitHub Pages or syncing to a CDN. That's it.</p>
+<h2>Performance Without Compromise</h2>
+<p>Static export + smart component choices = speed:</p>
+<ul>
+<li>Sub-second page loads on any network.</li>
+<li>No database queries hiding behind page renders.</li>
+<li>CDN-friendly asset caching.</li>
+<li>Framer Motion adds motion only where it clarifies interaction-never bloating the bundle.</li>
+<li>Syntax highlighting compiles at build time, not runtime.</li>
+</ul>
+<h2>Next Steps</h2>
+<p>This setup scales. Add related posts, RSS feeds, or analytics without disturbing the core. The goal isn't to be first with features-it's to be right with the fundamentals.</p>
+<p>A technical blog doesn't need to be complex. It needs to be fast, maintainable, and pleasant to read. With modern tooling (Velite, Next.js static export, Tailwind), all three are within reach. The only variable is discipline: choose simplicity at each decision point, and everything else follows.</p>0:{"buildId":"4XHJhZg8TRPx4yK18TiXH","rsc":["$","$1","c",{"children":[[["$","$L2",null,{"slug":"building-stealthbit-blog"}],["$","$L3",null,{}],["$","article",null,{"className":"mx-auto flex w-full max-w-3xl flex-col gap-10 px-6 pt-12 pb-28","children":[["$","nav",null,{"aria-label":"Breadcrumb","children":["$","ol",null,{"className":"flex flex-wrap items-center gap-1 text-sm text-muted-foreground","children":[["$","li","/",{"className":"flex items-center gap-1","children":[["$","$L4",null,{"href":"/","className":"hover:text-accent","children":"Home"}],["$","span",null,{"aria-hidden":true,"children":"/"}]]}],["$","li","/#posts",{"className":"flex items-center gap-1","children":[["$","$L4",null,{"href":{"pathname":"/","hash":"posts"},"className":"hover:text-accent","children":"Posts"}],["$","span",null,{"aria-hidden":true,"children":"/"}]]}],["$","li","/posts/building-stealthbit-blog",{"className":"flex items-center gap-1","children":[["$","$L4",null,{"href":"/posts/building-stealthbit-blog","className":"hover:text-accent","children":"Building a Markdown-First Technical Blog with Modern Tools"}],null]}]]}]}],["$","header",null,{"className":"space-y-4","children":[["$","p",null,{"className":"text-xs uppercase tracking-[0.3em] text-accent","children":"Article"}],["$","h1",null,{"className":"text-3xl font-semibold leading-tight sm:text-4xl","children":"Building a Markdown-First Technical Blog with Modern Tools"}],["$","div",null,{"className":"flex flex-wrap items-center gap-3 text-sm text-muted-foreground","children":[["$","time",null,{"dateTime":"2025-10-16T00:00:00.000Z","children":"Oct 16, 2025"}],["$","span",null,{"aria-hidden":true,"children":"•"}],["$","span",null,{"children":"3 min read"}],["$","span",null,{"aria-hidden":true,"children":"•"}],["$","$L4",null,{"href":"/about","className":"font-medium text-foreground transition-colors hover:text-accent","children":"Vinay Punera"}],null]}],["$","div",null,{"className":"flex flex-wrap gap-2","children":[["$","span","nextjs",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"nextjs"}],["$","span","velite",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"velite"}],["$","span","tailwind",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"tailwind"}],["$","span","ux",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"ux"}],["$","span","deployment",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"deployment"}]]}]]}],["$","$L5",null,{"postTitle":"Building a Markdown-First Technical Blog with Modern Tools","postSlug":"building-stealthbit-blog","audio":{"src":"/audio/building-stealthbit-blog.m4a","title":"AI narration","duration":"04:12","mimeType":"audio/mp4"}}],["$","$L6",null,{}],["$","$L7",null,{}],["$","div",null,{"className":"overflow-hidden rounded-3xl border border-border bg-muted","children":["$","$L8",null,{"src":"/illustrations/stealthbit-build-cover.svg","alt":"Minimal neon blueprint featuring converging lines around a central signal dot.","width":1200,"height":630,"sizes":"(max-width: 768px) 100vw, 768px","className":"h-auto w-full object-cover","priority":true}]}],["$","div",null,{"className":"prose prose-neutral dark:prose-invert max-w-none","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La"]}]],["$Lb"],"$Lc"]}],"loading":null,"isPartial":false}
+a:["$","footer",null,{"className":"flex flex-col gap-6 border-t border-border pt-6","children":[["$","$Ld",null,{"slug":"building-stealthbit-blog","title":"Building a Markdown-First Technical Blog with Modern Tools"}],["$","p",null,{"className":"text-sm text-muted-foreground","children":"Enjoyed this read? Share it with your network, or reach out via the about page for collaboration or to just say hi."}],["$","div",null,{"className":"flex flex-col gap-4 border-t border-border pt-6","children":[["$","p",null,{"className":"text-xs uppercase tracking-[0.3em] text-muted-foreground","children":"Keep reading"}],["$","nav",null,{"className":"flex flex-col items-stretch gap-3 sm:flex-row sm:items-center sm:justify-between","children":[["$","$L4",null,{"href":"/posts/p2p-paradox","className":"group inline-flex flex-1 items-center gap-2 rounded-full border border-border px-4 py-2 text-sm transition hover:border-accent hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent","children":[["$","span",null,{"aria-hidden":true,"children":"←"}],["$","span",null,{"className":"flex flex-col text-left","children":[["$","span",null,{"className":"text-[11px] uppercase tracking-widest text-muted-foreground","children":"Previous"}],["$","span",null,{"className":"font-medium text-foreground group-hover:text-accent","children":"The P2P Paradox: Why You Need a Server to go Serverless"}]]}]]}],["$","div",null,{"className":"hidden flex-1 sm:block"}]]}]]}]]}]
+b:["$","script","script-0",{"src":"/_next/static/chunks/44e552948a9e3161.js","async":true}]
+c:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+10:null

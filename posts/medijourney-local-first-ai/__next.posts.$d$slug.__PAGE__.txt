@@ -1,0 +1,155 @@
+1:"$Sreact.fragment"
+2:I[63258,["/_next/static/chunks/1ec5052ad9e92a43.js","/_next/static/chunks/92c57b9a8af13209.js","/_next/static/chunks/1e4c3f6d1047152e.js","/_next/static/chunks/44e552948a9e3161.js"],"MarkPostRead"]
+3:I[64569,["/_next/static/chunks/1ec5052ad9e92a43.js","/_next/static/chunks/92c57b9a8af13209.js","/_next/static/chunks/1e4c3f6d1047152e.js","/_next/static/chunks/44e552948a9e3161.js"],"ReadingProgress"]
+4:I[22016,["/_next/static/chunks/1ec5052ad9e92a43.js","/_next/static/chunks/92c57b9a8af13209.js","/_next/static/chunks/1e4c3f6d1047152e.js","/_next/static/chunks/44e552948a9e3161.js"],""]
+5:I[87192,["/_next/static/chunks/1ec5052ad9e92a43.js","/_next/static/chunks/92c57b9a8af13209.js","/_next/static/chunks/1e4c3f6d1047152e.js","/_next/static/chunks/44e552948a9e3161.js"],"PostAudioPlayer"]
+6:I[75836,["/_next/static/chunks/1ec5052ad9e92a43.js","/_next/static/chunks/92c57b9a8af13209.js","/_next/static/chunks/1e4c3f6d1047152e.js","/_next/static/chunks/44e552948a9e3161.js"],"MermaidDiagrams"]
+7:I[59078,["/_next/static/chunks/1ec5052ad9e92a43.js","/_next/static/chunks/92c57b9a8af13209.js","/_next/static/chunks/1e4c3f6d1047152e.js","/_next/static/chunks/44e552948a9e3161.js"],"ImageLightbox"]
+8:I[85437,["/_next/static/chunks/1ec5052ad9e92a43.js","/_next/static/chunks/92c57b9a8af13209.js","/_next/static/chunks/1e4c3f6d1047152e.js","/_next/static/chunks/44e552948a9e3161.js"],"Image"]
+d:I[61765,["/_next/static/chunks/1ec5052ad9e92a43.js","/_next/static/chunks/92c57b9a8af13209.js","/_next/static/chunks/1e4c3f6d1047152e.js","/_next/static/chunks/44e552948a9e3161.js"],"ShareButtons"]
+e:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/6153d1a363729c2c.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
+9:T3255,<p><em>Editor's Note: This is a personal project born out of frustration with managing my family's medical records. It's an exploration of what's possible with local-first AI, not a commercial product.</em></p>
+<blockquote>
+<p><strong>Try it Live:</strong> <a href="https://medijourney.stealthbit.in">medijourney.stealthbit.in</a></p>
+</blockquote>
+<p>We've all been there: sitting in a new doctor's office, clutching a thick folder of crumpled lab reports from the last five years. The doctor has precisely ten minutes. They glance at the most recent sheet, but the rich history of your health - the subtle trend in your thyroid levels, the gradual improvement in Vitamin D - is lost in the noise of paper and scattered PDFs.</p>
+<p>The data exists, but it's trapped in a format that humans can't process quickly. It's <strong>Data Rich, Intelligence Poor.</strong></p>
+<p>I built <strong>MediJourney</strong> to fix this. It's a tool that doesn't just store files but actually <strong>reads, understands, and visualizes</strong> them. And primarily, I wanted to do this without ever seeing your data.</p>
+<h2>The Pain Point: No Way to Analyze Reports Over Time</h2>
+<p>Here's the reality that drove this project: I had years of blood reports - PDFs, scanned images, physical papers - and <strong>no way to analyze them over time without going through each one manually.</strong></p>
+<p>If you do regular health checkups (even just once a year), reports accumulate fast. Blood work, lipid panels, thyroid tests, HbA1c, kidney function markers, liver enzymes... the list goes on.</p>
+<h3>The Chaos of Paper &#x26; PDFs</h3>
+<p>Each report arrives as either:</p>
+<ul>
+<li>A <strong>physical paper</strong> from the diagnostic lab</li>
+<li>A <strong>PDF</strong> downloaded from an online portal</li>
+<li>Sometimes, just an <strong>image</strong> clicked on a phone</li>
+</ul>
+<p>Over years, these accumulate into a mess:</p>
+<ul>
+<li>Reports scattered across email attachments, WhatsApp forwards, and physical folders</li>
+<li>No unified view of how a marker has changed over time</li>
+<li>When visiting a specialist, you're left frantically searching for "that one report from last year"</li>
+</ul>
+<h3>The Core Problem</h3>
+<p>I realized the problem wasn't a lack of data. <strong>It was the inability to visualize trends across scattered reports without manually going through each one.</strong></p>
+<p>I needed something that could:</p>
+<ol>
+<li><strong>Consolidate all reports</strong> - PDFs, images, scanned papers - into one place</li>
+<li><strong>Extract the markers automatically</strong> - no manual data entry</li>
+<li><strong>Show trends over time</strong> - a simple line chart showing cholesterol, sugar levels, or any marker across years</li>
+<li><strong>Generate doctor-friendly summaries</strong> - a clean graphical + tabular view I could share during consultations</li>
+</ol>
+<h3>Why Existing Solutions Failed</h3>
+<p>Sure, there are health trackers and EHR apps. But:</p>
+<ul>
+<li>Most require <strong>manual data entry</strong> (who has time for that?)</li>
+<li>They're often <strong>locked to specific hospital ecosystems</strong></li>
+<li><strong>Privacy concerns</strong> - do I really want to upload my family's medical history to yet another cloud service?</li>
+</ul>
+<p>MediJourney was born from this gap. It understands that health data isn't just numbers - it's context, it's history, it's patterns that emerge only when you can see the full picture.</p>
+<h3>A Typical Use Case in Action</h3>
+<p>Let's say you have <strong>12 blood reports</strong> from 3 years of quarterly checkups. Here's how MediJourney helps:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th><strong>Step</strong></th><th><strong>What Happens</strong></th></tr></thead><tbody><tr><td>1. Upload</td><td>Drop all 12 PDFs/images at once</td></tr><tr><td>2. AI Extraction</td><td>The AI reads each report, extracting markers like Hemoglobin, TSH, Creatinine, etc.</td></tr><tr><td>3. Automatic Standardization</td><td>"Hb", "Hgb", and "Hemoglobin" are unified into a single tracked marker</td></tr><tr><td>4. Trend Visualization</td><td>Interactive charts show how each marker has changed over 3 years</td></tr><tr><td>5. Doctor-Ready Export</td><td>Generate a PDF with your selected markers' trends to share during consultations</td></tr></tbody></table>
+<p>This is the power of turning <strong>passive medical documents into active health intelligence</strong>.</p>
+<h2>The Architecture: Zero-Backend &#x26; Local-First</h2>
+<p>Health data is radioactive. The moment it touches a server, you have a massive responsibility. Breaches happen. Compliance is always a nightmare.</p>
+<p>I circumvented this entire problem by asking: <em>What if there is no server?</em></p>
+<p>MediJourney is built with a <strong>Local-First</strong> architecture.</p>
+<ul>
+<li><strong>Storage:</strong> All data lives in your browser's <strong>IndexedDB</strong>. That means if you clear your cache, your data is gone (by default).</li>
+<li><strong>Sync (Under Privacy Review):</strong> To solve the persistence problem without a backend, we use the user's <em>own</em> cloud. I am currently re-evaluating the integration (even the picker) to ensure zero unauthorized access. This feature is temporarily disabled while I explore the most secure implementation with verified zero-knowledge adaptors.</li>
+<li><strong>Compute:</strong> AI processing happens via API (or locally), but the state management is purely client-side.</li>
+</ul>
+<p><img src="/diagrams/medijourney_process.png" alt="MediJourney Process Flow">
+<em>A visual overview of how MediJourney ingests, processes, and visualizes data without a backend.</em></p>
+<h2>Choosing an AI Model: What Works</h2>
+<p>This is where choosing the right AI model matters. Medical reports aren't simple text - they're <strong>structured data with context</strong>.</p>
+<p>When you upload a blood report, the AI needs to:</p>
+<ul>
+<li><strong>Parse tabular layouts</strong> - understand rows, columns, and nested sections</li>
+<li><strong>Recognize medical terminology</strong> - know that "RBC" and "Red Blood Cell Count" are the same thing</li>
+<li><strong>Interpret reference ranges</strong> - understand that "Normal" changes based on age, gender, and lab equipment</li>
+<li><strong>Handle variations</strong> - different labs use different formats, abbreviations, and units</li>
+</ul>
+<p>This requires <strong>multimodal reasoning</strong>, not just OCR. Any leading AI model with strong vision capabilities should work well. I've been experimenting with <strong>Google Gemini 3 Pro</strong> because of its ease of use and solid multimodal reasoning, but <strong>OpenAI's GPT-4o</strong>, <strong>Anthropic's Claude</strong>, and other frontier models are equally capable for this task.</p>
+<p>The key requirement is that the model must be <strong>vision-enabled</strong> - it needs to understand images/PDFs, not just text.</p>
+<blockquote>
+<p><strong>Note on API Keys (BYOK):</strong> MediJourney follows a <strong>"Bring Your Own Key"</strong> model. I do not provide free AI processing. You must provide your own API Key (from Google AI Studio, OpenAI, or other providers) in the settings. This ensures you control the billing and the quotas.</p>
+</blockquote>
+<h3>True Privacy with Local LLMs (OpenAI Compatible)</h3>
+<p>For the absolute privacy purists, I added support for any <strong>OpenAI-compliant endpoint</strong>. This means you're not tied to Big Tech APIs.</p>
+<p>You can spin up <strong>LocalAI</strong>, <strong>Ollama</strong>, <strong>LM Studio</strong>, or <strong>llama.cpp</strong> on your own machine and point MediJourney to <code>http://localhost:1234/v1</code>.</p>
+<p><strong>Recommended Models (2026 Edition):</strong>
+Since MediJourney relies heavily on reading charts and tables from images, you <strong>must use a vision-enabled model</strong>. Simple text models will not work. I have successfully tested:</p>
+<ul>
+<li><strong>Qwen3-VL (Instruct or Thinking)</strong>: Released in late 2025, this model (especially the 7B and 30B variants) currently holds the crown for local OCR and chart reasoning. It rivals proprietary models for extracting data from complex medical tables.</li>
+<li><strong>Gemma 3</strong>: Google's latest open model (released March 2025) is now natively multimodal. It runs incredibly fast on consumer hardware and handles medical reports better than its predecessors.</li>
+</ul>
+<h3>⚠️ Important Note on Privacy</h3>
+<p>While MediJourney itself is "Zero-Backend" and stores nothing on <em>my</em> servers, the <strong>AI provider you choose matters</strong>:</p>
+<ul>
+<li><strong>Local Models:</strong> 100% Private. Data never leaves your machine.</li>
+<li><strong>External APIs (Gemini/OpenAI):</strong> If you use cloud API keys, your image data is sent to Google or OpenAI for processing. While they generally do not train on API data by default for paid tiers, you <strong>must</strong> read their specific Terms of Service and Data Retention policies to ensure you're comfortable with how they handle sensitive health data.</li>
+</ul>
+<h2>The "Regrounding" Engine: Solving Data Dirtiness</h2>
+<p>It's easy to ask an LLM to "extract the hemoglobin value." It's hard to make sure it plots "Hb", "Hgb", "Haemoglobin", and "Hemoglobin (Fasting)" on the same chart line over five years.</p>
+<p>This is where the <strong>Regrounding Feature</strong> comes in.</p>
+<p>I implemented an iterative feedback loop. When a new report is uploaded, the AI doesn't just look at the paper; it looks at your existing database keys.</p>
+<figure class="mermaid-diagram"><img src="/diagrams/medijourney-local-first-ai-diagram-1.svg" alt="Diagram 1"></figure>
+<p>I call this the <strong>"Standardization Engine"</strong>. It allows the app to automatically unify different terminologies without the user having to manually link synonyms in their head.</p>
+<h2>Feature Deep Dive</h2>
+<p>I wanted this to be a robust utility, not just a tech demo.</p>
+<ul>
+<li><strong>⚡ Multiple Profiles:</strong> Manage health records for your entire family (parents, kids, spouse) in one browser instance, keeping their data logically separated in the database.</li>
+<li><strong>📂 JSON Portability:</strong> You are not locked in. You can export your entire database as a raw <code>JSON</code> file at any time. It's your data, in a standard format.</li>
+<li><strong>📄 PDF Export:</strong> Need to share with a doctor? Generate a clean, summarized PDF of your trend lines and abnormal results directly from the browser.</li>
+<li><strong>☁️ Drive Backup (Under Privacy Review):</strong> Seamlessly sync your local IndexedDB to your personal Google Drive for cross-device access. Currently disabled for security audit.</li>
+<li><strong>🔍 RAG Assistant:</strong> Chat with your records using a retrieval-augmented generation pipeline. Ask, "Show me all my kidney function tests from 2024," and get a cited answer.</li>
+</ul>
+<h2>Call for Collaboration 🤝</h2>
+<p>When I researched this space, I found that <strong>commercial health platforms do offer report analysis features</strong> - but always as part of a larger product, often requiring you to upload your data to their servers. I couldn't find a single standalone, privacy-focused solution that lets you analyze your medical reports over time <strong>without giving up your data</strong>.</p>
+<p>That gap was another driver for building MediJourney.</p>
+<p>This is a passion project, but the potential for <strong>Privacy-First Health AI</strong> is massive. There are so many ways this can be extended, and I'm looking to collaborate with open-source enthusiasts:</p>
+<ul>
+<li><strong>UX Engineers:</strong> Healthcare data is dense. I need help making it beautiful and accessible.</li>
+<li><strong>Secure Cloud Sync:</strong> I need help effectively integrating <strong>Google Picker</strong> in a strictly trustless manner. If you know how to build secure, user-owned sync adaptors, I'd love to connect.</li>
+<li><strong>On-Device AI Researchers:</strong> I'm experimenting with <strong>Gemma 3N</strong> (Google's open-weights model) to move the <em>entire</em> pipeline offline, removing the need for even the API call to external AI services.</li>
+<li><strong>Privacy &#x26; Security Experts:</strong> There are many more ways to make this even more privacy-respecting - end-to-end encryption, better local storage options, secure sharing mechanisms. If you're passionate about privacy-first software, let's talk.</li>
+<li><strong>Feature Ideas:</strong> If you have ideas on how this tool can help in ways I haven't thought of - different report types, integrations, visualizations - I'm all ears.</li>
+</ul>
+<p>If you're interested in building the future of patient-owned medical records, reach out. I'd love to hack on this together.</p>0:{"buildId":"4XHJhZg8TRPx4yK18TiXH","rsc":["$","$1","c",{"children":[[["$","$L2",null,{"slug":"medijourney-local-first-ai"}],["$","$L3",null,{}],["$","article",null,{"className":"mx-auto flex w-full max-w-3xl flex-col gap-10 px-6 pt-12 pb-28","children":[["$","nav",null,{"aria-label":"Breadcrumb","children":["$","ol",null,{"className":"flex flex-wrap items-center gap-1 text-sm text-muted-foreground","children":[["$","li","/",{"className":"flex items-center gap-1","children":[["$","$L4",null,{"href":"/","className":"hover:text-accent","children":"Home"}],["$","span",null,{"aria-hidden":true,"children":"/"}]]}],["$","li","/#posts",{"className":"flex items-center gap-1","children":[["$","$L4",null,{"href":{"pathname":"/","hash":"posts"},"className":"hover:text-accent","children":"Posts"}],["$","span",null,{"aria-hidden":true,"children":"/"}]]}],["$","li","/posts/medijourney-local-first-ai",{"className":"flex items-center gap-1","children":[["$","$L4",null,{"href":"/posts/medijourney-local-first-ai","className":"hover:text-accent","children":"MediJourney: Converting Paper Chaos into Medical Intelligence"}],null]}]]}]}],["$","header",null,{"className":"space-y-4","children":[["$","p",null,{"className":"text-xs uppercase tracking-[0.3em] text-accent","children":"Article"}],["$","h1",null,{"className":"text-3xl font-semibold leading-tight sm:text-4xl","children":"MediJourney: Converting Paper Chaos into Medical Intelligence"}],["$","div",null,{"className":"flex flex-wrap items-center gap-3 text-sm text-muted-foreground","children":[["$","time",null,{"dateTime":"2026-01-05T00:00:00.000Z","children":"Jan 5, 2026"}],["$","span",null,{"aria-hidden":true,"children":"•"}],["$","span",null,{"children":"9 min read"}],["$","span",null,{"aria-hidden":true,"children":"•"}],["$","$L4",null,{"href":"/about","className":"font-medium text-foreground transition-colors hover:text-accent","children":"Vinay Punera"}],null]}],["$","div",null,{"className":"flex flex-wrap gap-2","children":[["$","span","ai",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"ai"}],["$","span","privacy",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"privacy"}],["$","span","local-first",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"local-first"}],["$","span","gemini",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"gemini"}],["$","span","openai",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"openai"}],["$","span","health-tech",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"health-tech"}],["$","span","medical-report-analytics",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"medical-report-analytics"}],["$","span","digitization",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"digitization"}]]}]]}],["$","$L5",null,{"postTitle":"MediJourney: Converting Paper Chaos into Medical Intelligence","postSlug":"medijourney-local-first-ai","audio":{"src":"/audio/medijourney.m4a","title":"AI narration","duration":"04:33","mimeType":"audio/mp4"}}],["$","$L6",null,{}],["$","$L7",null,{}],["$","div",null,{"className":"overflow-hidden rounded-3xl border border-border bg-muted","children":["$","$L8",null,{"src":"/illustrations/medijourney-cover.jpeg","alt":"Abstract visualization of scattered paper medical reports transforming into a clean, digital trend line.","width":1200,"height":630,"sizes":"(max-width: 768px) 100vw, 768px","className":"h-auto w-full object-cover","priority":true}]}],["$","div",null,{"className":"prose prose-neutral dark:prose-invert max-w-none","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La"]}]],["$Lb"],"$Lc"]}],"loading":null,"isPartial":false}
+a:["$","footer",null,{"className":"flex flex-col gap-6 border-t border-border pt-6","children":[["$","$Ld",null,{"slug":"medijourney-local-first-ai","title":"MediJourney: Converting Paper Chaos into Medical Intelligence"}],["$","p",null,{"className":"text-sm text-muted-foreground","children":"Enjoyed this read? Share it with your network, or reach out via the about page for collaboration or to just say hi."}],["$","div",null,{"className":"flex flex-col gap-4 border-t border-border pt-6","children":[["$","p",null,{"className":"text-xs uppercase tracking-[0.3em] text-muted-foreground","children":"Keep reading"}],["$","nav",null,{"className":"flex flex-col items-stretch gap-3 sm:flex-row sm:items-center sm:justify-between","children":[["$","div",null,{"className":"hidden flex-1 sm:block"}],["$","$L4",null,{"href":"/posts/waves-to-vectors-p1","className":"group inline-flex flex-1 items-center justify-end gap-2 rounded-full border border-border px-4 py-2 text-sm transition hover:border-accent hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent sm:justify-end","children":[["$","span",null,{"className":"flex flex-col text-right","children":[["$","span",null,{"className":"text-[11px] uppercase tracking-widest text-muted-foreground","children":"Next"}],["$","span",null,{"className":"font-medium text-foreground group-hover:text-accent","children":"From Waves to Vectors: The Engineer's Guide to Audio for AI (Part 1)"}]]}],["$","span",null,{"aria-hidden":true,"children":"→"}]]}]]}]]}]]}]
+b:["$","script","script-0",{"src":"/_next/static/chunks/44e552948a9e3161.js","async":true}]
+c:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+10:null
