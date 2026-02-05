@@ -1,0 +1,167 @@
+1:"$Sreact.fragment"
+2:I[63258,["/_next/static/chunks/1ec5052ad9e92a43.js","/_next/static/chunks/92c57b9a8af13209.js","/_next/static/chunks/1e4c3f6d1047152e.js","/_next/static/chunks/44e552948a9e3161.js"],"MarkPostRead"]
+3:I[64569,["/_next/static/chunks/1ec5052ad9e92a43.js","/_next/static/chunks/92c57b9a8af13209.js","/_next/static/chunks/1e4c3f6d1047152e.js","/_next/static/chunks/44e552948a9e3161.js"],"ReadingProgress"]
+4:I[22016,["/_next/static/chunks/1ec5052ad9e92a43.js","/_next/static/chunks/92c57b9a8af13209.js","/_next/static/chunks/1e4c3f6d1047152e.js","/_next/static/chunks/44e552948a9e3161.js"],""]
+5:I[87192,["/_next/static/chunks/1ec5052ad9e92a43.js","/_next/static/chunks/92c57b9a8af13209.js","/_next/static/chunks/1e4c3f6d1047152e.js","/_next/static/chunks/44e552948a9e3161.js"],"PostAudioPlayer"]
+6:I[75836,["/_next/static/chunks/1ec5052ad9e92a43.js","/_next/static/chunks/92c57b9a8af13209.js","/_next/static/chunks/1e4c3f6d1047152e.js","/_next/static/chunks/44e552948a9e3161.js"],"MermaidDiagrams"]
+7:I[59078,["/_next/static/chunks/1ec5052ad9e92a43.js","/_next/static/chunks/92c57b9a8af13209.js","/_next/static/chunks/1e4c3f6d1047152e.js","/_next/static/chunks/44e552948a9e3161.js"],"ImageLightbox"]
+8:I[85437,["/_next/static/chunks/1ec5052ad9e92a43.js","/_next/static/chunks/92c57b9a8af13209.js","/_next/static/chunks/1e4c3f6d1047152e.js","/_next/static/chunks/44e552948a9e3161.js"],"Image"]
+d:I[61765,["/_next/static/chunks/1ec5052ad9e92a43.js","/_next/static/chunks/92c57b9a8af13209.js","/_next/static/chunks/1e4c3f6d1047152e.js","/_next/static/chunks/44e552948a9e3161.js"],"ShareButtons"]
+e:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/6153d1a363729c2c.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
+9:T3465,<p>As software engineers, we are accustomed to "stateless" systems. A REST API call comes in, we process it, and we forget it. It’s clean, deterministic, and scalable.</p>
+<p><strong>LLM Agents are none of those things.</strong></p>
+<p>Agents are stateful beasts. They "remember" by carrying around a massive, ever-growing baggage of text known as the <strong>Context Window</strong>. Before an agent can make a single decision, it must re-read every previous instruction, tool output, and user correction.</p>
+<p>In this deep dive, we will strip away the hype of "1 Million Token Context Windows" and look at memory through the lens of <strong>System Engineering</strong>. We will explore how to stop treating context as a dumping ground and start treating it as a managed resource.</p>
+<hr>
+<h2>📉 The Physics of Attention: Why "More" is Less</h2>
+<p>Before we write any code, let's understand the bottleneck we are dealing with.</p>
+<p>We often assume that a larger context window means a "smarter" model. If I can fit 128k tokens, why not just dump the entire database schema, three PDF manuals, and the last 500 conversation turns into the prompt?</p>
+<h3>The "Lost in the Middle" Phenomenon</h3>
+<p>Research from both OpenAI and Anthropic shows that as context grows, <strong>reasoning quality degrades</strong>.</p>
+<figure class="mermaid-diagram"><img src="/diagrams/llms-context-optimisation-p1-diagram-1.svg" alt="Diagram 1"></figure>
+<ul>
+<li><strong>Latency:</strong> Processing time scales linearly (or worse) with input length.</li>
+<li><strong>Cost:</strong> You pay for every token, every single turn.</li>
+<li><strong>Confusion:</strong> Conflicting instructions ("Context Conflict") and irrelevant details ("Context Noise") drown out the signal.</li>
+</ul>
+<p>This leads to what I call the <strong>Context Paradox</strong>:</p>
+<blockquote>
+<p>The more an agent "remembers," the slower and less accurate it becomes at using that memory.</p>
+</blockquote>
+<p>We need a strategy to solve this. We need <strong>Reshape and Fit</strong>.</p>
+<hr>
+<h2>✂️ Technique 1: Context Trimming (The Sliding Window)</h2>
+<p>The most fundamental approach is to admit that not everything matters forever.</p>
+<h3>The Mechanism</h3>
+<p>This is the "FIFO" (First-In-First-Out) of memory management. You maintain a strictly bounded window of the most recent  turns.</p>
+<ol>
+<li><strong>New Message Arrives:</strong> Append it to the list.</li>
+<li><strong>Check Length:</strong> Is <code>total_tokens > max_limit</code>?</li>
+<li><strong>Trim:</strong> Drop the oldest messages (typically keeping the System Prompt pinned at the top) until you are back under the limit.</li>
+</ol>
+<figure class="mermaid-diagram"><img src="/diagrams/llms-context-optimisation-p1-diagram-2.svg" alt="Diagram 2"></figure>
+<h3>When to Use It</h3>
+<ul>
+<li><strong>Stateless Tasks:</strong> Chatbots where previous turns rarely impact the current request.</li>
+<li><strong>Low Latency:</strong> You need a predictable, constant cost per turn.</li>
+</ul>
+<p><strong>The Trade-off:</strong> It’s brutal. If the user defined a variable <code>x = 5</code> in Turn 1, and you trim it in Turn 10, the agent has amnesia.</p>
+<hr>
+<h2>🗜️ Technique 2: Context Compaction (The Tool Diet)</h2>
+<p>For <strong>Agentic workflows</strong>, Trimming is often too aggressive. The real culprit in token bloat usually isn't the <em>conversation</em> - it's the <strong>Tools</strong>.</p>
+<p>Imagine an agent searching for a file.</p>
+<ul>
+<li><strong>Agent:</strong> "List files in /logs"</li>
+<li><strong>Tool Output:</strong> Returns 500 file names (3,000 tokens).</li>
+<li><strong>Agent:</strong> "Read error.log"</li>
+</ul>
+<p>Once the agent has decided to read <code>error.log</code>, it <em>no longer needs</em> the list of the other 499 files. That 3,000-token block is now dead weight.</p>
+<h3>The "Distill" Strategy</h3>
+<p><strong>Context Compaction</strong> involves keeping the <em>flow</em> of the conversation but stripping the <em>payload</em> of older tool calls.</p>
+<ul>
+<li><strong>Before:</strong> Full JSON output of the <code>list_files</code> tool.</li>
+<li><strong>After:</strong> A placeholder like <code>[Tool output: 500 files listed. Result: Success]</code>.</li>
+</ul>
+<figure class="mermaid-diagram"><img src="/diagrams/llms-context-optimisation-p1-diagram-3.svg" alt="Diagram 3"></figure>
+<p><strong>Why This Matters:</strong>
+It preserves the <strong>Reasoning Chain</strong> (the agent knows <em>why</em> it made a decision) without paying the <strong>Token Tax</strong> for data that has already been processed.</p>
+<hr>
+<h2>📝 Technique 3: Context Summarization (The Golden State)</h2>
+<p>This is the most sophisticated approach, moving us from "forgetting" to "synthesizing."</p>
+<p>Instead of dropping old turns, we periodically ask an LLM to "compress" the history into a structured <strong>Golden Summary</strong>. This summary is then injected back into the context, effectively becoming the agent's long-term memory.</p>
+<h3>The Structured Summary</h3>
+<p>A common mistake is asking for a generic summary ("User asked about code"). This is useless. We need a <strong>State Object</strong>.</p>
+<p>Your summary instruction should look like this:</p>
+<blockquote>
+<p>"Compress the conversation history. Retain key variables, user preferences, and the current goal. Discard chit-chat."</p>
+</blockquote>
+<p><strong>The Resulting State:</strong></p>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="json" data-theme="github-dark-dimmed github-light"><code data-language="json" data-theme="github-dark-dimmed github-light" style="display: grid;"><span data-line=""><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">{</span></span>
+<span data-line=""><span style="--shiki-dark:#8DDB8C;--shiki-light:#005CC5">  "user_goal"</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">: </span><span style="--shiki-dark:#96D0FF;--shiki-light:#032F62">"Debug memory leak in V8 isolate"</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">,</span></span>
+<span data-line=""><span style="--shiki-dark:#8DDB8C;--shiki-light:#005CC5">  "current_status"</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">: </span><span style="--shiki-dark:#96D0FF;--shiki-light:#032F62">"Analyzing heap snapshot"</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">,</span></span>
+<span data-line=""><span style="--shiki-dark:#8DDB8C;--shiki-light:#005CC5">  "key_facts"</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">: [</span></span>
+<span data-line=""><span style="--shiki-dark:#96D0FF;--shiki-light:#032F62">    "User is on macOS Sequoia"</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">,</span></span>
+<span data-line=""><span style="--shiki-dark:#96D0FF;--shiki-light:#032F62">    "Node version 20.1"</span></span>
+<span data-line=""><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">  ],</span></span>
+<span data-line=""><span style="--shiki-dark:#8DDB8C;--shiki-light:#005CC5">  "pending_actions"</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">: [</span><span style="--shiki-dark:#96D0FF;--shiki-light:#032F62">"Check garbage collector logs"</span><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">]</span></span>
+<span data-line=""><span style="--shiki-dark:#ADBAC7;--shiki-light:#24292E">}</span></span>
+<span data-line=""> </span><button type="button" title="Copy code" aria-label="Copy code" data="{
+  &#x22;user_goal&#x22;: &#x22;Debug memory leak in V8 isolate&#x22;,
+  &#x22;current_status&#x22;: &#x22;Analyzing heap snapshot&#x22;,
+  &#x22;key_facts&#x22;: [
+    &#x22;User is on macOS Sequoia&#x22;,
+    &#x22;Node version 20.1&#x22;
+  ],
+  &#x22;pending_actions&#x22;: [&#x22;Check garbage collector logs&#x22;]
+}
+" class="rehype-pretty-copy" onclick="navigator.clipboard.writeText(this.attributes.data.value);this.classList.add(&#x27;rehype-pretty-copied&#x27;);window.setTimeout(() => this.classList.remove(&#x27;rehype-pretty-copied&#x27;), 2000);"><span class="ready"></span><span class="success"></span></button><style>:root {--copy-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath fill='%23adadad' d='M16.187 9.5H12.25a1.75 1.75 0 0 0-1.75 1.75v28.5c0 .967.784 1.75 1.75 1.75h23.5a1.75 1.75 0 0 0 1.75-1.75v-28.5a1.75 1.75 0 0 0-1.75-1.75h-3.937a4.25 4.25 0 0 1-4.063 3h-7.5a4.25 4.25 0 0 1-4.063-3M31.813 7h3.937A4.25 4.25 0 0 1 40 11.25v28.5A4.25 4.25 0 0 1 35.75 44h-23.5A4.25 4.25 0 0 1 8 39.75v-28.5A4.25 4.25 0 0 1 12.25 7h3.937a4.25 4.25 0 0 1 4.063-3h7.5a4.25 4.25 0 0 1 4.063 3M18.5 8.25c0 .966.784 1.75 1.75 1.75h7.5a1.75 1.75 0 1 0 0-3.5h-7.5a1.75 1.75 0 0 0-1.75 1.75'/%3E%3C/svg%3E");--success-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%2366ff85' d='M9 16.17L5.53 12.7a.996.996 0 1 0-1.41 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71a.996.996 0 1 0-1.41-1.41z'/%3E%3C/svg%3E");}pre:has(code) {position: relative;}pre button.rehype-pretty-copy {right: 1px;padding: 0;width: 24px;height: 24px;display: flex;margin-top: 2px;margin-right: 8px;position: absolute;border-radius: 25%;backdrop-filter: blur(3px);& span {width: 100%;aspect-ratio: 1 / 1;}& .ready {background-image: var(--copy-icon);}& .success {display: none; background-image: var(--success-icon);}}&.rehype-pretty-copied {& .success {display: block;} & .ready {display: none;}}pre button.rehype-pretty-copy.rehype-pretty-copied {opacity: 1;& .ready { display: none; }& .success { display: block; }}pre button.rehype-pretty-copy { opacity: 0; }figure[data-rehype-pretty-code-figure]:hover > pre > code button.rehype-pretty-copy {opacity: 1;}</style></code></pre></figure>
+<h3>The Summarization Cycle</h3>
+<figure class="mermaid-diagram"><img src="/diagrams/llms-context-optimisation-p1-diagram-4.svg" alt="Diagram 4"></figure>
+<p><strong>The Danger of Poisoning:</strong>
+If the summarizer hallucinates (e.g., records "User is on Windows" instead of "macOS"), that hallucination becomes the <strong>Ground Truth</strong> for all future interactions. This is called <strong>Context Poisoning</strong>.</p>
+<hr>
+<h2>⚡ Caching: The Infrastructure Layer</h2>
+<p>While we optimize the <em>content</em>, providers like Anthropic and OpenAI are optimizing the <em>delivery</em>.</p>
+<h3>Prompt Caching (Anthropic/OpenAI)</h3>
+<p>Traditionally, if you send a 10k token prompt, the GPU has to process all 10k tokens every time.</p>
+<p><strong>Prompt Caching</strong> changes this. If the first 90% of your prompt (System Instructions + Few-Shot Examples + Documentation) is identical to the last request, the API can "hot-load" that pre-processed state from the cache.</p>
+<p><strong>Key Insight for Engineers:</strong>
+Structure your prompts like a layered cake.</p>
+<figure class="mermaid-diagram"><img src="/diagrams/llms-context-optimisation-p1-diagram-5.svg" alt="Diagram 5"></figure>
+<ol>
+<li><strong>Static Layer (Cached):</strong> System Prompt, Tool Definitions, Docs.</li>
+<li><strong>Dynamic Layer (Uncached):</strong> Recent Conversation History, User Query.</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Feature</th><th>Standard Request</th><th>Cached Request</th></tr></thead><tbody><tr><td><strong>Latency</strong></td><td>100%</td><td>~20% (for cached parts)</td></tr><tr><td><strong>Cost</strong></td><td>100%</td><td>~10% (Read cost is huge discount)</td></tr><tr><td><strong>Best For</strong></td><td>One-off queries</td><td>Long-running agents, RAG</td></tr></tbody></table>
+<hr>
+<h2>🚀 The "Reshape and Fit" Strategy</h2>
+<p>So, which one do you use? The answer, as always in engineering, is "It Depends."</p>
+<p>My recommendation for a production-grade agent is a hybrid approach I call <strong>Reshape and Fit</strong>:</p>
+<ol>
+<li><strong>Recent Buffer:</strong> Keep the last 5 turns exactly as they are (High Fidelity).</li>
+<li><strong>Compaction:</strong> For turns 6-20, strip out all Tool Outputs but keep the function calls.</li>
+<li><strong>Summarization:</strong> For turns 20+, compress into a "Golden Summary" object.</li>
+<li><strong>Offloading:</strong> If a specific sub-task (like "Search Google") is complex, spawn a <strong>Sub-Agent</strong>. Give it a fresh context, let it do the messy work, and return <em>only</em> the final answer to the main agent.</li>
+</ol>
+<h3>The Final Stack</h3>
+<figure class="mermaid-diagram"><img src="/diagrams/llms-context-optimisation-p1-diagram-6.svg" alt="Diagram 6"></figure>
+<p>Context is not just a text box. It is the RAM of your AI application. Treat it with the same discipline you treat your database connections or memory heaps.</p>
+<p>In <strong>Part 2</strong>, we will look at <strong>Tool Offloading</strong> and how to orchestrate multi-agent swarms where no single agent ever sees the full history, yet the system "remembers" everything.</p>
+<p><em>Stay tuned.</em></p>
+<hr>
+<h3>📚 References</h3>
+<ul>
+<li><a href="https://platform.openai.com/docs/guides/optimizing-llm-accuracy">OpenAI: Optimizing LLM Accuracy</a></li>
+<li><a href="https://docs.anthropic.com/en/docs/build-with-claude/prompt-caching">Anthropic: Prompt Caching Guide</a></li>
+<li><a href="https://cookbook.openai.com/examples/agents_sdk/session_memory">OpenAI Cookbook: Context Engineering</a></li>
+</ul>0:{"buildId":"-YJx25H64Ei_yvupxe_vk","rsc":["$","$1","c",{"children":[[["$","$L2",null,{"slug":"llms-context-optimisation-p1"}],["$","$L3",null,{}],["$","article",null,{"className":"mx-auto flex w-full max-w-3xl flex-col gap-10 px-6 pt-12 pb-28","children":[["$","nav",null,{"aria-label":"Breadcrumb","children":["$","ol",null,{"className":"flex flex-wrap items-center gap-1 text-sm text-muted-foreground","children":[["$","li","/",{"className":"flex items-center gap-1","children":[["$","$L4",null,{"href":"/","className":"hover:text-accent","children":"Home"}],["$","span",null,{"aria-hidden":true,"children":"/"}]]}],["$","li","/#posts",{"className":"flex items-center gap-1","children":[["$","$L4",null,{"href":{"pathname":"/","hash":"posts"},"className":"hover:text-accent","children":"Posts"}],["$","span",null,{"aria-hidden":true,"children":"/"}]]}],["$","li","/posts/llms-context-optimisation-p1",{"className":"flex items-center gap-1","children":[["$","$L4",null,{"href":"/posts/llms-context-optimisation-p1","className":"hover:text-accent","children":"From Infinity to Focus: The Engineer's Guide to Context Optimization"}],null]}]]}]}],["$","header",null,{"className":"space-y-4","children":[["$","p",null,{"className":"text-xs uppercase tracking-[0.3em] text-accent","children":"Article"}],["$","h1",null,{"className":"text-3xl font-semibold leading-tight sm:text-4xl","children":"From Infinity to Focus: The Engineer's Guide to Context Optimization"}],["$","div",null,{"className":"flex flex-wrap items-center gap-3 text-sm text-muted-foreground","children":[["$","time",null,{"dateTime":"2026-02-05T00:00:00.000Z","children":"Feb 5, 2026"}],["$","span",null,{"aria-hidden":true,"children":"•"}],["$","span",null,{"children":"6 min read"}],["$","span",null,{"aria-hidden":true,"children":"•"}],["$","$L4",null,{"href":"/about","className":"font-medium text-foreground transition-colors hover:text-accent","children":"Vinay Punera"}],null]}],["$","div",null,{"className":"flex flex-wrap gap-2","children":[["$","span","llm",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"llm"}],["$","span","agents",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"agents"}],["$","span","context-window",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"context-window"}],["$","span","optimization",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"optimization"}],["$","span","rag",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"rag"}],["$","span","system-engineering",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"system-engineering"}]]}]]}],["$","$L5",null,{"postTitle":"From Infinity to Focus: The Engineer's Guide to Context Optimization","postSlug":"llms-context-optimisation-p1","audio":{"src":"/audio/llms-context-optimisation-p1.m4a","title":"AI narration","duration":"06:10","mimeType":"audio/mp4"}}],["$","$L6",null,{}],["$","$L7",null,{}],["$","div",null,{"className":"overflow-hidden rounded-3xl border border-border bg-muted","children":["$","$L8",null,{"src":"/illustrations/llms-context-optimisation-p1.jpeg","alt":"Abstract visualization of chaotic code condensing into a structured golden block through a funnel.","width":1200,"height":630,"sizes":"(max-width: 768px) 100vw, 768px","className":"h-auto w-full object-cover","priority":true}]}],["$","div",null,{"className":"prose prose-neutral dark:prose-invert max-w-none","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La"]}]],["$Lb"],"$Lc"]}],"loading":null,"isPartial":false}
+a:["$","footer",null,{"className":"flex flex-col gap-6 border-t border-border pt-6","children":[["$","$Ld",null,{"slug":"llms-context-optimisation-p1","title":"From Infinity to Focus: The Engineer's Guide to Context Optimization"}],["$","p",null,{"className":"text-sm text-muted-foreground","children":"Enjoyed this read? Share it with your network, or reach out via the about page for collaboration or to just say hi."}],["$","div",null,{"className":"flex flex-col gap-4 border-t border-border pt-6","children":[["$","p",null,{"className":"text-xs uppercase tracking-[0.3em] text-muted-foreground","children":"Keep reading"}],["$","nav",null,{"className":"flex flex-col items-stretch gap-3 sm:flex-row sm:items-center sm:justify-between","children":[["$","div",null,{"className":"hidden flex-1 sm:block"}],["$","$L4",null,{"href":"/posts/medijourney-local-first-ai","className":"group inline-flex flex-1 items-center justify-end gap-2 rounded-full border border-border px-4 py-2 text-sm transition hover:border-accent hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent sm:justify-end","children":[["$","span",null,{"className":"flex flex-col text-right","children":[["$","span",null,{"className":"text-[11px] uppercase tracking-widest text-muted-foreground","children":"Next"}],["$","span",null,{"className":"font-medium text-foreground group-hover:text-accent","children":"MediJourney: Converting Paper Chaos into Medical Intelligence"}]]}],["$","span",null,{"aria-hidden":true,"children":"→"}]]}]]}]]}]]}]
+b:["$","script","script-0",{"src":"/_next/static/chunks/44e552948a9e3161.js","async":true}]
+c:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+10:null
