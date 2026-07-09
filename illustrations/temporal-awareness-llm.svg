@@ -1,0 +1,144 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg_gradient)" />
+
+  <!-- Subtle grid pattern -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="white" stroke-opacity="0.03" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grid)" />
+
+  <!-- === Main visualization === -->
+  <g transform="translate(0, 20)">
+
+    <!-- MEMORY STORE node (left) -->
+    <g opacity="0.85">
+      <circle cx="200" cy="290" r="42" fill="url(#paint_memory)" />
+      <circle cx="200" cy="290" r="42" fill="none" stroke="url(#stroke_cyan)" stroke-width="2" opacity="0.6" />
+      <!-- Database/stack icon -->
+      <g stroke="white" stroke-opacity="0.6" stroke-width="1.5" stroke-linecap="round">
+        <ellipse cx="200" cy="274" rx="16" ry="6" fill="none" />
+        <line x1="184" y1="274" x2="184" y2="306" />
+        <line x1="216" y1="274" x2="216" y2="306" />
+        <ellipse cx="200" cy="306" rx="16" ry="6" fill="none" />
+        <ellipse cx="200" cy="290" rx="16" ry="6" fill="none" stroke-opacity="0.3" />
+      </g>
+    </g>
+
+    <!-- Arrow: Memory → LLM -->
+    <g opacity="0.5">
+      <line x1="250" y1="290" x2="440" y2="290" stroke="url(#arrow_grad_1)" stroke-width="2.5" stroke-dasharray="12 6" />
+      <polygon points="450,290 438,284 438,296" fill="#4AD8E5" fill-opacity="0.7" />
+    </g>
+
+
+    <!-- TEMPORAL ENGINE node (center) - the clock -->
+    <g opacity="0.95">
+      <circle cx="600" cy="290" r="58" fill="url(#paint_engine)" />
+      <circle cx="600" cy="290" r="58" fill="none" stroke="url(#stroke_glow)" stroke-width="3" opacity="0.7" />
+      <circle cx="600" cy="290" r="78" fill="none" stroke="url(#stroke_glow)" stroke-width="1" opacity="0.2" />
+      <!-- Clock icon -->
+      <g stroke="white" stroke-opacity="0.6" stroke-width="1.8" stroke-linecap="round" fill="none">
+        <circle cx="600" cy="284" r="20" />
+        <line x1="600" y1="284" x2="600" y2="272" />
+        <line x1="600" y1="284" x2="610" y2="290" />
+      </g>
+      <!-- Small dot at center of clock -->
+      <circle cx="600" cy="284" r="2.5" fill="#f97316" fill-opacity="0.8" />
+    </g>
+
+    <!-- Animated signal pulses from temporal engine -->
+    <circle cx="600" cy="290" r="58" fill="none" stroke="#f97316" stroke-width="1" opacity="0.12">
+      <animate attributeName="r" values="58;140" dur="3.5s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.12;0" dur="3.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="600" cy="290" r="58" fill="none" stroke="#9B6BFF" stroke-width="1" opacity="0.08">
+      <animate attributeName="r" values="58;140" dur="3.5s" begin="1.2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.08;0" dur="3.5s" begin="1.2s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Arrow: LLM → Action -->
+    <g opacity="0.5">
+      <line x1="760" y1="290" x2="940" y2="290" stroke="url(#arrow_grad_2)" stroke-width="2.5" stroke-dasharray="12 6" />
+      <polygon points="950,290 938,284 938,296" fill="#FF7AC3" fill-opacity="0.7" />
+    </g>
+
+    <!-- ACTION node (right) -->
+    <g opacity="0.85">
+      <circle cx="1000" cy="290" r="42" fill="url(#paint_action)" />
+      <circle cx="1000" cy="290" r="42" fill="none" stroke="url(#stroke_pink)" stroke-width="2" opacity="0.6" />
+      <!-- Lightning bolt icon -->
+      <g fill="none" stroke="#FF7AC3" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.7">
+        <polygon points="1004,270 992,292 1000,292 996,310 1008,288 1000,288" fill="#FF7AC3" fill-opacity="0.15" stroke="#FF7AC3" />
+      </g>
+    </g>
+
+    <!-- Connection dots on arrows -->
+    <g fill="white" fill-opacity="0.4">
+      <circle cx="350" cy="290" r="4">
+        <animate attributeName="opacity" values="0.3;0.7;0.3" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="850" cy="290" r="4">
+        <animate attributeName="opacity" values="0.3;0.7;0.3" dur="2s" begin="0.5s" repeatCount="indefinite" />
+      </circle>
+    </g>
+
+  </g>
+
+  <!-- Decorative corner glows -->
+  <circle cx="50" cy="50" r="80" fill="#4AD8E5" opacity="0.04" />
+  <circle cx="1150" cy="580" r="100" fill="#FF7AC3" opacity="0.04" />
+  <circle cx="600" cy="300" r="200" fill="#f97316" opacity="0.02" />
+
+  <defs>
+    <linearGradient id="bg_gradient" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0a0a12" />
+      <stop offset="0.5" stop-color="#0d1020" />
+      <stop offset="1" stop-color="#0a0a14" />
+    </linearGradient>
+
+    <radialGradient id="paint_memory" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(200 290) scale(42)">
+      <stop stop-color="#4AD8E5" stop-opacity="0.45" />
+      <stop offset="1" stop-color="#4AD8E5" stop-opacity="0.12" />
+    </radialGradient>
+
+    <linearGradient id="stroke_cyan" x1="158" y1="248" x2="242" y2="332" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4AD8E5" stop-opacity="0.7" />
+      <stop offset="1" stop-color="#4AD8E5" stop-opacity="0.25" />
+    </linearGradient>
+
+    <radialGradient id="paint_engine" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 290) scale(58)">
+      <stop stop-color="#f97316" stop-opacity="0.35" />
+      <stop offset="0.6" stop-color="#9B6BFF" stop-opacity="0.15" />
+      <stop offset="1" stop-color="#0d1020" stop-opacity="0.1" />
+    </radialGradient>
+
+    <linearGradient id="stroke_glow" x1="542" y1="290" x2="658" y2="290" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f97316" stop-opacity="0.7" />
+      <stop offset="0.5" stop-color="#9B6BFF" stop-opacity="0.6" />
+      <stop offset="1" stop-color="#f97316" stop-opacity="0.7" />
+    </linearGradient>
+
+    <radialGradient id="paint_action" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1000 290) scale(42)">
+      <stop stop-color="#FF7AC3" stop-opacity="0.45" />
+      <stop offset="1" stop-color="#FF7AC3" stop-opacity="0.12" />
+    </radialGradient>
+
+    <linearGradient id="stroke_pink" x1="958" y1="248" x2="1042" y2="332" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF7AC3" stop-opacity="0.7" />
+      <stop offset="1" stop-color="#FF7AC3" stop-opacity="0.25" />
+    </linearGradient>
+
+    <linearGradient id="arrow_grad_1" x1="250" y1="290" x2="450" y2="290" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4AD8E5" stop-opacity="0.6" />
+      <stop offset="1" stop-color="#f97316" stop-opacity="0.6" />
+    </linearGradient>
+
+    <linearGradient id="arrow_grad_2" x1="760" y1="290" x2="950" y2="290" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f97316" stop-opacity="0.6" />
+      <stop offset="1" stop-color="#FF7AC3" stop-opacity="0.6" />
+    </linearGradient>
+  </defs>
+</svg>
