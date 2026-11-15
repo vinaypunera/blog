@@ -1,0 +1,262 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg_gradient)" />
+
+  <!-- Subtle grid pattern -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="white" stroke-opacity="0.03" stroke-width="1"/>
+    </pattern>
+
+    <linearGradient id="bg_gradient" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0a0a14" />
+      <stop offset="0.5" stop-color="#0e1326" />
+      <stop offset="1" stop-color="#080912" />
+    </linearGradient>
+
+    <!-- Ambient Glows -->
+    <radialGradient id="laptop_glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(220 310) scale(150)">
+      <stop stop-color="#38bdf8" stop-opacity="0.18" />
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="router_glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(540 305) scale(120)">
+      <stop stop-color="#818cf8" stop-opacity="0.22" />
+      <stop offset="1" stop-color="#818cf8" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="cloud_glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(930 185) scale(170)">
+      <stop stop-color="#c084fc" stop-opacity="0.2" />
+      <stop offset="1" stop-color="#c084fc" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="local_glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(930 425) scale(170)">
+      <stop stop-color="#22d3ee" stop-opacity="0.2" />
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Path Gradients -->
+    <linearGradient id="path_to_router" x1="320" y1="305" x2="500" y2="305" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38bdf8" stop-opacity="0.7" />
+      <stop offset="1" stop-color="#818cf8" stop-opacity="0.8" />
+    </linearGradient>
+
+    <linearGradient id="path_to_cloud" x1="570" y1="285" x2="870" y2="185" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#818cf8" stop-opacity="0.8" />
+      <stop offset="1" stop-color="#c084fc" stop-opacity="0.8" />
+    </linearGradient>
+
+    <linearGradient id="path_to_local" x1="570" y1="325" x2="870" y2="425" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#818cf8" stop-opacity="0.8" />
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0.8" />
+    </linearGradient>
+
+    <!-- Screen Gradient -->
+    <linearGradient id="screen_grad" x1="148" y1="248" x2="292" y2="342" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0f172a" />
+      <stop offset="1" stop-color="#1e293b" />
+    </linearGradient>
+  </defs>
+
+  <!-- Grid Overlay -->
+  <rect width="1200" height="630" fill="url(#grid)" />
+
+  <!-- Ambient Node Background Glows -->
+  <circle cx="220" cy="310" r="150" fill="url(#laptop_glow)" />
+  <circle cx="540" cy="305" r="120" fill="url(#router_glow)" />
+  <circle cx="930" cy="185" r="170" fill="url(#cloud_glow)" />
+  <circle cx="930" cy="425" r="170" fill="url(#local_glow)" />
+
+  <!-- Top Minimalist Title -->
+  <text x="600" y="80" text-anchor="middle" fill="white" fill-opacity="0.4" font-family="'Inter', -apple-system, sans-serif" font-size="12" letter-spacing="0.28em">HYBRID INTELLIGENCE ARCHITECTURE</text>
+
+  <!-- ==================== 1. THE LAPTOP (USER QUERYING) ==================== -->
+  <g id="laptop-node">
+    <!-- Acoustic / Speech Waves radiating from user's voice -->
+    <g stroke="#38bdf8" stroke-linecap="round" fill="none">
+      <path d="M 285 235 A 45 45 0 0 1 305 270" stroke-width="1.8" opacity="0.6">
+        <animate attributeName="opacity" values="0.2;0.7;0.2" dur="2.5s" repeatCount="indefinite" />
+      </path>
+      <path d="M 298 222 A 65 65 0 0 1 324 270" stroke-width="1.4" opacity="0.4">
+        <animate attributeName="opacity" values="0.1;0.5;0.1" dur="2.5s" begin="0.4s" repeatCount="indefinite" />
+      </path>
+    </g>
+
+    <!-- Laptop Screen Exterior -->
+    <rect x="140" y="240" width="160" height="108" rx="8" fill="#090d16" stroke="#38bdf8" stroke-width="2" opacity="0.85" />
+    <!-- Laptop Inner Display -->
+    <rect x="148" y="248" width="144" height="92" rx="4" fill="url(#screen_grad)" />
+
+    <!-- Prompt / Speech Representation on Display -->
+    <g stroke-linecap="round">
+      <!-- Voice Audio Waveform on screen -->
+      <path d="M 168 280 Q 176 268 184 280 T 200 280 T 216 280 T 232 280" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.85">
+        <animate attributeName="d" 
+          values="M 168 280 Q 176 268 184 280 T 200 280 T 216 280 T 232 280;
+                  M 168 280 Q 176 292 184 280 T 200 280 T 216 280 T 232 280;
+                  M 168 280 Q 176 268 184 280 T 200 280 T 216 280 T 232 280"
+          dur="2s" repeatCount="indefinite" />
+      </path>
+      <!-- Subtext typing lines -->
+      <line x1="168" y1="300" x2="240" y2="300" stroke="#94a3b8" stroke-width="1.5" opacity="0.5" />
+      <line x1="168" y1="312" x2="210" y2="312" stroke="#94a3b8" stroke-width="1.5" opacity="0.3" />
+      <!-- Blinking Cursor -->
+      <rect x="216" y="308" width="2" height="7" fill="#38bdf8">
+        <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite" />
+      </rect>
+    </g>
+
+    <!-- Laptop Base / Keyboard deck -->
+    <path d="M 115 348 L 325 348 L 340 360 L 100 360 Z" fill="#0d1424" stroke="#38bdf8" stroke-width="2" opacity="0.85" />
+    <!-- Trackpad notch -->
+    <rect x="195" y="351" width="50" height="3" rx="1.5" fill="#38bdf8" opacity="0.4" />
+
+    <!-- Label -->
+    <text x="220" y="395" text-anchor="middle" fill="white" fill-opacity="0.6" font-family="'Inter', sans-serif" font-size="12" letter-spacing="0.15em">USER INPUT / DEVICE</text>
+    <text x="220" y="413" text-anchor="middle" fill="#38bdf8" fill-opacity="0.5" font-family="monospace" font-size="10" letter-spacing="0.1em">VOICE &amp; KEYSTROKES</text>
+  </g>
+
+  <!-- ==================== CONDUIT: LAPTOP TO ROUTER ==================== -->
+  <g>
+    <line x1="340" y1="305" x2="495" y2="305" stroke="url(#path_to_router)" stroke-width="2.5" stroke-dasharray="8 6" opacity="0.7" />
+    <polygon points="505,305 493,299 493,311" fill="#818cf8" fill-opacity="0.8" />
+    <text x="420" y="293" text-anchor="middle" fill="white" fill-opacity="0.4" font-family="monospace" font-size="10" letter-spacing="0.15em">PROMPT</text>
+    
+    <!-- Moving Pulse -->
+    <circle cx="380" cy="305" r="3.5" fill="#38bdf8">
+      <animate attributeName="cx" values="340;495" dur="1.8s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="1.8s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- ==================== 2. THE HYBRID ROUTER (CENTER) ==================== -->
+  <g id="router-node">
+    <!-- Router Diamond Core -->
+    <g transform="translate(540, 305)">
+      <polygon points="0,-42 42,0 0,42 -42,0" fill="#090d16" stroke="url(#path_to_router)" stroke-width="2.5" />
+      <polygon points="0,-26 26,0 0,26 -26,0" fill="#1e1b4b" stroke="#818cf8" stroke-width="1.5" opacity="0.7" />
+      
+      <!-- Center Decision Icon (Branching glyph) -->
+      <circle cx="0" cy="0" r="4.5" fill="#38bdf8" />
+      <path d="M 0 -10 L 0 -18 M 0 10 L 0 18 M -10 0 L -18 0 M 10 0 L 18 0" stroke="#818cf8" stroke-width="2" stroke-linecap="round" />
+
+      <!-- Pulse Halo -->
+      <polygon points="0,-52 52,0 0,52 -52,0" fill="none" stroke="#818cf8" stroke-width="1" stroke-dasharray="4 6" opacity="0.3">
+        <animate attributeName="transform" type="scale" values="1;1.2;1" dur="2.5s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.3;0.05;0.3" dur="2.5s" repeatCount="indefinite" />
+      </polygon>
+
+      <text x="0" y="68" text-anchor="middle" fill="white" fill-opacity="0.7" font-family="'Inter', sans-serif" font-size="12" font-weight="600" letter-spacing="0.15em">TASK ROUTER</text>
+      <text x="0" y="86" text-anchor="middle" fill="#818cf8" fill-opacity="0.5" font-family="monospace" font-size="10" letter-spacing="0.1em">CONTEXT &amp; COMPLEXITY</text>
+    </g>
+  </g>
+
+  <!-- ==================== DIVERGENT BRANCH 1: UP TO CLOUD FRONTIER ==================== -->
+  <g>
+    <!-- Curved Path to Cloud -->
+    <path d="M 570 280 C 660 200, 750 185, 865 185" fill="none" stroke="url(#path_to_cloud)" stroke-width="2.5" stroke-dasharray="8 6" opacity="0.75" />
+    <polygon points="875,185 863,179 863,191" fill="#c084fc" fill-opacity="0.8" />
+    
+    <!-- Path Label -->
+    <text x="710" y="195" text-anchor="middle" fill="#c084fc" fill-opacity="0.6" font-family="monospace" font-size="10" letter-spacing="0.15em">COMPLEX REASONING</text>
+
+    <!-- Animated Pulse -->
+    <circle cx="680" cy="210" r="3.5" fill="#c084fc">
+      <animate attributeName="cx" values="570;865" dur="2.4s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="280;185" dur="2.4s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.4s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- ==================== DIVERGENT BRANCH 2: DOWN TO ON-DEVICE SLM ==================== -->
+  <g>
+    <!-- Curved Path to On-Device -->
+    <path d="M 570 330 C 660 410, 750 425, 865 425" fill="none" stroke="url(#path_to_local)" stroke-width="2.5" stroke-dasharray="8 6" opacity="0.75" />
+    <polygon points="875,425 863,419 863,431" fill="#22d3ee" fill-opacity="0.8" />
+    
+    <!-- Path Label -->
+    <text x="710" y="445" text-anchor="middle" fill="#22d3ee" fill-opacity="0.6" font-family="monospace" font-size="10" letter-spacing="0.15em">EVERYDAY REFLEX</text>
+
+    <!-- Animated Pulse -->
+    <circle cx="680" cy="400" r="3.5" fill="#22d3ee">
+      <animate attributeName="cx" values="570;865" dur="2s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="330;425" dur="2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- ==================== 3A. CLOUD FRONTIER MODEL (TOP RIGHT) ==================== -->
+  <g id="cloud-cluster-node" transform="translate(930, 185)">
+    <!-- Outer Constellation Ring -->
+    <circle cx="0" cy="0" r="48" fill="#1e1035" stroke="#c084fc" stroke-width="2" opacity="0.85" />
+    <circle cx="0" cy="0" r="62" fill="none" stroke="#a855f7" stroke-width="1" stroke-dasharray="4 6" opacity="0.3" />
+
+    <!-- Minimalist Constellation Nodes -->
+    <g stroke="#e9d5ff" stroke-width="1.5" stroke-linecap="round" opacity="0.75">
+      <line x1="-16" y1="-14" x2="16" y2="-14" />
+      <line x1="16" y1="-14" x2="22" y2="12" />
+      <line x1="22" y1="12" x2="-8" y2="20" />
+      <line x1="-8" y1="20" x2="-22" y2="4" />
+      <line x1="-22" y1="4" x2="-16" y2="-14" />
+
+      <!-- Center Cross Synapses -->
+      <line x1="0" y1="0" x2="-16" y2="-14" />
+      <line x1="0" y1="0" x2="16" y2="-14" />
+      <line x1="0" y1="0" x2="22" y2="12" />
+      <line x1="0" y1="0" x2="-8" y2="20" />
+    </g>
+
+    <!-- Constellation Stars -->
+    <circle cx="-16" cy="-14" r="3.5" fill="#f3e8ff" />
+    <circle cx="16" cy="-14" r="3.5" fill="#f3e8ff" />
+    <circle cx="22" cy="12" r="3.5" fill="#f3e8ff" />
+    <circle cx="-8" cy="20" r="3.5" fill="#f3e8ff" />
+    <circle cx="-22" cy="4" r="3.5" fill="#f3e8ff" />
+    <circle cx="0" cy="0" r="5" fill="#c084fc" />
+
+    <!-- Labels -->
+    <text x="0" y="78" text-anchor="middle" fill="white" fill-opacity="0.8" font-family="'Inter', sans-serif" font-size="12" font-weight="600" letter-spacing="0.15em">CLOUD FRONTIER MODEL</text>
+    <text x="0" y="96" text-anchor="middle" fill="#c084fc" fill-opacity="0.6" font-family="monospace" font-size="10" letter-spacing="0.1em">DEEP LOGIC • 1M+ CONTEXT</text>
+  </g>
+
+  <!-- ==================== 3B. ON-DEVICE SMALL MODEL (BOTTOM RIGHT) ==================== -->
+  <g id="ondevice-chip-node" transform="translate(930, 425)">
+    <!-- Outer Silicon Core -->
+    <circle cx="0" cy="0" r="48" fill="#082836" stroke="#22d3ee" stroke-width="2" opacity="0.85" />
+    <circle cx="0" cy="0" r="62" fill="none" stroke="#06b6d4" stroke-width="1" stroke-dasharray="4 6" opacity="0.3" />
+
+    <!-- Silicon Die Geometry -->
+    <rect x="-18" y="-18" width="36" height="36" rx="6" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.8" />
+    
+    <!-- Chip Pins -->
+    <g stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round">
+      <line x1="-10" y1="-24" x2="-10" y2="-18" />
+      <line x1="0" y1="-24" x2="0" y2="-18" />
+      <line x1="10" y1="-24" x2="10" y2="-18" />
+
+      <line x1="-10" y1="18" x2="-10" y2="24" />
+      <line x1="0" y1="18" x2="0" y2="24" />
+      <line x1="10" y1="18" x2="10" y2="24" />
+
+      <line x1="-24" y1="-10" x2="-18" y2="-10" />
+      <line x1="-24" y1="0" x2="-18" y2="0" />
+      <line x1="-24" y1="10" x2="-18" y2="10" />
+
+      <line x1="18" y1="-10" x2="24" y2="-10" />
+      <line x1="18" y1="0" x2="24" y2="0" />
+      <line x1="18" y1="10" x2="24" y2="10" />
+    </g>
+
+    <!-- Lightning / Reflex Fast Indicator inside Die -->
+    <polygon points="2,-10 -6,1 1,1 -2,10 6,-1 -1,-1" fill="#38bdf8" opacity="0.95" />
+
+    <!-- Labels -->
+    <text x="0" y="78" text-anchor="middle" fill="white" fill-opacity="0.8" font-family="'Inter', sans-serif" font-size="12" font-weight="600" letter-spacing="0.15em">ON-DEVICE SMALL MODEL</text>
+    <text x="0" y="96" text-anchor="middle" fill="#22d3ee" fill-opacity="0.6" font-family="monospace" font-size="10" letter-spacing="0.1em">SUB-150MS • 100% PRIVATE • $0</text>
+  </g>
+
+  <!-- Bottom Technical Legend / Bar -->
+  <g transform="translate(600, 570)" font-family="'Inter', monospace" font-size="11" letter-spacing="0.22em" text-anchor="middle">
+    <text x="0" y="0" fill="white" fill-opacity="0.3">LOCAL REFLEX LAYER • DYNAMIC ROUTING • CLOUD REASONING LAYER</text>
+  </g>
+</svg>

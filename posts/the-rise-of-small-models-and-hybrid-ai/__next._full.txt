@@ -1,0 +1,183 @@
+1:"$Sreact.fragment"
+2:I[27423,["/_next/static/chunks/1ec5052ad9e92a43.js","/_next/static/chunks/92c57b9a8af13209.js","/_next/static/chunks/1e4c3f6d1047152e.js"],"ThemeProvider"]
+3:I[18421,["/_next/static/chunks/1ec5052ad9e92a43.js","/_next/static/chunks/92c57b9a8af13209.js","/_next/static/chunks/1e4c3f6d1047152e.js"],"default"]
+4:I[58653,["/_next/static/chunks/1ec5052ad9e92a43.js","/_next/static/chunks/92c57b9a8af13209.js","/_next/static/chunks/1e4c3f6d1047152e.js"],"GlobalAudioProvider"]
+5:I[92455,["/_next/static/chunks/1ec5052ad9e92a43.js","/_next/static/chunks/92c57b9a8af13209.js","/_next/static/chunks/1e4c3f6d1047152e.js"],"SearchSheetProvider"]
+6:I[21795,["/_next/static/chunks/1ec5052ad9e92a43.js","/_next/static/chunks/92c57b9a8af13209.js","/_next/static/chunks/1e4c3f6d1047152e.js"],"FloatingAudioProvider"]
+7:I[92646,["/_next/static/chunks/1ec5052ad9e92a43.js","/_next/static/chunks/92c57b9a8af13209.js","/_next/static/chunks/1e4c3f6d1047152e.js"],"FloatingNav"]
+8:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/6153d1a363729c2c.js"],"default"]
+9:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/6153d1a363729c2c.js"],"default"]
+b:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/6153d1a363729c2c.js"],"OutletBoundary"]
+c:"$Sreact.suspense"
+e:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/6153d1a363729c2c.js"],"ViewportBoundary"]
+10:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/6153d1a363729c2c.js"],"MetadataBoundary"]
+12:I[68027,[],"default"]
+:HL["/_next/static/chunks/0bc544c3822cd592.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.29207c2f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"rmsa7KzvQFRqUrQx27ar-","c":["","posts","the-rise-of-small-models-and-hybrid-ai"],"q":"","i":false,"f":[[["",{"children":["posts",{"children":[["slug","the-rise-of-small-models-and-hybrid-ai","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0bc544c3822cd592.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/1ec5052ad9e92a43.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/92c57b9a8af13209.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/1e4c3f6d1047152e.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"className":"geist_deef94d5-module__Sms4YG__variable geist_mono_1bf8cbf6-module__FlyLvG__variable min-h-screen bg-background font-sans text-foreground","children":["$","$L2",null,{"children":[["$","$L3",null,{"color":"hsl(var(--accent))","height":3,"showSpinner":false}],["$","$L4",null,{"children":["$","$L5",null,{"children":["$","$L6",null,{"children":[["$","$L7",null,{}],["$","div",null,{"className":"flex min-h-screen flex-col","children":["$","main",null,{"className":"flex-1","children":["$","$L8",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}]}]}]]}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L8",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L8",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$La",[["$","script","script-0",{"src":"/_next/static/chunks/44e552948a9e3161.js","async":true,"nonce":"$undefined"}]],["$","$Lb",null,{"children":["$","$c",null,{"name":"Next.MetadataOutlet","children":"$@d"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$Le",null,{"children":"$Lf"}],["$","div",null,{"hidden":true,"children":["$","$L10",null,{"children":["$","$c",null,{"name":"Next.Metadata","children":"$L11"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$12",[]],"S":true}
+13:I[63258,["/_next/static/chunks/1ec5052ad9e92a43.js","/_next/static/chunks/92c57b9a8af13209.js","/_next/static/chunks/1e4c3f6d1047152e.js","/_next/static/chunks/44e552948a9e3161.js"],"MarkPostRead"]
+14:I[64569,["/_next/static/chunks/1ec5052ad9e92a43.js","/_next/static/chunks/92c57b9a8af13209.js","/_next/static/chunks/1e4c3f6d1047152e.js","/_next/static/chunks/44e552948a9e3161.js"],"ReadingProgress"]
+15:I[22016,["/_next/static/chunks/1ec5052ad9e92a43.js","/_next/static/chunks/92c57b9a8af13209.js","/_next/static/chunks/1e4c3f6d1047152e.js","/_next/static/chunks/44e552948a9e3161.js"],""]
+16:I[87192,["/_next/static/chunks/1ec5052ad9e92a43.js","/_next/static/chunks/92c57b9a8af13209.js","/_next/static/chunks/1e4c3f6d1047152e.js","/_next/static/chunks/44e552948a9e3161.js"],"PostAudioPlayer"]
+17:I[75836,["/_next/static/chunks/1ec5052ad9e92a43.js","/_next/static/chunks/92c57b9a8af13209.js","/_next/static/chunks/1e4c3f6d1047152e.js","/_next/static/chunks/44e552948a9e3161.js"],"MermaidDiagrams"]
+18:I[59078,["/_next/static/chunks/1ec5052ad9e92a43.js","/_next/static/chunks/92c57b9a8af13209.js","/_next/static/chunks/1e4c3f6d1047152e.js","/_next/static/chunks/44e552948a9e3161.js"],"ImageLightbox"]
+19:I[85437,["/_next/static/chunks/1ec5052ad9e92a43.js","/_next/static/chunks/92c57b9a8af13209.js","/_next/static/chunks/1e4c3f6d1047152e.js","/_next/static/chunks/44e552948a9e3161.js"],"Image"]
+1a:T3bbd,<p>For the last three years, the dominant narrative in Artificial Intelligence was governed by a single brute-force law: <strong>Bigger is better.</strong></p>
+<p>More parameters, larger GPU clusters, and deeper datacenter power feeds. If your model didn’t require its own electrical substation, was it even state-of-the-art?</p>
+<p>Yet for everyday personal computing - the hundreds of micro-interactions that make up our daily work like dictating a quick message, fixing grammar, summarizing a local note, or parsing a calendar invite - this cloud-monolith paradigm has hit an architectural wall.</p>
+<p>Sending a 3-second audio clip or a 20-word draft over the internet, queuing it in a server farm thousands of miles away, and waiting 1.5 seconds for an answer isn't just inefficient. It introduces friction, burns unnecessary watts, breaks down completely without an active internet connection, and unnecessarily compromises user privacy.</p>
+<p>A quiet counter-revolution has matured. Driven by data-centric architectural breakthroughs and dedicated consumer silicon, <strong>Small Language Models (SLMs)</strong> and <strong>specialized on-device models</strong> have become the norm for day-to-day computing.</p>
+<p>The future of software is neither 100% cloud nor 100% local. It is <strong>hybrid</strong>.</p>
+<hr>
+<h2>The Turning Point: What Changed on Consumer Hardware?</h2>
+<p>Historically, running ML models locally on a laptop meant spinning fans, melted battery life, and underwhelming accuracy. Today, a modern 128 GB unified memory MacBook Pro can comfortably run a quantized 70-billion parameter model right on your desk. But for everyday typing and speech, running a 70B model continuously is battery-prohibitive.</p>
+<p>Meanwhile, cloud frontier models have escalated into <strong>multi-trillion parameter Sparse Mixture-of-Experts (SMoE)</strong> architectures (such as <strong>GPT-6</strong>, <strong>Gemini 4</strong>, and <strong>Claude 5.5</strong>), trained and served on liquid-cooled <strong>NVIDIA B200, B300 (Blackwell Ultra), and GB200 / GB300 NVL72</strong> exascale clusters with heavy test-time reasoning compute. Routing a quick 3-second voice note across the globe to a multi-trillion parameter cloud cluster is complete architectural overkill.</p>
+<p>The real breakthrough for everyday computing came from two fronts: <strong>architectural innovation spearheaded by Google and specialized speech research labs</strong>, and <strong>the arrival of unified consumer silicon</strong>.</p>
+<h3>1. Google’s On-Device Vanguard: From Gemma to Native Audio Multimodality</h3>
+<p>Google has been the standard-bearer for practical edge machine learning, transitioning research into lightweight, deployable architectures:</p>
+<ul>
+<li><strong>Google Gemma 4 &#x26; Native Audio Encoders</strong>: Traditional voice applications suffer from a "cascaded" pipeline penalty: first, a standalone Automatic Speech Recognition (ASR) model converts audio into text; next, that text is fed into a separate language model for reasoning or grammar polish. Gemma 4’s edge-optimized models (such as <strong>E2B</strong> and <strong>E4B</strong>) shatter this separation by embedding a <strong>native audio encoder directly into the model layout</strong>.
+<ul>
+<li>The model ingests raw 16 kHz audio waveforms directly into continuous feature embeddings.</li>
+<li>The unified transformer decoder maps those audio features straight to text tokens, enabling transcription and reasoning over speech in a single forward pass.</li>
+<li>With the audio encoder footprint reduced by 50% compared to earlier iterations, it delivers true end-to-end voice understanding within a compact 1.1 GB to 3.5 GB RAM envelope.</li>
+</ul>
+</li>
+<li><strong>Per-Layer Embeddings (PLE) &#x26; Quantization-Aware Training (QAT)</strong>: Instead of bloating every layer with dense parameter weights, PLE reads selective dynamic embedding tables per layer. This gives models the effective reasoning capacity of networks several times their size while keeping active compute (FLOPs) and latency low.</li>
+<li><strong>System-Level Edge Integration (Android AICore &#x26; LiteRT)</strong>: By integrating Gemini Nano and lightweight Gemma runtimes directly into system services, operating systems can now expose zero-latency text and speech APIs to apps without roundtrips to external servers.</li>
+</ul>
+<h3>2. Specialized Speech Specialists: NVIDIA Parakeet &#x26; Whisper Turbo</h3>
+<p>Alongside unified multimodal models, single-domain speech models achieved dramatic leaps in efficiency:</p>
+<ul>
+<li><strong>NVIDIA Parakeet (Parakeet-TDT 0.6B)</strong>: Built on the FastConformer architecture within NVIDIA NeMo, Parakeet-TDT decouples token generation and duration modeling. At just 600 million parameters, <code>parakeet-tdt-0.6b-v2</code> outperforms massive generalist models in transcription accuracy and Word Error Rate (WER), outputting true-cased text, punctuation, and word-level timestamps in milliseconds.</li>
+<li><strong>OpenAI Whisper Large-v3-Turbo</strong>: By pruning the standard 32 decoder layers down to just 4 layers, Whisper Turbo compressed the model down to ~809M parameters - slashing inference time by over 50% while preserving robust multilingual transcription.</li>
+</ul>
+<h3>3. The Silicon Convergence: Apple Silicon, NPUs &#x26; RTX Spark</h3>
+<p>Models are only as good as the silicon running them:</p>
+<ul>
+<li><strong>Apple Silicon Unified Memory</strong>: On macOS, Apple's unified memory architecture allows the CPU, GPU, and Neural Engine (ANE) to access model weights simultaneously without costly PCIe bus transfers.</li>
+<li><strong>Windows Copilot+ PCs &#x26; Dedicated NPUs</strong>: Modern consumer laptops now feature 40+ TOPS Neural Processing Units dedicated to offloading local model inference with virtually zero impact on battery life.</li>
+<li><strong>NVIDIA &#x26; Microsoft RTX Spark</strong>: The recent announcement of the ARM-based <strong>RTX Spark</strong> superchip architecture (pairing Blackwell GPUs and Grace CPUs with unified memory) brings data-center-grade inference directly into portable laptops, running multi-gigabyte models locally with massive context windows.</li>
+</ul>
+<figure class="mermaid-diagram"><img src="/diagrams/the-rise-of-small-models-and-hybrid-ai-diagram-1.svg" alt="Diagram 1"></figure>
+<hr>
+<h2>Why "Small Models vs. Frontier Models" is a False Choice</h2>
+<p>In practice, local small models and cloud frontier models aren't competitors; they are complementary tiers in a modern operating system:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th align="left">Dimension</th><th align="left">On-Device Small Models (SLMs)</th><th align="left">Cloud Frontier Models (LLMs)</th></tr></thead><tbody><tr><td align="left"><strong>Parameter Scale</strong></td><td align="left"><strong>500M – 14B</strong> (lightweight reflex tier; 70B local LLMs reserved for heavy desktop workstations)</td><td align="left"><strong>Multi-Trillion Total Parameters</strong> (Sparse MoE / SMoE architectures)</td></tr><tr><td align="left"><strong>Hardware</strong></td><td align="left">Apple Silicon Unified Memory, Dedicated NPUs, RTX Spark</td><td align="left">Liquid-cooled NVIDIA B200 / B300 &#x26; GB200 / GB300 NVL72 clusters</td></tr><tr><td align="left"><strong>Inference Latency</strong></td><td align="left"><strong>Instant (10ms – 150ms)</strong>; zero network lag</td><td align="left">500ms – 3000ms+ (network roundtrip + queue + test-time reasoning)</td></tr><tr><td align="left"><strong>Data Privacy</strong></td><td align="left"><strong>100% Local</strong>: Audio and text never leave your machine</td><td align="left">Transmitted over TLS to external datacenter servers</td></tr><tr><td align="left"><strong>Cost</strong></td><td align="left"><strong>$0 per token</strong> (runs on owned compute)</td><td align="left">Recurring API bills, token metering, or enterprise subscriptions</td></tr><tr><td align="left"><strong>Offline Resilience</strong></td><td align="left">Works on airplanes, subways, remote locations</td><td align="left">Completely disabled without internet</td></tr><tr><td align="left"><strong>Ideal Workloads</strong></td><td align="left">ASR/Dictation, grammar polish, quick summaries, reflex routing</td><td align="left">Multi-step agentic planning, deep research synthesis, complex codebase architecture</td></tr></tbody></table>
+<h3>The Two Tiers of Everyday Computing</h3>
+<ol>
+<li><strong>The Reflex Tier (Local)</strong>: Instantaneous, tactile, privacy-sensitive actions. When you speak to your computer, dictate an email, or polish a sentence, you expect responses in under 200 milliseconds. Running this on-device eliminates network roundtrips, functions offline (on flights or subways), and ensures personal voice and text data never touches a remote server.</li>
+<li><strong>The Deliberative Tier (Cloud)</strong>: Deep reasoning, multi-hour research, and broad world knowledge. When you ask to analyze a 200-page financial filing or architect an entire enterprise codebase, an asynchronous call to a frontier cloud model (like GPT-6, Claude 5.5, or Gemini 4) makes total sense.</li>
+</ol>
+<hr>
+<h2>Putting Theory into Production: Months of Living with Murmie</h2>
+<p>When we set out to build <strong><a href="https://murmie.com">Murmie</a></strong>, our private, on-device voice dictation app for macOS, we wanted to build around this exact philosophy.</p>
+<p>Importantly, Murmie wasn't spun up overnight as a quick weekend proof of concept. We have been developing, refining, and dogfooding early versions of Murmie internally for months.</p>
+<p>Living with on-device AI every single day fundamentally changed our expectations. We watched local models consistently outpace cloud-based solutions in the metric that matters most for human expression: <strong>tactile immediacy</strong>. When you tap a shortcut, speak your thoughts, and watch clean, punctuated text hit your cursor in under 150 milliseconds without spinning up fans or sending audio off your machine, the theoretical promise of small models becomes an undeniable reality.</p>
+<p>Having logged hundreds of hours using it daily, eliminating micro-latencies and optimizing memory footprints, we gained complete confidence: small models aren't an edge compromise - they are the superior engine for personal computing. That is why we are now bringing Murmie out to the public.</p>
+<figure class="mermaid-diagram"><img src="/diagrams/the-rise-of-small-models-and-hybrid-ai-diagram-2.svg" alt="Diagram 2"></figure>
+<h3>1. Multi-Engine On-Device Transcription</h3>
+<p>Murmie gives users direct control over their local speech-to-text engine, selecting one active engine based on their performance profile:</p>
+<ul>
+<li><strong>Whisper MLX</strong>: Optimized for Apple Silicon's unified memory, transcribing 99 languages across tiny, small, and large model footprints.</li>
+<li><strong>Apple Native <code>SpeechAnalyzer</code></strong>: Hooking directly into macOS's native speech framework and system-managed acoustic assets (<code>AssetInventory</code>), delivering lightning-fast transcription with minimal battery consumption.</li>
+<li><strong>NVIDIA Parakeet &#x26; Gemma Audio</strong>: Ultra-fast transducer and native audio encoder pipelines for real-time transcription and spoken intent processing.</li>
+</ul>
+<h3>2. On-Device AI Correction</h3>
+<p>Once words are transcribed by the active speech engine, speech often contains disfluencies, missing punctuation, or awkward phrasing. Instead of shipping your thoughts to a third-party server, Murmie applies <strong>local AI models</strong> - such as on-device Apple Foundation Models and compact Gemma models:</p>
+<ul>
+<li>Formats numbers, true-cases proper nouns, and strips accidental stutters.</li>
+<li>Operates 100% offline at zero API cost.</li>
+<li>Keeps private documents, sensitive emails, and personal messages strictly on your Mac.</li>
+</ul>
+<p>The result is simple: <strong>Double-tap Right Command (⌘), speak naturally, and your words appear instantly at your cursor.</strong> No server queues. No subscription paywalls. No audio telemetry leaving your machine.</p>
+<hr>
+<h2>The Road Ahead</h2>
+<p>The era of shipping every single keystroke and syllable to a remote datacenter is coming to an end.</p>
+<p>As Google expands on-device Gemini Nano and Gemma into the operating system fabric, Microsoft integrates local SLM routing into Windows with RTX Spark, and Apple standardizes local Foundation Models across macOS and iOS, local intelligence has graduated from an experimental novelty to the standard foundation of personal computing.</p>
+<p>The best AI application is not the one with the biggest server bill. It is the one that sits closest to the user, respecting their privacy, their hardware, and their time.</p>
+<hr>
+<h2>Murmie</h2>
+<p>If you want to experience this local-first workflow on macOS, you can try <strong><a href="https://murmie.com">Murmie</a></strong>.</p>
+<p>Murmie is an on-device voice dictation app built around the principles covered in this article - pairing pluggable local speech engines (Whisper MLX, Apple's Speech framework, and Parakeet) with on-device text refinement. It operates entirely on Apple Silicon, transcribing and formatting text directly at your cursor in under 150 milliseconds with zero server roundtrips or cloud dependencies.</p>
+<p>Murmie is available at <a href="https://murmie.com">murmie.com</a>.</p>
+<hr>
+<h2>Official References &#x26; Citations</h2>
+<ol>
+<li><strong>Google DeepMind &#x26; AI Edge</strong>:
+<ul>
+<li><em>Gemma: Open Models Based on Gemini Research and Technology</em> – <a href="https://deepmind.google/technologies/gemma/">Google DeepMind Technical Report</a></li>
+<li><em>On-Device Audio &#x26; Multimodal Processing with Gemma</em> – <a href="https://ai.google.dev/edge">Google AI Edge Documentation</a></li>
+<li><em>Android AICore System Service Architecture</em> – <a href="https://developer.android.com/ai/aicore">Android Developers</a></li>
+</ul>
+</li>
+<li><strong>NVIDIA NeMo &#x26; Data Center Architecture</strong>:
+<ul>
+<li><em>NVIDIA NeMo FastConformer and Token-and-Duration Transducer (Parakeet-TDT)</em> – <a href="https://developer.nvidia.com/nemo">NVIDIA Developer</a></li>
+<li><em>NVIDIA Blackwell Architecture &#x26; GB200 / GB300 NVL72 Technical Overview</em> – <a href="https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/">NVIDIA Data Center</a></li>
+</ul>
+</li>
+<li><strong>Apple Machine Learning Research &#x26; Developer Documentation</strong>:
+<ul>
+<li><em>Apple Intelligence Foundation Language Models Technical Report</em> – <a href="https://machinelearning.apple.com/research/apple-intelligence-foundation-language-models">Apple ML Research</a></li>
+<li><em>Speech Framework (<code>SpeechAnalyzer</code>, <code>SpeechTranscriber</code>)</em> – <a href="https://developer.apple.com/documentation/speech">Apple Developer Documentation</a></li>
+</ul>
+</li>
+<li><strong>OpenAI Speech Research</strong>:
+<ul>
+<li><em>Whisper Large-v3-Turbo: Compact Multilingual Speech Recognition</em> – <a href="https://github.com/openai/whisper">OpenAI GitHub Repository</a></li>
+</ul>
+</li>
+</ol>a:[["$","$L13",null,{"slug":"the-rise-of-small-models-and-hybrid-ai"}],["$","$L14",null,{}],["$","article",null,{"className":"mx-auto flex w-full max-w-3xl flex-col gap-10 px-6 pt-12 pb-28","children":[["$","nav",null,{"aria-label":"Breadcrumb","children":["$","ol",null,{"className":"flex flex-wrap items-center gap-1 text-sm text-muted-foreground","children":[["$","li","/",{"className":"flex items-center gap-1","children":[["$","$L15",null,{"href":"/","className":"hover:text-accent","children":"Home"}],["$","span",null,{"aria-hidden":true,"children":"/"}]]}],["$","li","/#posts",{"className":"flex items-center gap-1","children":[["$","$L15",null,{"href":{"pathname":"/","hash":"posts"},"className":"hover:text-accent","children":"Posts"}],["$","span",null,{"aria-hidden":true,"children":"/"}]]}],["$","li","/posts/the-rise-of-small-models-and-hybrid-ai",{"className":"flex items-center gap-1","children":[["$","$L15",null,{"href":"/posts/the-rise-of-small-models-and-hybrid-ai","className":"hover:text-accent","children":"The Rise of Small Models: Why the Future of AI is Hybrid"}],null]}]]}]}],["$","header",null,{"className":"space-y-4","children":[["$","p",null,{"className":"text-xs uppercase tracking-[0.3em] text-accent","children":"Article"}],["$","h1",null,{"className":"text-3xl font-semibold leading-tight sm:text-4xl","children":"The Rise of Small Models: Why the Future of AI is Hybrid"}],["$","div",null,{"className":"flex flex-wrap items-center gap-3 text-sm text-muted-foreground","children":[["$","time",null,{"dateTime":"2026-11-13T00:00:00.000Z","children":"Nov 13, 2026"}],["$","span",null,{"aria-hidden":true,"children":"•"}],["$","span",null,{"children":"9 min read"}],["$","span",null,{"aria-hidden":true,"children":"•"}],["$","$L15",null,{"href":"/about","className":"font-medium text-foreground transition-colors hover:text-accent","children":"Vinay Punera"}],null]}],["$","div",null,{"className":"flex flex-wrap gap-2","children":[["$","span","on-device-ai",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"on-device-ai"}],["$","span","small-language-models",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"small-language-models"}],["$","span","speech-recognition",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"speech-recognition"}],["$","span","gemma",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"gemma"}],["$","span","apple-silicon",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"apple-silicon"}],["$","span","whisper",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"whisper"}],["$","span","murmie",{"className":"rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide","children":"murmie"}]]}]]}],["$","$L16",null,{"postTitle":"The Rise of Small Models: Why the Future of AI is Hybrid","postSlug":"the-rise-of-small-models-and-hybrid-ai","audio":{"src":"/audio/the-rise-of-small-models-and-hybrid-ai-narration.m4a","title":"AI narration","duration":"05:33","mimeType":"audio/mp4"}}],["$","$L17",null,{}],["$","$L18",null,{}],["$","div",null,{"className":"overflow-hidden rounded-3xl border border-border bg-muted","children":["$","$L19",null,{"src":"/illustrations/small-models-hybrid-ai-cover.svg","alt":"An abstract architectural depiction showing on-device small models handling speech and reflex tasks alongside cloud frontier models for deep reasoning.","width":1200,"height":630,"sizes":"(max-width: 768px) 100vw, 768px","className":"h-auto w-full object-cover","priority":true,"placeholder":"$undefined","blurDataURL":"$undefined"}]}],["$","div",null,{"className":"prose prose-neutral dark:prose-invert max-w-none","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$1a"}}]}],"$L1b"]}]]
+1c:I[61765,["/_next/static/chunks/1ec5052ad9e92a43.js","/_next/static/chunks/92c57b9a8af13209.js","/_next/static/chunks/1e4c3f6d1047152e.js","/_next/static/chunks/44e552948a9e3161.js"],"ShareButtons"]
+1b:["$","footer",null,{"className":"flex flex-col gap-6 border-t border-border pt-6","children":[["$","$L1c",null,{"slug":"the-rise-of-small-models-and-hybrid-ai","title":"The Rise of Small Models: Why the Future of AI is Hybrid"}],["$","p",null,{"className":"text-sm text-muted-foreground","children":"Enjoyed this read? Share it with your network, or reach out via the about page for collaboration or to just say hi."}],["$","div",null,{"className":"flex flex-col gap-4 border-t border-border pt-6","children":[["$","p",null,{"className":"text-xs uppercase tracking-[0.3em] text-muted-foreground","children":"Keep reading"}],["$","nav",null,{"className":"flex flex-col items-stretch gap-3 sm:flex-row sm:items-center sm:justify-between","children":[["$","div",null,{"className":"hidden flex-1 sm:block"}],["$","$L15",null,{"href":"/posts/temporal-awareness-llms","className":"group inline-flex flex-1 items-center justify-end gap-2 rounded-full border border-border px-4 py-2 text-sm transition hover:border-accent hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent sm:justify-end","children":[["$","span",null,{"className":"flex flex-col text-right","children":[["$","span",null,{"className":"text-[11px] uppercase tracking-widest text-muted-foreground","children":"Next"}],["$","span",null,{"className":"font-medium text-foreground group-hover:text-accent","children":"The Temporal Blindness Problem: Designing Time-Aware AI Architectures"}]]}],["$","span",null,{"aria-hidden":true,"children":"→"}]]}]]}]]}]]}]
+f:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+1d:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/6153d1a363729c2c.js"],"IconMark"]
+d:null
+11:[["$","title","0",{"children":"The Rise of Small Models: Why the Future of AI is Hybrid"}],["$","meta","1",{"name":"description","content":"Why gigawatt data centers shouldn't handle your daily typing. An engineering deep-dive into on-device SLMs, Google Gemma's native audio architecture, Apple Silicon, and the hybrid future of desktop computing."}],["$","meta","2",{"property":"og:title","content":"The Rise of Small Models: Why the Future of AI is Hybrid"}],["$","meta","3",{"property":"og:description","content":"Why gigawatt data centers shouldn't handle your daily typing. An engineering deep-dive into on-device SLMs, Google Gemma's native audio architecture, Apple Silicon, and the hybrid future of desktop computing."}],["$","meta","4",{"property":"og:image","content":"https://vinay.stealthbit.in/illustrations/small-models-hybrid-ai-cover.svg"}],["$","meta","5",{"property":"og:image:width","content":"1200"}],["$","meta","6",{"property":"og:image:height","content":"630"}],["$","meta","7",{"property":"og:image:alt","content":"An abstract architectural depiction showing on-device small models handling speech and reflex tasks alongside cloud frontier models for deep reasoning."}],["$","meta","8",{"property":"og:type","content":"article"}],["$","meta","9",{"property":"article:published_time","content":"2026-11-13T00:00:00.000Z"}],["$","meta","10",{"property":"article:tag","content":"on-device-ai"}],["$","meta","11",{"property":"article:tag","content":"small-language-models"}],["$","meta","12",{"property":"article:tag","content":"speech-recognition"}],["$","meta","13",{"property":"article:tag","content":"gemma"}],["$","meta","14",{"property":"article:tag","content":"apple-silicon"}],["$","meta","15",{"property":"article:tag","content":"whisper"}],["$","meta","16",{"property":"article:tag","content":"murmie"}],["$","meta","17",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","18",{"name":"twitter:title","content":"The Rise of Small Models: Why the Future of AI is Hybrid"}],["$","meta","19",{"name":"twitter:description","content":"Why gigawatt data centers shouldn't handle your daily typing. An engineering deep-dive into on-device SLMs, Google Gemma's native audio architecture, Apple Silicon, and the hybrid future of desktop computing."}],["$","meta","20",{"name":"twitter:image","content":"https://vinay.stealthbit.in/illustrations/small-models-hybrid-ai-cover.svg"}],["$","link","21",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","22",{"rel":"icon","href":"/icon.svg?icon.b2b810c7.svg","sizes":"any","type":"image/svg+xml"}],["$","$L1d","23",{}]]
